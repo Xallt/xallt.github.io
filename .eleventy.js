@@ -7,11 +7,12 @@ const fs = require('fs');
 const path = require('path');
 
 const isDev = process.env.ELEVENTY_ENV === 'development';
-const isProd = process.env.ELEVENTY_ENV === 'production'
+const isProd = process.env.ELEVENTY_ENV === 'production';
+const publishPath = 'docs';
 
 const manifestPath = path.resolve(
   __dirname,
-  'public',
+  publishPath,
   'assets',
   'manifest.json'
 );
@@ -133,7 +134,7 @@ module.exports = function (eleventyConfig) {
   return {
     dir: {
       input: 'src',
-      output: 'public',
+      output: publishPath,
       includes: 'includes',
       data: 'data',
       layouts: 'layouts',
