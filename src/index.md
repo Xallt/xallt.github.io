@@ -1,8 +1,8 @@
 ---
 layout: home
-title: 'Eleventy Duo'
+title: 'Dmitriy Shabat'
 ---
 
-# Hello World
+# Dmitriy Shabat
 
-Eleventy Duo is a minimal and beautiful Eleventy theme for personal blogs. Checkout the [project's github repo](https://github.com/yinkakun/eleventy-duo) for more info.
+A Machine Learning Engineer who loves when stuff works

@@ -1,11 +1,11 @@
 {
-  "name": "Eleventy Duo",
-  "description": "Eleventy Duo is a minimal and beautiful Eleventy theme for personal blogs.",
-  "url": "https://eleventyduo.netlify.app",
+  "name": "Dmitriy Shabat",
+  "description": "A Machine Learning Engineer who loves when stuff works",
+  "url": "xallt.github.io",
   "author": {
-    "name": "Author Name",
-    "email": "author@site.com",
-    "twitterHandle": "author_handle"
+    "name": "Dmitriy Shabat",
+    "email": "mitya.shabat@gmail.com",
+    "twitterHandle": "Xallt_"
   },
   "defaultSocialImage": "/images/default-social-image.png",
   "headerLinks": [
@@ -23,26 +23,21 @@
   "socialLinks": [
     {
       "text": "Instagram",
-      "url": "https://instagram.com/",
+      "url": "https://instagram.com/mityko_",
       "external": true
     },
     {
       "text": "GitHub",
-      "url": "https://github.com/yinkakun/eleventy-duo",
+      "url": "https://github.com/Xallt",
       "external": true
     },
     {
       "text": "Twitter",
-      "url": "https://twitter.com/",
+      "url": "https://twitter.com/Xallt_",
       "external": true
     }
   ],
   "footerLinks": [
-    {
-      "text": "RSS",
-      "url": "/feed.xml",
-      "external": true
-    }
   ],
   "showFooterAttribution": true
 }

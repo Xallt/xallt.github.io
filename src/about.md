@@ -1,14 +1,12 @@
 ---
-title: About Aidan Charles Powell
+title: About Me
 layout: about.njk
-name: Aidan Charles Powell
-image: '/images/me.jpeg'
+name: Shabat Dmitriy
+image: '/images/me.jpg'
 ---
 
-Aidan Charles Powell is a 23-year-old health centre receptionist who enjoys watching television, eating out and social media. He is generous and giving, but can also be very rude and a bit lazy.
+Did competitive programming for 3 years, got very interested in Computer Graphics, Machine Learning, AR/VR
 
-He is a Jedi who defines himself as straight. He has a degree in medicine. He is a vegetarian. He is obsessed with vintage dresses.
+I work at [3D Smile](https://3d-smile.ru/) part-time as a junior Machine Learning Engineer, working on an internal pipeline for teeth detection and segmentation
 
-He grew up in a middle class neighbourhood. After his mother died when he was young, he was raised by his father
-
-He is currently married to Maureen Erika Quinn. Maureen is 13 years older than him and works as a sales assistant.
+I am also currently pursuing my Bachelor's Degree studying **Applied Mathematics and Informatics** at [Higher School of Economics](https://www.hse.ru/en/)
