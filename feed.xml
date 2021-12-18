@@ -5,7 +5,7 @@
   <link href="xallt.github.io/feed.xml" rel="self"/>
   <link href="xallt.github.io/"/>
   
-    <updated>2021-12-18T21:51:23Z</updated>
+    <updated>2021-12-18T21:57:11Z</updated>
   
   <id>xallt.github.io</id>
   <author>
@@ -17,7 +17,7 @@
     <entry>
       <title>Noise Texture Generator</title>
       <link href="xallt.github.io/noise-texture-generator/"/>
-      <updated>2021-12-18T21:51:23Z</updated>
+      <updated>2021-12-18T21:57:11Z</updated>
       <id>xallt.github.io/noise-texture-generator/</id>
       <content type="html">
         <![CDATA[
@@ -32,7 +32,7 @@
     <entry>
       <title>Predicate Generator</title>
       <link href="xallt.github.io/predicate-generator/"/>
-      <updated>2021-12-18T21:51:23Z</updated>
+      <updated>2021-12-18T21:57:11Z</updated>
       <id>xallt.github.io/predicate-generator/</id>
       <content type="html">
         <![CDATA[
@@ -67,7 +67,7 @@
 Adjacent expressions are similar because the algorithm outputs the lines in lexigraphic order
 <p>Here are actually interesting generated &quot;statements&quot; (not all of them are true)
 In this context variables are only non-negative integers
-<img src="img/portfolio/predicate/MathFirstScreenshot.png" alt="MathFirstScreenshot.png" class="about__image"></p>
+<img src="images/predicate-generator/MathFirstScreenshot.png" alt="MathFirstScreenshot.png" class="about__image"></p>
 <p><strong>1)</strong> 2 is a prime number<br>
 <strong>2)</strong> <del>Every single number is prime</del><br>
 <strong>3)</strong> Prime numbers exist <strong>!</strong><br>
@@ -84,7 +84,7 @@ In this context variables are only non-negative integers
     <entry>
       <title>Tic80 Carts</title>
       <link href="xallt.github.io/tic-carts/"/>
-      <updated>2021-12-18T21:51:23Z</updated>
+      <updated>2021-12-18T21:57:11Z</updated>
       <id>xallt.github.io/tic-carts/</id>
       <content type="html">
         <![CDATA[
