@@ -10,6 +10,6 @@ Small games/animations I made in **Lua** with [TIC80](https://tic.computer/), a 
 #### Some examples
 {% insStatic "/gifs/tic-carts/solar_system.gif" %}
 
-{% insStatic "/gifs/tic-carts/color_engine.gif" "Color engine" %}
+{% insStatic "/gifs/tic-carts/color_engine.gif" %}
 
-{% insStatic "/gifs/tic-carts/sparkles.gif" "Sparkles" %}
+{% insStatic "/gifs/tic-carts/sparkles.gif" %}
