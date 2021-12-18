@@ -1,5 +1,5 @@
 ---
-title: "Tic80 Stuff"
+title: "Tic80 Carts"
 ---
 
 Small games/animations I made in **Lua** with [TIC80](https://tic.computer/), a "fantasy" computer.
