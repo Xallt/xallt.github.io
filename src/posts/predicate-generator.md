@@ -5,8 +5,7 @@ title: Predicate Generator
 This algorithm can be used to **generate mathematical expressions**.\
 *Pretty cool, right?*
 
-{{% gitLink "https://github.com/Xallt/PredicateProj" %}}
-<!--more-->
+{% gitLink "https://github.com/Xallt/PredicateProj" %}
 
 It's a generator of logical expressions with the ability to translate them to a given *language*. 
 
@@ -17,7 +16,7 @@ All the output is translated to LaTeX:
 |     |     |     |
 |:---:|:---:|:---:|
 |*Basic*|*Mathematical*|*English*|
-|{{% insStatic src="img/portfolio/predicate/BasicScreenshot.png" alt="Example" %}}|{{% insStatic src="img/portfolio/predicate/MathScreenshot.png" alt="Example" %}}|{{% insStatic src="img/portfolio/predicate/EngNaturalScreenshot.png" alt="Example" %}}|
+|{% insStatic "/images/predicate-generator/BasicScreenshot.png"%}|{% insStatic "/images/predicate-generator/MathScreenshot.png" %}|{% insStatic "/images/predicate-generator/EngNaturalScreenshot.png" %}|
 <br>
 Adjacent expressions are similar because the algorithm outputs the lines in lexigraphic order
 

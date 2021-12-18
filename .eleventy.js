@@ -40,6 +40,7 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.setDataDeepMerge(true);
   eleventyConfig.addPassthroughCopy({ 'src/images': 'images' });
+  eleventyConfig.addPassthroughCopy({ 'src/gifs': 'gifs' });
   eleventyConfig.setBrowserSyncConfig({ files: [manifestPath] });
 
   eleventyConfig.addShortcode('bundledcss', function () {
@@ -130,6 +131,20 @@ module.exports = function (eleventyConfig) {
 
     return content;
   });
+
+  eleventyConfig.addShortcode("gitLink", function (link) {
+    return `[Github Link](${link})`
+  })
+
+  eleventyConfig.addShortcode("insStatic", function (content_link, description) {
+    // From https://stackoverflow.com/questions/7840306/parse-url-with-javascript-or-jquery
+    if (description === undefined) {
+      let link_parts = content_link.replace(/\/\s*$/, '').split('/');
+      description = link_parts[link_parts.length - 1];
+    }
+    let content_link_normalized = eleventyConfig.javascriptFunctions.url(content_link);
+    return `<img src="${content_link_normalized}" alt="${description}" class="about__image">`
+  })
 
   return {
     dir: {

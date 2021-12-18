@@ -4,12 +4,12 @@ title: "Tic80 Stuff"
 
 Small games/animations I made in **Lua** with [TIC80](https://tic.computer/), a "fantasy" computer.
 
-{{% gitLink "https://github.com/Xallt/TIC80-Carts" %}}
+{% gitLink "https://github.com/Xallt/TIC80-Carts" %}
 <!--more-->
 
 #### Some examples
-{{% insStatic src="gif/solar_system.gif" alt="Solar system" %}}
+{% insStatic "/gifs/tic-carts/solar_system.gif" %}
 
-{{% insStatic src="gif/color_engine.gif" alt="Color engine" %}}
+{% insStatic "/gifs/tic-carts/color_engine.gif" "Color engine" %}
 
-{{% insStatic src="gif/sparkles.gif" alt="Sparkles" %}}
+{% insStatic "/gifs/tic-carts/sparkles.gif" "Sparkles" %}
