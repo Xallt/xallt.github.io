@@ -22,7 +22,7 @@ Adjacent expressions are similar because the algorithm outputs the lines in lexi
 
 Here are actually interesting generated "statements" (not all of them are true)
 In this context variables are only non-negative integers
-{% insStatic "images/predicate-generator/MathFirstScreenshot.png" %}
+{% insStatic "/images/predicate-generator/MathFirstScreenshot.png" %}
 
 **1)** 2 is a prime number\
 **2)** <del>Every single number is prime</del>\
