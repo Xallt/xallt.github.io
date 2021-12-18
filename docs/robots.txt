@@ -1,2 +1,0 @@
-User-agent: *
-Sitemap: xallt.github.io/sitemap.xml
