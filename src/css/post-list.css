@@ -45,7 +45,7 @@
 }
 
 .post-list__title a {
-  font-weight: normal;
+  font-weight: 600;
   text-decoration: none;
   color: rgb(41, 41, 41);
 }

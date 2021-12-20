@@ -37,6 +37,7 @@ h6 {
 
 h1 {
   font-size: var(--text-4xl);
+  font-weight: 600;
 }
 
 h2 {
