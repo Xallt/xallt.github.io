@@ -5,7 +5,7 @@
   <link href="xallt.github.io/feed.xml" rel="self"/>
   <link href="xallt.github.io/"/>
   
-    <updated>2021-12-20T23:04:23Z</updated>
+    <updated>2021-12-21T09:54:51Z</updated>
   
   <id>xallt.github.io</id>
   <author>
@@ -17,7 +17,7 @@
     <entry>
       <title>Noise Texture Generator</title>
       <link href="xallt.github.io/noise-texture-generator/"/>
-      <updated>2021-12-20T23:04:23Z</updated>
+      <updated>2021-12-21T09:54:51Z</updated>
       <id>xallt.github.io/noise-texture-generator/</id>
       <content type="html">
         <![CDATA[
@@ -32,7 +32,7 @@
     <entry>
       <title>Predicate Generator</title>
       <link href="xallt.github.io/predicate-generator/"/>
-      <updated>2021-12-20T23:04:23Z</updated>
+      <updated>2021-12-21T09:54:51Z</updated>
       <id>xallt.github.io/predicate-generator/</id>
       <content type="html">
         <![CDATA[
@@ -57,17 +57,17 @@
 <td style="text-align:center"><em>English</em></td>
 </tr>
 <tr>
-<td style="text-align:center"><img src="/images/predicate-generator/BasicScreenshot.png" alt="BasicScreenshot.png" class="about__image"></td>
-<td style="text-align:center"><img src="/images/predicate-generator/MathScreenshot.png" alt="MathScreenshot.png" class="about__image"></td>
-<td style="text-align:center"><img src="/images/predicate-generator/EngNaturalScreenshot.png" alt="EngNaturalScreenshot.png" class="about__image"></td>
+<td style="text-align:center"><img src="/images/predicate-generator/BasicScreenshot.png" alt="BasicScreenshot.png"></td>
+<td style="text-align:center"><img src="/images/predicate-generator/MathScreenshot.png" alt="MathScreenshot.png"></td>
+<td style="text-align:center"><img src="/images/predicate-generator/EngNaturalScreenshot.png" alt="EngNaturalScreenshot.png"></td>
 </tr>
 </tbody>
 </table>
 <br>
 Adjacent expressions are similar because the algorithm outputs the lines in lexigraphic order
 <p>Here are actually interesting generated &quot;statements&quot; (not all of them are true)
-In this context variables are only non-negative integers
-<img src="/images/predicate-generator/MathFirstScreenshot.png" alt="MathFirstScreenshot.png" class="about__image"></p>
+In this context variables are only non-negative integers</p>
+<img src="/images/predicate-generator/MathFirstScreenshot.png" alt="MathFirstScreenshot.png" style="width: 40%;" align="left">
 <p><strong>1)</strong> 2 is a prime number<br>
 <strong>2)</strong> <del>Every single number is prime</del><br>
 <strong>3)</strong> Prime numbers exist <strong>!</strong><br>
@@ -84,7 +84,7 @@ In this context variables are only non-negative integers
     <entry>
       <title>Tic80 Carts</title>
       <link href="xallt.github.io/tic-carts/"/>
-      <updated>2021-12-20T23:04:23Z</updated>
+      <updated>2021-12-21T09:54:51Z</updated>
       <id>xallt.github.io/tic-carts/</id>
       <content type="html">
         <![CDATA[
@@ -92,9 +92,9 @@ In this context variables are only non-negative integers
 <p><a href="https://github.com/Xallt/TIC80-Carts">Github Link</a></p>
 <!--more-->
 <h4>Some examples</h4>
-<img src="/gifs/tic-carts/solar_system.gif" alt="solar_system.gif" class="about__image">
-<img src="/gifs/tic-carts/color_engine.gif" alt="color_engine.gif" class="about__image">
-<img src="/gifs/tic-carts/sparkles.gif" alt="sparkles.gif" class="about__image">
+<img src="/gifs/tic-carts/solar_system.gif" alt="solar_system.gif">
+<img src="/gifs/tic-carts/color_engine.gif" alt="color_engine.gif">
+<img src="/gifs/tic-carts/sparkles.gif" alt="sparkles.gif">
 
     ]]>
       </content>
