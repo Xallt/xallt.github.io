@@ -132,11 +132,11 @@ module.exports = function (eleventyConfig) {
     return content;
   });
 
-  eleventyConfig.addShortcode("gitLink", function (link) {
+  eleventyConfig.addShortcode("git_link", function (link) {
     return `[Github Link](${link})`
   })
 
-  eleventyConfig.addShortcode("insStatic", function (content_link, description) {
+  eleventyConfig.addShortcode("ins_static", function (content_link, description) {
     // From https://stackoverflow.com/questions/7840306/parse-url-with-javascript-or-jquery
     if (description === undefined) {
       let link_parts = content_link.replace(/\/\s*$/, '').split('/');

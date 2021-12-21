@@ -5,7 +5,7 @@ title: Predicate Generator
 This algorithm can be used to **generate mathematical expressions**.\
 *Pretty cool, right?*
 
-{% gitLink "https://github.com/Xallt/PredicateProj" %}
+{% git_link "https://github.com/Xallt/PredicateProj" %}
 
 It's a generator of logical expressions with the ability to translate them to a given *language*. 
 
@@ -16,13 +16,13 @@ All the output is translated to LaTeX:
 |     |     |     |
 |:---:|:---:|:---:|
 |*Basic*|*Mathematical*|*English*|
-|{% insStatic "/images/predicate-generator/BasicScreenshot.png"%}|{% insStatic "/images/predicate-generator/MathScreenshot.png" %}|{% insStatic "/images/predicate-generator/EngNaturalScreenshot.png" %}|
+|{% ins_static "/images/predicate-generator/BasicScreenshot.png"%}|{% ins_static "/images/predicate-generator/MathScreenshot.png" %}|{% ins_static "/images/predicate-generator/EngNaturalScreenshot.png" %}|
 <br>
 Adjacent expressions are similar because the algorithm outputs the lines in lexigraphic order
 
 Here are actually interesting generated "statements" (not all of them are true)
 In this context variables are only non-negative integers
-{% insStatic "/images/predicate-generator/MathFirstScreenshot.png" %}
+{% ins_static "/images/predicate-generator/MathFirstScreenshot.png" %}
 
 **1)** 2 is a prime number\
 **2)** <del>Every single number is prime</del>\
