@@ -136,14 +136,19 @@ module.exports = function (eleventyConfig) {
     return `[Github Link](${link})`
   })
 
-  eleventyConfig.addShortcode("ins_static", function (content_link, description) {
+  eleventyConfig.addShortcode("ins_static", function (content_link) {
     // From https://stackoverflow.com/questions/7840306/parse-url-with-javascript-or-jquery
-    if (description === undefined) {
-      let link_parts = content_link.replace(/\/\s*$/, '').split('/');
-      description = link_parts[link_parts.length - 1];
-    }
+    let link_parts = content_link.replace(/\/\s*$/, '').split('/');
+    description = link_parts[link_parts.length - 1];
     let content_link_normalized = eleventyConfig.javascriptFunctions.url(content_link);
-    return `<img src="${content_link_normalized}" alt="${description}" class="about__image">`
+    return `<img src="${content_link_normalized}" alt="${description}">`
+  })
+  eleventyConfig.addShortcode("ins_static_align_style", function (content_link, align, style) {
+    // From https://stackoverflow.com/questions/7840306/parse-url-with-javascript-or-jquery
+    let link_parts = content_link.replace(/\/\s*$/, '').split('/');
+    description = link_parts[link_parts.length - 1];
+    let content_link_normalized = eleventyConfig.javascriptFunctions.url(content_link);
+    return `<img src="${content_link_normalized}" alt="${description}" style="${style}" align="${align}">`
   })
 
   return {
