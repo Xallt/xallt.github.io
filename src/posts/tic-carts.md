@@ -1,5 +1,6 @@
 ---
 title: "Tic80 Carts"
+date: 2018-08-31
 ---
 
 Small games/animations I made in **Lua** with [TIC80](https://tic.computer/), a "fantasy" computer.
