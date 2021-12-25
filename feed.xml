@@ -5,7 +5,7 @@
   <link href="xallt.github.io/feed.xml" rel="self"/>
   <link href="xallt.github.io/"/>
   
-    <updated>2019-09-06T00:00:00Z</updated>
+    <updated>2021-12-25T08:24:51Z</updated>
   
   <id>xallt.github.io</id>
   <author>
@@ -95,6 +95,35 @@ In this context variables are only non-negative integers</p>
         <![CDATA[
       <p>Online fractal noise generator with fast previews</p>
 <p><a href="https://github.com/Xallt/Noise-texture-generator">Github Link</a></p>
+
+    ]]>
+      </content>
+    </entry>
+  
+    
+    <entry>
+      <title>Slashed zeros</title>
+      <link href="xallt.github.io/slashed-zeros/"/>
+      <updated>2021-12-25T08:24:51Z</updated>
+      <id>xallt.github.io/slashed-zeros/</id>
+      <content type="html">
+        <![CDATA[
+      <p>So when I was starting off creating this website of my own, I encountered a minor problem — my zeros were slashed</p>
+<p>Here's a comparison of before and after:</p>
+<img src="/images/slashed-zeros/with-slashed-zeros.png" alt="with-slashed-zeros.png" style="width:50%" align="left">
+<img src="/images/slashed-zeros/without-slashed-zeros.png" alt="without-slashed-zeros.png" style="width:50%" align="right">
+<hr>
+<p>As I found out, the issue was with the template I was using — <a href="https://github.com/yinkakun/eleventy-duo">Eleventy-Duo</a><br>
+Digging into everything related to fonts, I found this CSS setting in the template:</p>
+<pre class="language-css"><code class="language-css"><span class="token selector">body</span> <span class="token punctuation">{</span><br>  <span class="token property">font-size</span><span class="token punctuation">:</span> <span class="token function">var</span><span class="token punctuation">(</span>--text-lg<span class="token punctuation">)</span><span class="token punctuation">;</span><br>  <span class="token property">line-height</span><span class="token punctuation">:</span> 1.54<span class="token punctuation">;</span><br>  <span class="token property">color</span><span class="token punctuation">:</span> <span class="token function">var</span><span class="token punctuation">(</span>--color<span class="token punctuation">)</span><span class="token punctuation">;</span><br>  <span class="token property">text-rendering</span><span class="token punctuation">:</span> optimizeLegibility<span class="token punctuation">;</span><br>  <span class="token property">-webkit-font-smoothing</span><span class="token punctuation">:</span> antialiased<span class="token punctuation">;</span><br>  <span class="token property">font-feature-settings</span><span class="token punctuation">:</span> <span class="token string">'liga'</span><span class="token punctuation">,</span> <span class="token string">'tnum'</span><span class="token punctuation">,</span> <span class="token string">'case'</span><span class="token punctuation">,</span> <span class="token string">'calt'</span><span class="token punctuation">,</span> <span class="token string">'zero'</span><span class="token punctuation">,</span> <span class="token string">'ss01'</span><span class="token punctuation">,</span> <span class="token string">'locl'</span><span class="token punctuation">;</span><br>  <span class="token property">font-variant-ligatures</span><span class="token punctuation">:</span> contextual<span class="token punctuation">;</span><br>  <span class="token property">-webkit-overflow-scrolling</span><span class="token punctuation">:</span> touch<span class="token punctuation">;</span><br>  <span class="token property">-webkit-text-size-adjust</span><span class="token punctuation">:</span> 100%<span class="token punctuation">;</span><br>  <span class="token property">font-family</span><span class="token punctuation">:</span> -apple-system<span class="token punctuation">,</span>BlinkMacSystemFont<span class="token punctuation">,</span>segoe ui<span class="token punctuation">,</span>Roboto<span class="token punctuation">,</span>Oxygen<span class="token punctuation">,</span>Ubuntu<span class="token punctuation">,</span>Cantarell<span class="token punctuation">,</span>open sans<span class="token punctuation">,</span>helvetica neue<span class="token punctuation">,</span>sans-serif<span class="token punctuation">;</span><br><span class="token punctuation">}</span></code></pre>
+<p>Pay attention to this:</p>
+<pre class="language-css"><code class="language-css"><span class="token property">font-feature-settings</span><span class="token punctuation">:</span> <span class="token string">'liga'</span><span class="token punctuation">,</span> <span class="token string">'tnum'</span><span class="token punctuation">,</span> <span class="token string">'case'</span><span class="token punctuation">,</span> <span class="token string">'calt'</span><span class="token punctuation">,</span> <span class="token string">'zero'</span><span class="token punctuation">,</span> <span class="token string">'ss01'</span><span class="token punctuation">,</span> <span class="token string">'locl'</span><span class="token punctuation">;</span></code></pre>
+<p>As I found out, <code>font-feature-settings</code> is a CSS property for tweaking advanced typographic features</p>
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/font-feature-settings">https://developer.mozilla.org/en-US/docs/Web/CSS/font-feature-settings</a></li>
+</ul>
+<p>And <code>zero</code> is apparently such a setting, made specifically for differentiating between 0 and O<br>
+So if you encountered the same issue — unwanted slashed zeros, search for <strong>'zero'</strong> in your CSS files</p>
 
     ]]>
       </content>
