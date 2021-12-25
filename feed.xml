@@ -5,7 +5,7 @@
   <link href="xallt.github.io/feed.xml" rel="self"/>
   <link href="xallt.github.io/"/>
   
-    <updated>2021-12-25T08:24:51Z</updated>
+    <updated>2021-12-25T08:34:57Z</updated>
   
   <id>xallt.github.io</id>
   <author>
@@ -104,7 +104,7 @@ In this context variables are only non-negative integers</p>
     <entry>
       <title>Slashed zeros</title>
       <link href="xallt.github.io/slashed-zeros/"/>
-      <updated>2021-12-25T08:24:51Z</updated>
+      <updated>2021-12-25T08:34:57Z</updated>
       <id>xallt.github.io/slashed-zeros/</id>
       <content type="html">
         <![CDATA[
@@ -122,7 +122,7 @@ Digging into everything related to fonts, I found this CSS setting in the templa
 <ul>
 <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/font-feature-settings">https://developer.mozilla.org/en-US/docs/Web/CSS/font-feature-settings</a></li>
 </ul>
-<p>And <code>zero</code> is apparently such a setting, made specifically for differentiating between 0 and O<br>
+<p>And <code>zero</code> is apparently such a feature, made specifically for differentiating between 0 and O (zero and big 'o')<br>
 So if you encountered the same issue — unwanted slashed zeros, search for <strong>'zero'</strong> in your CSS files</p>
 
     ]]>
