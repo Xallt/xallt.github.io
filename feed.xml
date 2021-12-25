@@ -5,7 +5,7 @@
   <link href="xallt.github.io/feed.xml" rel="self"/>
   <link href="xallt.github.io/"/>
   
-    <updated>2021-12-21T09:54:51Z</updated>
+    <updated>2021-12-25T07:15:18Z</updated>
   
   <id>xallt.github.io</id>
   <author>
@@ -17,7 +17,7 @@
     <entry>
       <title>Noise Texture Generator</title>
       <link href="xallt.github.io/noise-texture-generator/"/>
-      <updated>2021-12-21T09:54:51Z</updated>
+      <updated>2021-12-25T07:15:18Z</updated>
       <id>xallt.github.io/noise-texture-generator/</id>
       <content type="html">
         <![CDATA[
@@ -32,7 +32,7 @@
     <entry>
       <title>Predicate Generator</title>
       <link href="xallt.github.io/predicate-generator/"/>
-      <updated>2021-12-21T09:54:51Z</updated>
+      <updated>2021-12-25T07:15:18Z</updated>
       <id>xallt.github.io/predicate-generator/</id>
       <content type="html">
         <![CDATA[
@@ -65,7 +65,7 @@
 </table>
 <br>
 Adjacent expressions are similar because the algorithm outputs the lines in lexigraphic order
-<p>Here are actually interesting generated &quot;statements&quot; (not all of them are true)
+<p>Here are actually interesting generated &quot;statements&quot; (not all of them are true)<br>
 In this context variables are only non-negative integers</p>
 <img src="/images/predicate-generator/MathFirstScreenshot.png" alt="MathFirstScreenshot.png" style="width: 40%;" align="left">
 <p><strong>1)</strong> 2 is a prime number<br>
@@ -84,7 +84,7 @@ In this context variables are only non-negative integers</p>
     <entry>
       <title>Tic80 Carts</title>
       <link href="xallt.github.io/tic-carts/"/>
-      <updated>2021-12-21T09:54:51Z</updated>
+      <updated>2021-12-25T07:15:18Z</updated>
       <id>xallt.github.io/tic-carts/</id>
       <content type="html">
         <![CDATA[
