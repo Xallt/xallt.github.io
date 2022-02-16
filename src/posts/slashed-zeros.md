@@ -1,5 +1,6 @@
 ---
 title: Slashed zeros
+tags: [bugfix]
 ---
 
 So when I was starting off creating this website of my own, I encountered a minor problem &mdash; my zeros were slashed
