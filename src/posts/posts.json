@@ -1,6 +1,5 @@
 {
   "layout": "post",
   "tags": ["posts"],
-  "permalink": "{{ page.fileSlug }}/index.html",
-  "date": "Created"
+  "permalink": "{{ page.fileSlug }}/index.html"
 }

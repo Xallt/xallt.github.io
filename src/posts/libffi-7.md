@@ -1,6 +1,7 @@
 ---
 title: libffi.so.7 not found after Linux update
 tags: [bugfix]
+date: 2022-02-16
 ---
 
 # Issue
