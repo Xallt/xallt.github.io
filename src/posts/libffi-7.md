@@ -28,4 +28,4 @@ cd libffi7
 makepkg -si
 ```
 
-I found this solution initially on lakur's website: https://lakur.tech/2021/10/21/arch-linux-cannot-find-shared-library-libffi-so-7/ 
+I found this solution initially on [lakur's website](https://lakur.tech/2021/10/21/arch-linux-cannot-find-shared-library-libffi-so-7/) 
