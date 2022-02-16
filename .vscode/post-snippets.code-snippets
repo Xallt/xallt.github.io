@@ -1,0 +1,13 @@
+{
+	"Post template": {
+		"prefix": "post",
+		"body": [
+			"---",
+			"title: $1",
+			"date: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE"
+			"---",
+			"",
+			"$2"
+		]
+	}
+}
