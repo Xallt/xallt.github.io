@@ -13,9 +13,11 @@ sudo pacman -Syu
 
 One of my work `pyenv` environments contained `scipy==1.5.4`\
 Running `import scipy.ndimage as nd` produced this error:
-```
+
+```text
 ImportError: libffi.so.7: cannot open shared object file: No such file or directory
 ```
+
 Which meant that the recent Linux update removed `libffi` version 7 from the system.
 
 # Solution
