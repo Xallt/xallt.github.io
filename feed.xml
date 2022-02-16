@@ -147,7 +147,7 @@ Running <code>import scipy.ndimage as nd</code> produced this error:</p>
 <h1>Solution</h1>
 <p>The solution was just to install the version I needed</p>
 <pre class="language-bash"><code class="language-bash"><span class="token function">git</span> clone https://aur.archlinux.org/libffi7.git<br><span class="token builtin class-name">cd</span> libffi7<br>makepkg -si</code></pre>
-<p>I found this solution initially on lakur's website: https://lakur.tech/2021/10/21/arch-linux-cannot-find-shared-library-libffi-so-7/</p>
+<p>I found this solution initially on <a href="https://lakur.tech/2021/10/21/arch-linux-cannot-find-shared-library-libffi-so-7/">lakur's website</a></p>
 
     ]]>
       </content>
