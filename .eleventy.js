@@ -150,15 +150,18 @@ module.exports = function (eleventyConfig) {
           .replace(/"/g, "&quot;")
           .replace(/'/g, "&#039;");
     }
+    function cut_long_string(s, len=140) {
+      re = new RegExp(`^(.{0,${len}})\\s.*$`, 's')
+      return s.replace(re, '$1') + '…';
+    }
     function extract_meaningful_metadata(metadata) {
       let domain = link.replace(/^http[s]?:\/\/([^\/]+).*$/i, '$1');
       let title = escape((metadata.openGraph ? metadata.openGraph.title : null) || metadata.general.title || "");
+      // title = cut_long_string(title, 140);
       let author = escape(((metadata.jsonLd && metadata.jsonLd.author) ? metadata.jsonLd.author.name : null) || "");
       let image = escape((metadata.openGraph && metadata.openGraph.image) ? (Array.isArray(metadata.openGraph.image) ? metadata.openGraph.image[0].url : metadata.openGraph.image.url) : null);
       let description = escape(((metadata.openGraph ? metadata.openGraph.description : "") || metadata.general.description || "").trim());
-      if (description.length > 140) {
-        description = description.replace(/^(.{0,140})\s.*$/s, '$1') + '…';
-      }
+      description = cut_long_string(description, 140);
       return {
         'link': link,
         'domain': domain,
@@ -171,7 +174,6 @@ module.exports = function (eleventyConfig) {
     
     return scrape(link).then(metadata => {
       meaningful_metadata = extract_meaningful_metadata(metadata);
-      console.log(meaningful_metadata);
       return eleventyConfig.javascriptFunctions.renderFile('./src/includes/link-preview.njk', meaningful_metadata, "njk");
     });
       
