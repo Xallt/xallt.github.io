@@ -47,15 +47,14 @@
   padding-bottom:4px;
   overflow: hidden;	
   margin:0px;
-  font-size: 12px;
-  line-height: 16px;
+  font-size: var(--text-base);
+  line-height: 1.2;
 }
 
 .lp-ttl {
   display: block;
   font-weight: 600;
-  font-size:18px;
-  max-height:32px;
+  font-size:var(--text-xl);
   overflow: hidden;
 }
 
@@ -72,4 +71,9 @@
 
 .lp-by::before {
   content:"by ";
+}
+
+.lp-dom {
+  color: #505050;
+  font-size: var(--text-sm);
 }
