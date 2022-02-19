@@ -42,9 +42,9 @@
 <td style="text-align:center"><em>English</em></td>
 </tr>
 <tr>
-<td style="text-align:center"><img src="/images/predicate-generator/BasicScreenshot.png" alt="BasicScreenshot.png"></td>
-<td style="text-align:center"><img src="/images/predicate-generator/MathScreenshot.png" alt="MathScreenshot.png"></td>
-<td style="text-align:center"><img src="/images/predicate-generator/EngNaturalScreenshot.png" alt="EngNaturalScreenshot.png"></td>
+<td style="text-align:center"><img src="/images/predicate-generator/BasicScreenshot.png" alt="BasicScreenshot.png" ></td>
+<td style="text-align:center"><img src="/images/predicate-generator/MathScreenshot.png" alt="MathScreenshot.png" ></td>
+<td style="text-align:center"><img src="/images/predicate-generator/EngNaturalScreenshot.png" alt="EngNaturalScreenshot.png" ></td>
 </tr>
 </tbody>
 </table>
@@ -52,7 +52,7 @@
 Adjacent expressions are similar because the algorithm outputs the lines in lexigraphic order
 <p>Here are actually interesting generated &quot;statements&quot; (not all of them are true)<br>
 In this context variables are only non-negative integers</p>
-<img src="/images/predicate-generator/MathFirstScreenshot.png" alt="MathFirstScreenshot.png" style="width: 40%;" align="left">
+<img src="/images/predicate-generator/MathFirstScreenshot.png" alt="MathFirstScreenshot.png" align="left" style="width: 40%;">
 <p><strong>1)</strong> 2 is a prime number<br>
 <strong>2)</strong> <del>Every single number is prime</del><br>
 <strong>3)</strong> Prime numbers exist <strong>!</strong><br>
@@ -77,9 +77,9 @@ In this context variables are only non-negative integers</p>
 <p><a href="https://github.com/Xallt/TIC80-Carts">Github Link</a></p>
 <!--more-->
 <h4>Some examples</h4>
-<img src="/gifs/tic-carts/solar_system.gif" alt="solar_system.gif">
-<img src="/gifs/tic-carts/color_engine.gif" alt="color_engine.gif">
-<img src="/gifs/tic-carts/sparkles.gif" alt="sparkles.gif">
+<img src="/gifs/tic-carts/solar_system.gif" alt="solar_system.gif" >
+<img src="/gifs/tic-carts/color_engine.gif" alt="color_engine.gif" >
+<img src="/gifs/tic-carts/sparkles.gif" alt="sparkles.gif" >
 
     ]]>
       </content>
@@ -110,8 +110,8 @@ In this context variables are only non-negative integers</p>
         <![CDATA[
       <p>So when I was starting off creating this website of my own, I encountered a minor problem — my zeros were slashed</p>
 <p>Here's a comparison of before and after:</p>
-<img src="/images/slashed-zeros/with-slashed-zeros.png" alt="with-slashed-zeros.png" style="width:50%" align="left">
-<img src="/images/slashed-zeros/without-slashed-zeros.png" alt="without-slashed-zeros.png" style="width:50%" align="right">
+<img src="/images/slashed-zeros/with-slashed-zeros.png" alt="with-slashed-zeros.png" align="left" style="width:50%">
+<img src="/images/slashed-zeros/without-slashed-zeros.png" alt="without-slashed-zeros.png" align="right" style="width:50%">
 <hr>
 <p>As I found out, the issue was with the template I was using — <a href="https://github.com/yinkakun/eleventy-duo">Eleventy-Duo</a><br>
 Digging into everything related to fonts, I found this CSS setting in the template:</p>
