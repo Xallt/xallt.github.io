@@ -171,6 +171,7 @@ module.exports = function (eleventyConfig) {
     
     return scrape(link).then(metadata => {
       meaningful_metadata = extract_meaningful_metadata(metadata);
+      console.log(meaningful_metadata);
       return eleventyConfig.javascriptFunctions.renderFile('./src/includes/link-preview.njk', meaningful_metadata, "njk");
     });
       
