@@ -1,5 +1,7 @@
 const { DateTime } = require('luxon');
 const readingTime = require('eleventy-plugin-reading-time');
+const scrape = require('html-metadata');
+const { EleventyRenderPlugin } = require("@11ty/eleventy");
 const pluginRss = require('@11ty/eleventy-plugin-rss');
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 const htmlmin = require('html-minifier')
@@ -28,6 +30,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(readingTime);
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(syntaxHighlight);
+  eleventyConfig.addPlugin(EleventyRenderPlugin);
+
 
   // setup mermaid markdown highlighter
   const highlighter = eleventyConfig.markdownHighlighter;
@@ -133,8 +137,44 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addShortcode("git_link", function (link) {
-    return `[Github Link](${link})`
-  })
+    return `[Github Link](${link})`;
+  });
+
+  eleventyConfig.addShortcode("link", async function (link) {
+    // Credit to https://www.jefago.com/technology/rich-link-previews-in-eleventy-and-nunjucks/
+    const escape = (unsafe) => {
+      return (unsafe === null) ? null : 
+        unsafe.replace(/&/g, "&amp;")
+          .replace(/</g, "&lt;")
+          .replace(/>/g, "&gt;")
+          .replace(/"/g, "&quot;")
+          .replace(/'/g, "&#039;");
+    }
+    function extract_meaningful_metadata(metadata) {
+      let domain = link.replace(/^http[s]?:\/\/([^\/]+).*$/i, '$1');
+      let title = escape((metadata.openGraph ? metadata.openGraph.title : null) || metadata.general.title || "");
+      let author = escape(((metadata.jsonLd && metadata.jsonLd.author) ? metadata.jsonLd.author.name : null) || "");
+      let image = escape((metadata.openGraph && metadata.openGraph.image) ? (Array.isArray(metadata.openGraph.image) ? metadata.openGraph.image[0].url : metadata.openGraph.image.url) : null);
+      let description = escape(((metadata.openGraph ? metadata.openGraph.description : "") || metadata.general.description || "").trim());
+      if (description.length > 140) {
+        description = description.replace(/^(.{0,140})\s.*$/s, '$1') + '…';
+      }
+      return {
+        'link': link,
+        'domain': domain,
+        'title': title,
+        'author': author,
+        'image': image,
+        'description': description
+      }
+    }
+    
+    return scrape(link).then(metadata => {
+      meaningful_metadata = extract_meaningful_metadata(metadata);
+      return eleventyConfig.javascriptFunctions.renderFile('./src/includes/link-preview.njk', meaningful_metadata, "njk");
+    });
+      
+  });
 
   eleventyConfig.addShortcode("img", function (content_link) {
     // From https://stackoverflow.com/questions/7840306/parse-url-with-javascript-or-jquery
@@ -146,7 +186,7 @@ module.exports = function (eleventyConfig) {
 
     let content_link_normalized = eleventyConfig.javascriptFunctions.url(content_link);
     return `<img src="${content_link_normalized}" alt="${description}" ${other_arguments.join(' ')}>`
-  })
+  });
 
   return {
     dir: {
