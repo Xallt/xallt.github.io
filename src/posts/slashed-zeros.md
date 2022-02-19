@@ -8,8 +8,8 @@ So when I was starting off creating this website of my own, I encountered a mino
 
 Here's a comparison of before and after:
 
-{% ins_static_align_style "/images/slashed-zeros/with-slashed-zeros.png" "left" "width:50%"%}
-{% ins_static_align_style "/images/slashed-zeros/without-slashed-zeros.png" "right" "width:50%"%}
+{% img "/images/slashed-zeros/with-slashed-zeros.png" 'align="left"' 'style="width:50%"'%}
+{% img "/images/slashed-zeros/without-slashed-zeros.png" 'align="right"' 'style="width:50%"'%}
 
 ----
 

@@ -9,8 +9,8 @@ Small games/animations I made in **Lua** with [TIC80](https://tic.computer/), a 
 <!--more-->
 
 #### Some examples
-{% ins_static "/gifs/tic-carts/solar_system.gif" %}
+{% img "/gifs/tic-carts/solar_system.gif" %}
 
-{% ins_static "/gifs/tic-carts/color_engine.gif" %}
+{% img "/gifs/tic-carts/color_engine.gif" %}
 
-{% ins_static "/gifs/tic-carts/sparkles.gif" %}
+{% img "/gifs/tic-carts/sparkles.gif" %}

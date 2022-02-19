@@ -17,7 +17,7 @@ All the output is translated to LaTeX:
 |     |     |     |
 |:---:|:---:|:---:|
 |*Basic*|*Mathematical*|*English*|
-|{% ins_static "/images/predicate-generator/BasicScreenshot.png"%}|{% ins_static "/images/predicate-generator/MathScreenshot.png" %}|{% ins_static "/images/predicate-generator/EngNaturalScreenshot.png" %}|
+|{% img "/images/predicate-generator/BasicScreenshot.png"%}|{% img "/images/predicate-generator/MathScreenshot.png" %}|{% img "/images/predicate-generator/EngNaturalScreenshot.png" %}|
 <br>
 Adjacent expressions are similar because the algorithm outputs the lines in lexigraphic order
 
@@ -25,7 +25,7 @@ Here are actually interesting generated "statements" (not all of them are true)\
 In this context variables are only non-negative integers
 
 
-{% ins_static_align_style "/images/predicate-generator/MathFirstScreenshot.png" "left" "width: 40%;"%}
+{% img "/images/predicate-generator/MathFirstScreenshot.png" 'align="left"' 'style="width: 40%;"'%}
 
 **1)** 2 is a prime number\
 **2)** <del>Every single number is prime</del>\
