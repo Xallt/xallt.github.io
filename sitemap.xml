@@ -3,7 +3,7 @@
   
     
       <url>
-        <loc>xallt.github.io/predicate-generator/</loc>
+        <loc>https://xallt.github.io/predicate-generator/</loc>
         
           <lastmod>2018-05-31T00:00:00.000Z</lastmod>
         
@@ -14,7 +14,7 @@
   
     
       <url>
-        <loc>xallt.github.io/tic-carts/</loc>
+        <loc>https://xallt.github.io/tic-carts/</loc>
         
           <lastmod>2018-08-31T00:00:00.000Z</lastmod>
         
@@ -25,7 +25,7 @@
   
     
       <url>
-        <loc>xallt.github.io/noise-texture-generator/</loc>
+        <loc>https://xallt.github.io/noise-texture-generator/</loc>
         
           <lastmod>2019-09-06T00:00:00.000Z</lastmod>
         
@@ -36,7 +36,7 @@
   
     
       <url>
-        <loc>xallt.github.io/slashed-zeros/</loc>
+        <loc>https://xallt.github.io/slashed-zeros/</loc>
         
           <lastmod>2021-12-25T00:00:00.000Z</lastmod>
         
@@ -47,7 +47,7 @@
   
     
       <url>
-        <loc>xallt.github.io/libffi-7/</loc>
+        <loc>https://xallt.github.io/libffi-7/</loc>
         
           <lastmod>2022-02-16T00:00:00.000Z</lastmod>
         
@@ -58,20 +58,9 @@
   
     
       <url>
-        <loc>xallt.github.io/about/</loc>
+        <loc>https://xallt.github.io/about/</loc>
         
-          <lastmod>2022-02-23T13:12:01.212Z</lastmod>
-        
-        
-        
-      </url>
-    
-  
-    
-      <url>
-        <loc>xallt.github.io/blog/</loc>
-        
-          <lastmod>2022-02-23T13:12:01.212Z</lastmod>
+          <lastmod>2022-02-23T13:14:54.142Z</lastmod>
         
         
         
@@ -80,20 +69,9 @@
   
     
       <url>
-        <loc>xallt.github.io/</loc>
+        <loc>https://xallt.github.io/blog/</loc>
         
-          <lastmod>2022-02-23T13:12:01.272Z</lastmod>
-        
-        
-        
-      </url>
-    
-  
-    
-      <url>
-        <loc>xallt.github.io/robots.txt</loc>
-        
-          <lastmod>2022-02-23T13:12:01.276Z</lastmod>
+          <lastmod>2022-02-23T13:14:54.142Z</lastmod>
         
         
         
@@ -102,9 +80,9 @@
   
     
       <url>
-        <loc>xallt.github.io/tags/bugfix/</loc>
+        <loc>https://xallt.github.io/</loc>
         
-          <lastmod>2022-02-23T13:12:01.276Z</lastmod>
+          <lastmod>2022-02-23T13:14:54.190Z</lastmod>
         
         
         
@@ -113,9 +91,31 @@
   
     
       <url>
-        <loc>xallt.github.io/tags/available-online/</loc>
+        <loc>https://xallt.github.io/robots.txt</loc>
         
-          <lastmod>2022-02-23T13:12:01.276Z</lastmod>
+          <lastmod>2022-02-23T13:14:54.190Z</lastmod>
+        
+        
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>https://xallt.github.io/tags/bugfix/</loc>
+        
+          <lastmod>2022-02-23T13:14:54.190Z</lastmod>
+        
+        
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>https://xallt.github.io/tags/available-online/</loc>
+        
+          <lastmod>2022-02-23T13:14:54.190Z</lastmod>
         
         
         
