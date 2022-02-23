@@ -1,7 +1,8 @@
 {
   "name": "Dmitriy Shabat",
   "description": "A Machine Learning Engineer who loves when stuff works",
-  "url": "xallt.github.io",
+  "domain": "xallt.github.io",
+  "url": "https://xallt.github.io",
   "author": {
     "name": "Dmitriy Shabat",
     "email": "mitya.shabat@gmail.com",
