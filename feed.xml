@@ -24,7 +24,7 @@
       <p>This algorithm can be used to <strong>generate mathematical expressions</strong>.<br>
 <em>Pretty cool, right?</em></p>
 <p class="lp"><a class="lp-img lp-a" href="https://github.com/Xallt/PredicateGenerator" title="GitHub - Xallt/PredicateGenerator: ФД ФКН Project">
-            <img class="lp-img" src="https://opengraph.githubassets.com/199c04d60d4d217253695412ab1366cfea5fcc4611a012ddac1b30df38fd131e/Xallt/PredicateGenerator" data-src="https://opengraph.githubassets.com/199c04d60d4d217253695412ab1366cfea5fcc4611a012ddac1b30df38fd131e/Xallt/PredicateGenerator" alt="GitHub - Xallt/PredicateGenerator: ФД ФКН Project" style="background: white">
+            <img class="lp-img" src="https://opengraph.githubassets.com/9cee71d376d51da42f130c268fd39d65edc2ef6cd620da4030db122b62adf5fc/Xallt/PredicateGenerator" data-src="https://opengraph.githubassets.com/9cee71d376d51da42f130c268fd39d65edc2ef6cd620da4030db122b62adf5fc/Xallt/PredicateGenerator" alt="GitHub - Xallt/PredicateGenerator: ФД ФКН Project" style="background: white">
         </a><a class="lp-met lp-a" href="https://github.com/Xallt/PredicateGenerator">
         <strong class="lp-ttl">GitHub - Xallt/PredicateGenerator: ФД ФКН Project<br></strong><em class="lp-dsc">ФД ФКН Project. Contribute to Xallt/PredicateGenerator development by creating an account on…</em><span class="lp-dom">github.com</span>
     </a>
@@ -133,7 +133,7 @@ Digging into everything related to fonts, I found this CSS setting in the templa
 <pre class="language-css"><code class="language-css"><span class="token property">font-feature-settings</span><span class="token punctuation">:</span> <span class="token string">'liga'</span><span class="token punctuation">,</span> <span class="token string">'tnum'</span><span class="token punctuation">,</span> <span class="token string">'case'</span><span class="token punctuation">,</span> <span class="token string">'calt'</span><span class="token punctuation">,</span> <span class="token string">'zero'</span><span class="token punctuation">,</span> <span class="token string">'ss01'</span><span class="token punctuation">,</span> <span class="token string">'locl'</span><span class="token punctuation">;</span></code></pre>
 <p>As I found out, <code>font-feature-settings</code> is a CSS property for tweaking advanced typographic features</p>
 <p class="lp"><a class="lp-img lp-a" href="https://developer.mozilla.org/en-US/docs/Web/CSS/font-feature-settings" title="font-feature-settings - CSS: Cascading Style Sheets | MDN">
-            <img class="lp-img" src="https://developer.mozilla.org/mdn-social-share.0ca9dbda.png" data-src="https://developer.mozilla.org/mdn-social-share.0ca9dbda.png" alt="font-feature-settings - CSS: Cascading Style Sheets | MDN" style="background: white">
+            <img class="lp-img" src="https://developer.mozilla.org/mdn-social-share.cd6c4a5a.png" data-src="https://developer.mozilla.org/mdn-social-share.cd6c4a5a.png" alt="font-feature-settings - CSS: Cascading Style Sheets | MDN" style="background: white">
         </a><a class="lp-met lp-a" href="https://developer.mozilla.org/en-US/docs/Web/CSS/font-feature-settings">
         <strong class="lp-ttl">font-feature-settings - CSS: Cascading Style Sheets | MDN<br></strong><em class="lp-dsc">The font-feature-settings CSS property controls advanced typographic features in OpenType…</em><span class="lp-dom">developer.mozilla.org</span>
     </a>
@@ -155,19 +155,15 @@ So if you encountered the same issue — unwanted slashed zeros, search for <str
         <![CDATA[
       <h1>Issue</h1>
 <p>I recently ran a global update of my system by executing</p>
-<pre class="language-bash"><code class="language-bash"><span class="token function">sudo</span> pacman -Syu</code></pre>
+<pre class="language-bash"><code class="language-bash"><span class="token function">sudo</span> pacman <span class="token parameter variable">-Syu</span></code></pre>
 <p>One of my work <code>pyenv</code> environments contained <code>scipy==1.5.4</code><br>
 Running <code>import scipy.ndimage as nd</code> produced this error:</p>
 <pre class="language-text"><code class="language-text">ImportError: libffi.so.7: cannot open shared object file: No such file or directory</code></pre>
 <p>Which meant that the recent Linux update removed <code>libffi</code> version 7 from the system.</p>
 <h1>Solution</h1>
 <p>The solution was just to install the version I needed</p>
-<pre class="language-bash"><code class="language-bash"><span class="token function">git</span> clone https://aur.archlinux.org/libffi7.git<br><span class="token builtin class-name">cd</span> libffi7<br>makepkg -si</code></pre>
-<p>I found this solution initially on lakur's website:</p>
-<p class="lp"><a class="lp-met lp-a" href="https://lakur.tech/2021/10/21/arch-linux-cannot-find-shared-library-libffi-so-7/">
-        <strong class="lp-ttl">Arch Linux: Cannot find shared library libffi.so.7 - lakur<br></strong><em class="lp-dsc">A short post on how to fix the library error mentioned in the title. We fix this by downgrading libffi or installing libffi7 from the…</em><span class="lp-dom">lakur.tech</span>
-    </a>
-</p>
+<pre class="language-bash"><code class="language-bash"><span class="token function">git</span> clone https://aur.archlinux.org/libffi7.git<br><span class="token builtin class-name">cd</span> libffi7<br>makepkg <span class="token parameter variable">-si</span></code></pre>
+
     ]]>
       </content>
     </entry>
