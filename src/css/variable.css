@@ -1,6 +1,16 @@
-:root {
-  --accent: #0074d9;
+/* :root {
+  --accent: #1ABC9C;
   --background: #fffffe;
   --color: rgb(41, 41, 41);
-  --main-width: 60rem;
+  --color-subtle: rgb(117, 117, 117);
+  --secondary: #0074d9;
+  --main-width: 50rem;
+} */
+:root {
+  --accent: #FFD700;      /* Golden accent */
+  --background: #1a1a1a;  /* Dark background, near black */
+  --color: #f5f5f5;       /* Light color for primary text against dark background */
+  --color-subtle: #b8b8b8;/* Subtler color for secondary text against dark background */
+  --secondary: #FFC107;   /* Slightly different shade of gold for secondary accents */
+  --main-width: 50rem;
 }
