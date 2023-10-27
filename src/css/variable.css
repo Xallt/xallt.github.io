@@ -10,11 +10,12 @@
   --link-color: #FFD700;
   --link-accent: color-mod(var(--link-color) a(90%));
   
-  --background: #1a1a1a; 
-  --color: #f6f6f6;       
-  --color-subtle: #b8b8b8;
+  --background: #1A1818; 
+  --color: #F8F6F6;       
+  --color-subtle: #D6E3F2;
+  --hard-highlight: #FF628C;
   
   --code-text: #FFC107;
-  --code-bg: color-mod(var(--code-text) a(20%));
+  --code-bg: color-mod(var(--code-text) a(15%));
   --main-width: 50rem;
 }
