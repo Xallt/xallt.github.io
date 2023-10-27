@@ -1,7 +1,7 @@
 ---
 title: About Me
 layout: about.njk
-name: Shabat Dmitriy
+name: Shabat Dmitry
 image: '/images/me.jpg'
 ---
 

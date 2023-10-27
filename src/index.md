@@ -1,8 +1,8 @@
 ---
 layout: home
-title: 'Dmitriy Shabat'
+title: 'Dmitry Shabat'
 ---
 
-# Dmitriy Shabat
+# Dmitry Shabat
 
 A Machine Learning Engineer who loves when stuff works
