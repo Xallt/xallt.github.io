@@ -8,7 +8,7 @@
 } */
 :root {
   --link-color: #FFD700;
-  --link-accent: #FFC107;
+  --link-accent: color-mod(var(--link-color) a(90%));
   
   --background: #1a1a1a; 
   --color: #f6f6f6;       
