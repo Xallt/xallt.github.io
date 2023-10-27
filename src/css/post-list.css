@@ -62,7 +62,7 @@
 }
 
 .post-list__title a:hover {
-  /* color: var(--accent); */
+  color: var(--link-accent);
   text-decoration: underline;
 }
 
@@ -88,7 +88,7 @@
 }
 
 .post-list__tags a:hover {
-  color: var(--accent);
+  color: var(--link-accent);
 }
 
 .post-list__tags > * + * {

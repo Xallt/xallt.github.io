@@ -7,10 +7,14 @@
   --main-width: 50rem;
 } */
 :root {
-  --accent: #FFD700;      /* Golden accent */
-  --background: #1a1a1a;  /* Dark background, near black */
-  --color: #f5f5f5;       /* Light color for primary text against dark background */
-  --color-subtle: #b8b8b8;/* Subtler color for secondary text against dark background */
-  --secondary: #FFC107;   /* Slightly different shade of gold for secondary accents */
+  --link-color: #FFD700;
+  --link-accent: #FFC107;
+  
+  --background: #1a1a1a; 
+  --color: #f6f6f6;       
+  --color-subtle: #b8b8b8;
+  
+  --code-text: #FFC107;
+  --code-bg: color-mod(var(--code-text) a(20%));
   --main-width: 50rem;
 }
