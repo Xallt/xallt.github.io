@@ -1,11 +1,3 @@
-/* :root {
-  --accent: #1ABC9C;
-  --background: #fffffe;
-  --color: rgb(41, 41, 41);
-  --color-subtle: rgb(117, 117, 117);
-  --secondary: #0074d9;
-  --main-width: 50rem;
-} */
 :root {
   --link-color: #FFD700;
   --link-accent: color-mod(var(--link-color) a(90%));
