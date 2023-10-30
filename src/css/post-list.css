@@ -63,7 +63,7 @@
 
 .post-list__title a:hover {
   color: var(--link-accent);
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 
 .post-list__meta {
@@ -120,5 +120,5 @@
   margin-right: auto;
   font-size: var(--text-lg);
   text-decoration: underline;
-  color: currentColor;
+  /* color: currentColor; */
 }

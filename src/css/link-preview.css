@@ -17,7 +17,7 @@
 }
 
 .lp a:hover *, .lp a:active * {
-  text-decoration:underline;
+  /* text-decoration:underline; */
 }
 
 .lp-img {
