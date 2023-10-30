@@ -104,20 +104,30 @@
         <div class="footer__content">
 
           <ul class="hero__social-links">
+
             {% if site.socialLinks %}
-              {% for item in site.socialLinks %}
-                {% set externalAttribute = '' %}
+                {% for item in site.socialLinks %}
+                  {% set externalAttribute = '' %}
 
-                {% if item.external %}
-                  {% set externalAttribute = 'target="_blank" rel="noopener noreferrer"' %}
-                {% endif %}
+                  {% if item.external %}
+                    {% set externalAttribute = 'target="_blank" rel="noopener noreferrer"' %}
+                  {% endif %}
 
-                <li>
-                  <a href="{{ item.url | url }}" {{ externalAttribute | safe }} >{{ item.text }}</a>
-                </li>
-              {% endfor %}
+                  <li>
+                    <a href="{{ item.url | url }}" {{ externalAttribute | safe }}>
+                      {% if item.icon %}
+                        {% if item.icon | lower | endsWith('.svg') %}
+                            <img src="{{ item.icon }}" class="icon-svg">
+                        {% else %}
+                            <img src="{{ item.icon }}" alt="Icon for {{ item.text }}" class="icon-png">
+                        {% endif %}
+                      {% endif %}
+                      {{ item.text }}
+                    </a>
+                  </li>
+                {% endfor %}
             {% endif %}
-
+            
             {% if site.footerLinks %}
 
               {% for item in site.footerLinks %}

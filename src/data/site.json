@@ -24,19 +24,34 @@
   ],
   "socialLinks": [
     {
-      "text": "Instagram",
-      "url": "https://instagram.com/mityko_",
-      "external": true
-    },
-    {
       "text": "GitHub",
       "url": "https://github.com/Xallt",
-      "external": true
+      "external": true,
+      "icon": "/images/icons/github.svg"
     },
     {
       "text": "Twitter",
       "url": "https://twitter.com/Xallt_",
-      "external": true
+      "external": true,
+      "icon": "/images/icons/twitter.svg"
+    },
+    {
+      "text": "LinkedIn",
+      "url": "https://www.linkedin.com/in/shabat-dmitry/",
+      "external": true,
+      "icon": "/images/icons/linkedin.svg"
+    },
+    {
+      "text": "Instagram",
+      "url": "https://instagram.com/mityko_",
+      "external": true,
+      "icon": "/images/icons/instagram.svg"
+    },
+    {
+      "text": "Telegram",
+      "url": "https://t.me/Xallt",
+      "external": true,
+      "icon": "/images/icons/telegram.svg"
     }
   ],
   "footerLinks": [

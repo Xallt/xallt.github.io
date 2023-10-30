@@ -229,3 +229,17 @@ mark {
   white-space: nowrap;
   width: 1px;
 }
+
+.hero__social-links .icon-svg, .icon-png {
+    height: 1em;
+    width: 1em;
+    vertical-align: middle;
+    margin-right: 0.5em; /* spacing between icon and text */
+    margin-top: 0;
+}
+
+/* Additional styling for SVG, if needed */
+.icon-svg {
+    /* fill: var(--link-color); /* SVG color will match text color */
+  filter: invert(70%) sepia(99%) saturate(506%) hue-rotate(359deg) brightness(103%) contrast(105%);
+}

@@ -16,13 +16,19 @@
   display: flex;
   flex-wrap: wrap;
   list-style-type: none;
-  margin-top: 2rem;
-  text-transform: uppercase;
+  margin-top: 0.2rem;
+  /* text-transform: uppercase; */
 }
 
 .hero__social-links > li {
   margin-right: 2rem;
   margin-top: 1rem;
+}
+
+.hero__social-links > li > a {
+    display: inline-flex;
+    align-items: center; /* This will vertically center the items within the anchor tag */
+    vertical-align: center;
 }
 
 .hero__skip-link {
