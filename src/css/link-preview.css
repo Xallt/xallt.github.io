@@ -22,7 +22,7 @@
 
 .lp-img {
   display: block;
-  flex: 0 0 100px;
+  flex: 0 0 150px;
   background-color:#d0d0d0;
   min-height:100px;
   border-right:1px solid #d0d0d0;
