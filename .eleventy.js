@@ -1,5 +1,6 @@
 const { DateTime } = require('luxon');
 const readingTime = require('eleventy-plugin-reading-time');
+const pluginSEO = require("eleventy-plugin-seo");
 const scrape = require('html-metadata');
 const { EleventyRenderPlugin } = require("@11ty/eleventy");
 const pluginRss = require('@11ty/eleventy-plugin-rss');
@@ -7,6 +8,7 @@ const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 const htmlmin = require('html-minifier')
 const fs = require('fs');
 const path = require('path');
+const siteInfo = require('./src/data/site.json');
 
 const isDev = process.env.ELEVENTY_ENV === 'development';
 const isProd = process.env.ELEVENTY_ENV === 'production';
@@ -31,6 +33,14 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPlugin(pluginRss);
     eleventyConfig.addPlugin(syntaxHighlight);
     eleventyConfig.addPlugin(EleventyRenderPlugin);
+    eleventyConfig.addPlugin(pluginSEO, {
+        title: "Dmitry Shabat personal website and blog",
+        description: siteInfo.description,
+        url: siteInfo.url,
+        author: siteInfo.author.name,
+        twitter: 'Xallt_'
+    });
+    
     
     
     // setup mermaid markdown highlighter
@@ -46,7 +56,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy({ 'src/images': 'images' });
     eleventyConfig.addPassthroughCopy({ 'src/gifs': 'gifs' });
     eleventyConfig.setBrowserSyncConfig({ files: [manifestPath] });
-    
+
     eleventyConfig.addShortcode('bundledcss', function () {
         return manifest['main.css']
         ? `<link href="${manifest['main.css']}" rel="stylesheet" />`

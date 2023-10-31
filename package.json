@@ -39,6 +39,7 @@
     "clean": "rm -rf ./docs"
   },
   "dependencies": {
+    "eleventy-plugin-seo": "^0.5.2",
     "html-metadata": "^1.7.1",
     "postcss-color-mod-function": "^3.0.3",
     "remove": "^0.1.5"
