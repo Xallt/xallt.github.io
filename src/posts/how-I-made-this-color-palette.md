@@ -5,7 +5,7 @@ date: 2023-10-27
 
 So I wanted to redesign my personal website, because previously it looked exactly like the default [Eleventy-Duo](https://github.com/yinkakun/eleventy-duo) look.
 
-I'm no front-end engineer / designed whatsoever, and I know nothing about color theory. But I do have some ideas that simplify the process.
+I'm no front-end engineer / designer whatsoever, and I know nothing about color theory. But I do have some ideas that simplify the process.
 
 - Try to have a CSS file with like 5-7 color variables that will define your palette (background color, link color, text color, etc.), and use these CSS variables to set all the colors on your website. You can see an example of this in [Eleventy-Duo's CSS files](https://github.com/yinkakun/eleventy-duo/blob/master/src/css/variable.css)
 - You can just go to [vscodethemes.com](https://vscodethemes.com/) and search for color palletes you like there
