@@ -8,8 +8,8 @@ So when I was starting off creating this website of my own, I encountered a mino
 
 Here's a comparison of before and after:
 
-{% img "/images/slashed-zeros/with-slashed-zeros.png" 'align="left"' 'style="width:50%"'%}
-{% img "/images/slashed-zeros/without-slashed-zeros.png" 'align="right"' 'style="width:50%"'%}
+![](/images/slashed-zeros/with-slashed-zeros.png)
+![](/images/slashed-zeros/without-slashed-zeros.png)
 
 ----
 
@@ -37,7 +37,7 @@ font-feature-settings: 'liga', 'tnum', 'case', 'calt', 'zero', 'ss01', 'locl';
 
 As I found out, `font-feature-settings` is a CSS property for tweaking advanced typographic features
 
-{% link "https://developer.mozilla.org/en-US/docs/Web/CSS/font-feature-settings" %}
+- Link to the resource: [https://developer.mozilla.org/en-US/docs/Web/CSS/font-feature-settings](https://developer.mozilla.org/en-US/docs/Web/CSS/font-feature-settings)
 
 And `zero` is apparently such a feature, made specifically for differentiating between 0 and O (zero and big 'o')\
 So if you encountered the same issue &mdash; unwanted slashed zeros, search for **'zero'** in your CSS files
