@@ -1,8 +1,8 @@
 ---
 title: Noise Texture Generator
-tags: [available-online]
 date: 2019-09-06
 author: xallt
+tags: [graphics]
 ---
 
 Online fractal noise generator with fast previews

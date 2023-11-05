@@ -1,8 +1,8 @@
 ---
 title: Slashed zeros
-tags: [bugfix]
 date: 2021-12-25
 author: xallt
+tags: [bugfix, website]
 ---
 
 So when I was starting off creating this website of my own, I encountered a minor problem &mdash; my zeros were slashed
