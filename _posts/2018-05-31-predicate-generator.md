@@ -3,6 +3,7 @@ title: Predicate Generator
 date: 2018-05-31
 author: xallt
 tags: [math]
+categories: [Programming, Projects]
 ---
 
 This algorithm can be used to **generate mathematical expressions**.\

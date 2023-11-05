@@ -3,6 +3,7 @@ title: How I made this color palette
 date: 2023-10-27
 author: xallt
 tags: [website]
+categories: [Programming, How-to]
 ---
 
 So I wanted to redesign my personal website, because previously it looked exactly like the default [Eleventy-Duo](https://github.com/yinkakun/eleventy-duo) look.
