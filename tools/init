@@ -2,7 +2,7 @@
 #
 # Init the environment for new user.
 
-set -eu
+set -eE -o functrace
 
 # CLI Dependencies
 CLI=("git" "npm")
