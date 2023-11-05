@@ -2,6 +2,7 @@
 title: Fixing my website after a recent Github Pages overhaul
 tags: [bugfix]
 date: 2023-10-26
+author: xallt
 ---
 
 So recently I started being a bit more active with personal projects &mdash; I did a paid project on the side, I decided to make a C++ hand tracking app on top of Mediapipe for fun, I started upgrading my Obsidian scripts again, I became just a bit more active with my posts on Telegram.
