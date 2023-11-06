@@ -10,8 +10,11 @@ So when I was starting off creating this website of my own, I encountered a mino
 
 Here's a comparison of before and after:
 
-![](/images/slashed-zeros/with-slashed-zeros.png)
-![](/images/slashed-zeros/without-slashed-zeros.png)
+Markdown table
+
+| With slashed zeros | Without slashed zeros |
+|:---:|:---:|
+| ![](/assets/img/slashed-zeros/with-slashed-zeros.png) | ![](/assets/img/slashed-zeros/without-slashed-zeros.png) |
 
 ----
 

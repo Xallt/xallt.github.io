@@ -6,6 +6,10 @@ tags: [website]
 categories: [Programming, How-to]
 ---
 
+UPD: I already updated my website, so it doesn't use this black-gold palette anymore, but here's the screenshot:
+![The look of the old website with the black-gold palette](/assets/img/color-palette/old-blackgold-palette.png){: w="500" }
+_It was based on the [Eleventy-Duo](https://github.com/yinkakun/eleventy-duo) theme_
+
 So I wanted to redesign my personal website, because previously it looked exactly like the default [Eleventy-Duo](https://github.com/yinkakun/eleventy-duo) look.
 
 I'm no front-end engineer / designer whatsoever, and I know nothing about color theory. But I do have some ideas that simplify the process.
