@@ -2,7 +2,7 @@
 title: Fixing my website after a recent Github Pages overhaul
 date: 2023-10-26
 author: xallt
-tags: [bugfix, website]
+tags: [website]
 categories: [Programming, Bugfix]
 ---
 

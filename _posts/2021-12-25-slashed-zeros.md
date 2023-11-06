@@ -2,7 +2,7 @@
 title: Slashed zeros
 date: 2021-12-25
 author: xallt
-tags: [bugfix, website]
+tags: [website]
 categories: [Programming, Bugfix]
 ---
 
