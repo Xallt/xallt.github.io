@@ -9,7 +9,7 @@ order: 4
 
 Did competitive programming for 3 years, got very interested in Computer Graphics, Machine Learning, AR/VR.
 
-First real work experience was at [Funexpected](https://funexpectedapps.com/) where I was an intern Godot developer. I actually programmed most of the ninja-minigame in their Funexpected Math app! I was 16 at the time so that was quite a big deal for me.
+First job was at [Funexpected](https://funexpectedapps.com/) where I was an Intern Godot Developer. I actually programmed most of the ninja-minigame in their Funexpected Math app! I was 16 at the time so that was quite a big deal for me.
 
 Worked for 2 years at [3D Smile](https://3d-smile.ru/) part-time as a junior Machine Learning Engineer, working on an internal pipeline for teeth detection and segmentation.
 
