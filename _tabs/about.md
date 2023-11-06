@@ -16,3 +16,8 @@ Worked for 2 years at [3D Smile](https://3d-smile.ru/) part-time as a junior Mac
 Currently working at [Clostra](https://clostra.com/) as a full-time Machine Learning Engineer, working on various 3D Vision methods: depth estimation, NeRFs, 3D GANs, etc.
 
 I am also currently pursuing my Bachelor's Degree studying **Applied Mathematics and Informatics** at the [Higher School of Economics](https://www.hse.ru/en/).
+
+You can also find me on:
+- Instagram: [https://www.instagram.com/mityko_/](https://www.instagram.com/mityko_/)
+- Telegram: [https://t.me/Xallt](https://t.me/Xallt)
+- LinkedIn: [https://www.linkedin.com/in/shabat-dmitry/](https://www.linkedin.com/in/shabat-dmitry/)
