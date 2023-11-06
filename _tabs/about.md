@@ -5,7 +5,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-![Me](/assets/img/me.jpg){: .right}{: w="300" }
+![Me](/assets/img/me.jpg){: .right}{: w="200" }
 
 Did competitive programming for 3 years, got very interested in Computer Graphics, Machine Learning, AR/VR.
 
