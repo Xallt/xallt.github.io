@@ -3,7 +3,7 @@ title: Noise Texture Generator
 date: 2019-09-06
 author: xallt
 tags: [graphics]
-Categories: [Programming, Projects]
+categories: [Programming, Projects]
 ---
 
 Online fractal noise generator with fast previews
