@@ -72,7 +72,7 @@ There's just so many components to consider, and honestly it's not surprising th
 ### Use Mediapipe within Python
 If you just need one/some of Mediapipe's examples as a library for your app -- you can use the extremely convenient [Mediapipe Python API](https://developers.google.com/mediapipe/api/solutions/python/mp)!
 
-And they have pretty well-documented examples, for example here's one for running their facial landmark detection: [https://developers.google.com/mediapipe/api/solutions/python/mp](https://developers.google.com/mediapipe/api/solutions/python/mp)
+And they have pretty well-documented examples, for example here's one for running their facial landmark detection: [https://developers.google.com/mediapipe/solutions/vision/face_landmarker/python](https://developers.google.com/mediapipe/solutions/vision/face_landmarker/python)
 
 However, important note:
 > The Python `mp` library only provides **CPU** inference of models
