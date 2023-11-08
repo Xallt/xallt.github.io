@@ -101,7 +101,7 @@ I personally wanted to work with [CMake](https://cmake.org/) for this project (b
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I WON, I FUCKING WON. <br>I GOT fudging MEDIAPIPE BAZEL-BUILT SHARED LIBRARY TO WORK WITH MY CMAKE PROJECT I&#39;m so happy. <br><br>I started trying to link it together like 10 days ago. And I learned so much trying to make it work. Would definitely make a great post <a href="https://t.co/Za4ElgjvGE">pic.twitter.com/Za4ElgjvGE</a></p>&mdash; Mitya Shabat (@Xallt_) <a href="https://twitter.com/Xallt_/status/1717627719503036667?ref_src=twsrc%5Etfw">October 26, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 look at how happy I was 
 
-if you want to actually understand the intricacies of C++ linking and Mediapipe, I recommend you go through this painful experience yourself 🙃.
+If you want to actually understand the intricacies of C++ linking and Mediapipe, I recommend you go through this painful experience yourself 🙃.
 
 And the rest of the insights stem from this decision of mine (because if I went with Bazel, I probably wouldn't have wasted so much time)
 
