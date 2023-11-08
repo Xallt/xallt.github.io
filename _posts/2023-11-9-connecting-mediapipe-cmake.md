@@ -48,7 +48,7 @@ Suppose you work&work your ass off on a Neural Network for processing *some* kin
 What can you do about that?\
 Well, you have [ONNX](https://onnx.ai/) / [Tflite](https://www.tensorflow.org/lite). These are basically frameworks for exporting your trained Neural Networks in a format that can be run by various libraries on any device. 
 
-But those are only for the NN layers themselves, not for all the preprocessing/postprocessing involved that are also involved in your model inference. So, you want to package the whole thing — model + data processing.
+But those are only for the NN layers themselves, not for all the preprocessing/postprocessing that are also involved in your model inference. So, you want to package the whole thing — model + data processing.
 
 [Mediapipe](https://developers.google.com/mediapipe) comes into the picture — it not only lets you compile code (C++ code though) including calls to NNs into a binary package **runnable anywhere** — it lets you define your processing+model as an arbitrarily complex **graph of data flow**. Each node is some processing operation, each edge is a packet of data flowing from one node to the other.
 
