@@ -1,6 +1,6 @@
 ---
 title: Connecting Mediapipe with CMake for my own Hand Tracking app
-date: 2023-11-06
+date: 2023-11-08
 author: xallt
 toc: true
 tags:
