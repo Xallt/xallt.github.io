@@ -70,7 +70,7 @@ However, important note:
 If your app is in C++ or if you want fast GPU inference, the next section is for you.
 
 ### Actually integrating Mediapipe into C++
-if you want to have Mediapipe as a dependency in your project in any way, you **WILL** have to read the [Mediapipe source code](https://github.com/google/mediapipe). Sometimes C/C++, sometimes Protobuf `.proto`{: .filepath} files, Bazel `BUILD`{: .filepath} files, sometimes even Java code (idk why). 
+If you want to have Mediapipe as a dependency in your project in any way, you **WILL** have to read the [Mediapipe source code](https://github.com/google/mediapipe). Sometimes C/C++, sometimes Protobuf `.proto`{: .filepath} files, Bazel `BUILD`{: .filepath} files, sometimes even Java code (idk why). 
 
 And I bet you'll have to make a fork of Mediapipe and add some changes to the internal code/build files. It was inevitable for me, so I accepted the path of tweaking the source code.
 
@@ -144,11 +144,11 @@ Good luck with figuring this out! 🙃
 
 While debugging all the issues with missing libraries and conflicting library versions, two tools helped me out:
 - `nm -C {binary or shared library}` lists all of the functions defined in the file
-- `ldd {shared library}}` lists all references 
+- `ldd {shared library}` lists all references from functions to corresponding libraries installed in your system
 
 General advice about installing libraries [here](#installing-c-libraries).
 
-Also, for some mysterious reason I **had** to have the `bazel-bin`{: .filepath} directory in my under where my `main`{: .filepath} executable lies? I just made a symlink, but it's still confusing, and I don't understand where in the source code it references `bazel-bin`{: .filepath} specifically:
+Also, for some mysterious reason I **had** to have the `bazel-bin`{: .filepath} directory under where my `main`{: .filepath} executable lies? I just made a symlink, but it's still confusing, and I don't understand where in the source code it references `bazel-bin`{: .filepath} specifically:
 ```bash
 ln -s ../dependencies/mediapipe/bazel-bin ./bazel-bin
 ```
@@ -156,7 +156,7 @@ ln -s ../dependencies/mediapipe/bazel-bin ./bazel-bin
 #### Extracting landmarks from the graph
 After the previous steps, we should basically get the app as the Mediapipe Hand Tracking example (we literally run the same function). However, we want to play around with the landmarks ourselves.
 
-Essentially, over a few commits I refactored the `RunMPPGraph()` function into a class with this interface
+Essentially, over a few commits I refactored the `RunMPPGraph()` function into a class with this interface:
 ```cpp
 class MPPGraphRunner {
 	absl::Status InitMPPGraph(std::string calculator_graph_config_file)
@@ -229,7 +229,7 @@ Well, for some reason it took me **waaaay too long** to realize that most of the
 ```bash
 sudo apt-get install lib{library}-dev
 ```
-Of course, I'm on an Ubuntu-based system, if you're Arch or whatever, can't help you there (but it's probably very similar)
+Of course, I'm on an Ubuntu-based system, if you're Arch or whatever, can't help you there (but it's probably very similar).
 
 If there's a library like `libcudnn.so`{: .filepath} missing (name starts with `cu`{: .filepath}), which is basically part of CUDA, you'll probably have to go to the Nvidia website and use their installer instructions. For me it was the [CUDA 12.2 Toolkit Downloads](https://developer.nvidia.com/cuda-12-2-0-download-archive).
 
@@ -253,7 +253,7 @@ make install
 Is one you'll be very familiar with once you work with more CMake projects -- it's THE commands for building C++ libraries and installing them into your system. 
 
 Maybe at some point you learned about `Makefile`{: .filepath}s separately from CMake -- it's a very simple minimalistic build system, which is good for beginners and small projects. CMake is good for bigger projects with dependencies that are harder to manage manually, and all it does -- **it literally just generates Makefiles for your project**. So, the logic is:
-1. Create a `build`{: .filepath} where the `Makefile`{: .filepath}s will be located together with all the helper files
+1. Create a `build`{: .filepath} directory where the `Makefile`{: .filepath}s will be located together with all the helper files
 2. `cd` into it, and call `cmake ..` which just says "generate **Makefile**s in this directory using the `CMakeLists.txt`{: .filepath} from the directory `..`{: .filepath}"
 3. Then, run the `install` instruction from the Makefile, that compiles everything, and adds the header files (like `opencv2/videoio.hpp`{: .filepath} which is basically the same as `.h`) and shared libraries (like `libopencv_videoio.so`{: .filepath}) to the directories where they're supposed to be
 
@@ -292,7 +292,7 @@ And apparently to run `bazel query` it has to traverse the whole graph, which in
 I tried just removing this command in particular, but there were just too many problems like this, and I decided to give up on this idea. Which was sad, because having a working `bazel query` could've sped up my debugging process back then.
 
 ### Errors not logging from inside "glcontext"
-The code for running a graph on the GPU has two instances of entering an "OpenGL context" which is required to move an image from the GPU to the CPU. 
+The code for running a graph on the GPU has two instances of entering an "OpenGL context" which is required to move an image from the CPU to the GPU and back. 
 
 The problem was -- there is some Abseil error handling inside of the context, but it just wouldn't work. I manually checked -- and whenever an error was returned, it would just be ignored. Still don't know why, but I had to modify [this line](https://github.com/google/mediapipe/blob/master/mediapipe/examples/desktop/demo_run_graph_main_gpu.cc#L135) to manually check the returned `absl::Status` instead of delegating it to the `MP_RETURN_IF_ERROR` macro.
 
@@ -313,14 +313,14 @@ All defined here: [https://github.com/google/mediapipe/blob/master/mediapipe/fra
 Just had to look for "#define MP_RETURN_IF_ERROR" inside the github
 
 ### C++ in VSCode
-A couple words about C++ in VSCode -- previosly when doing stuff with C++ it was only small projects and I didn't have many issues, but now this one had a pretty large Mediapipe and ImGui dependencies. 
+A couple words about C++ in VSCode -- previously when doing stuff with C++ it was only small projects and I didn't have many issues, but now this one had a pretty large Mediapipe and ImGui dependencies. 
 
 [IntelliSense](https://code.visualstudio.com/docs/editor/intellisense) is the VSCode plugin for C++ IDE features, and mostly it works well, but for me it failed on deeply-positioned files. I complained about it on Twitter, and one of the maintainers actually replied and was nice!
 
 Here's the thread: [https://twitter.com/Xallt_/status/1714777777046503442](https://twitter.com/Xallt_/status/1714777777046503442)\
 Didn't report the issue to Github yet, but I *probably* will
 
-And another note -- C++ is generally a harder language to grasp than Python, but the IDE features (at least in VSCode) are a lot nicer, and I remembered how nice it is to have actual static types, and catch small issues in the code before you even try to run it.
+And another note -- C++ is generally a harder language to grasp than Python, but the IDE features (at least in VSCode) are a lot nicer, and I was reminded of how nice it is to have actual static types, and catch small issues in the code before you even try to run it.
 
 ### ChatGPT is a great help
 ChatGPT isn't all that powerful -- many times when asking it questions about the code, about my linking issues, or Bazel features, it didn't respond with anything that was helpful.
@@ -330,8 +330,8 @@ However, when I asked it to explain to me about particular concepts either about
 And lately that's what I find most useful about it -- it suddenly became a lot easier to grasp concepts that you find VERY hard. You just **ask dumb questions one after another** until you either [rubber-duck](https://en.wikipedia.org/wiki/Rubber_duck_debugging) yourself into understanding where you were wrong, or until it points that out itself.
 
 ### Some great CLI tools
-I either learned, or was reminded of great CLI tools:
+I either learned, or was reminded of some reat CLI tools:
 - Already mentioned `ldd` and `nm -C` [here](#linking-the-bazel-built-shared-library-to-a-cmake-project) -- they really were a great help during debugging
 - Highly recommend installing `locate` -- it literally just finds a file in your whole system. `locate libopencv` will give you the positions of all your installed OpenCV libraries. Also `sudo updatedb` if you added/removed files, and you want to update the `locate` index. 
-- `tldr` is probably the best CLI thing you'll learn of ever -- it's a superior version of `man`.  Useful always. More about it here: [https://github.com/tldr-pages/tldr](https://github.com/tldr-pages/tldr)
+- `tldr` is probably the best CLI thing you'll learn ever -- it's a superior version of `man`.  Useful always. More about it here: [https://github.com/tldr-pages/tldr](https://github.com/tldr-pages/tldr)
 - `grep -Ril "cv::VideoCapture" .` looks for lines containing this string in all files in your directory (and subdirectories)
