@@ -41,25 +41,14 @@ This post in particular is about the first stage of the development of this app,
 > **TLDR:** Mediapipe is a framework for compiling your ML Inference pipelines into binaries runnable on any platform (Android / iOS / Desktop)
 {:.prompt-info}
 
-Suppose you work&work your ass off on a Neural Network for processing *some* kind of data -- images / text / audio. Deploying it to run in the real world in real apps is a whole other struggle:
-- You want it to work on different platforms: Android, iOS, Desktop, etc.
-- You want it to work fast -- your Python code is [100X](https://benchmarksgame-team.pages.debian.net/benchmarksgame/fastest/gpp-python3.html) slower than C++, and C++ isn't even the most efficient sometimes ([CUDA](https://blog.42yeah.is/cuda/2023/06/03/cuda.html) exists)
-
-What can you do about that?\
-Well, you have [ONNX](https://onnx.ai/) / [Tflite](https://www.tensorflow.org/lite). These are basically frameworks for exporting your trained Neural Networks in a format that can be run by various libraries on any device. 
-
-But those are only for the NN layers themselves, not for all the preprocessing/postprocessing that are also involved in your model inference. So, you want to package the whole thing — model + data processing.
-
-[Mediapipe](https://developers.google.com/mediapipe) comes into the picture — it not only lets you compile code (C++ code though) including calls to NNs into a binary package **runnable anywhere** — it lets you define your processing+model as an arbitrarily complex **graph of data flow**. Each node is some processing operation, each edge is a packet of data flowing from one node to the other.
-
-It comes with a fantastic tool for visualization of their graphs: [viz.mediapipe.dev](viz.mediapipe.dev), you can look at some example graphs there
+222222221
 
 |Visualization of a graph|Snippet of this graph's definition|
 |:-:|:-:|
 |![Mediapipe handtracking graph](/assets/img/connecting_mediapipe_cmake/mediapipe_handtracking_graph.png)|![how this graph is defined in text](/assets/img/connecting_mediapipe_cmake/handtracking_pbtxt.png)|
 
 
-> While looking for other Mediapipe tools, I found out you can [upload your profiling log](https://github.com/google/mediapipe/blob/master/docs/tools/tracing_and_profiling.md) to [viz.mediapipe.dev](viz.mediapipe.dev) and it will visualize both the graph, all the statistics, and also *all intermediate states of each node?* (not sure). Whatever that does, it looks fantastic
+> While looking for other Mediapipe tools, I found out you can [upload your profiling log](https://github.com/google/mediapipe/blob/master/docs/tools/tracing_and_profiling.md) to [viz.mediapipe.dev](https://viz.mediapipe.dev) and it will visualize both the graph, all the statistics, and also *all intermediate states of each node?* (not sure). Whatever that does, it looks fantastic
 
 
 ## How do I use Mediapipe in my project?
