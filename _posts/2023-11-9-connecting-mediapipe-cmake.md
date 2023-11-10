@@ -328,7 +328,7 @@ However, when I asked it to explain to me about particular concepts either about
 And lately that's what I find most useful about it -- it suddenly became a lot easier to grasp concepts that you find VERY hard. You just **ask dumb questions one after another** until you either [rubber-duck](https://en.wikipedia.org/wiki/Rubber_duck_debugging) yourself into understanding where you were wrong, or until it points that out itself.
 
 ### Some great CLI tools
-I either learned, or was reminded of some reat CLI tools:
+I either learned, or was reminded of some great CLI tools:
 - Already mentioned `ldd` and `nm -C` [here](#linking-the-bazel-built-shared-library-to-a-cmake-project) -- they really were a great help during debugging
 - Highly recommend installing `locate` -- it literally just finds a file in your whole system. `locate libopencv` will give you the positions of all your installed OpenCV libraries. Also `sudo updatedb` if you added/removed files, and you want to update the `locate` index. 
 - `tldr` is probably the best CLI thing you'll learn ever -- it's a superior version of `man`.  Useful always. More about it here: [https://github.com/tldr-pages/tldr](https://github.com/tldr-pages/tldr)
