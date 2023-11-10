@@ -41,8 +41,6 @@ This post in particular is about the first stage of the development of this app,
 > **TLDR:** Mediapipe is a framework for compiling your ML Inference pipelines into binaries runnable on any platform (Android / iOS / Desktop)
 {:.prompt-info}
 
-222222221
-
 |Visualization of a graph|Snippet of this graph's definition|
 |:-:|:-:|
 |![Mediapipe handtracking graph](/assets/img/connecting_mediapipe_cmake/mediapipe_handtracking_graph.png)|![how this graph is defined in text](/assets/img/connecting_mediapipe_cmake/handtracking_pbtxt.png)|
