@@ -21,3 +21,8 @@ You can also find me on:
 - Instagram: [https://www.instagram.com/mityko_/](https://www.instagram.com/mityko_/)
 - Telegram: [https://t.me/Xallt](https://t.me/Xallt)
 - LinkedIn: [https://www.linkedin.com/in/shabat-dmitry/](https://www.linkedin.com/in/shabat-dmitry/)
+
+- - -
+
+Here is my complete up-to-date resume: [resume.pdf](/assets/pdf/resume.pdf)
+
