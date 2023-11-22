@@ -1,5 +1,5 @@
 ---
-title: 
+title: The CamP NeRF paper is amazing
 date: 2023-10-02
 author: xallt
 tags:
