@@ -18,5 +18,5 @@ Lots of insights there about smooth, accurate training of a tracker, with a spec
 So I decided to give a small talk about it at the Tbilisi Hackerspace!
 
 The slides: [https://slides.com/xallt/megatrack](https://slides.com/xallt/megatrack) \
-The recording of the talk (russian): [https://youtu.be/5y-xgHVzhCU?si=BRv8Vq0cHV0Jw0mg](https://slides.com/xallt/megatrack) \
+The recording of the talk (russian): [https://youtu.be/5y-xgHVzhCU?si=BRv8Vq0cHV0Jw0mg](https://youtu.be/5y-xgHVzhCU?si=BRv8Vq0cHV0Jw0mg) \
 The paper: [https://dl.acm.org/doi/pdf/10.1145/3386569.3392452](https://dl.acm.org/doi/pdf/10.1145/3386569.3392452)
