@@ -9,6 +9,7 @@ tags:
   - c++
   - cmake
   - bazel
+  - hand-tracking
 categories:
   - Programming
   - Projects
