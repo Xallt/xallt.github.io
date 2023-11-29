@@ -5,6 +5,7 @@ author: xallt
 tags:
   - productivity
   - javascript
+  - obsidian
 categories:
   - Miscellaneous
   - Task Management
