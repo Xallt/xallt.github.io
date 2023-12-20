@@ -36,7 +36,8 @@ Doesn't matter -- it was still slow. Python is slow + the Mediapipe Python API o
 
 So I gathered the courage to work with C++ to get the best performance. My first 4-5 years of programming were all C++ (back in 2015-2019), but then I started doing ML and completely transitioned into Python. And so, my C++ knowledge and muscle memory slowly faded away... but I'm going to get it back, LFG 🚀
 
-This post in particular is about the first stage of the development of this app, where I was setting up Mediapipe's Hand Tracking as a library for my app. There *should be* eventually a post about the app itself and the creative things I've done with it.
+This post in particular is about the first stage of the development of this app, where I was setting up Mediapipe's Hand Tracking as a library for my app. \
+<del> There *should be* eventually a post about the app itself and the creative things I've done with it.</del> &mdash; Shouldn't make promises like this, I've dropped the project 🙃
 
 ## What's so cool about Mediapipe?
 > **TLDR:** Mediapipe is a framework for compiling your ML Inference pipelines into binaries runnable on any platform (Android / iOS / Desktop)
