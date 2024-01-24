@@ -22,7 +22,7 @@ Covered a whole lot of ideas:
 - A method for NeRF compression
 - Some ideas for 3D Gaussian Splatting compression
 
-**Recording**: [https://www.youtube.com/watch?v=ukCG7k0B1V](https://www.youtube.com/watch?v=ukCG7k0B1V) \
+**Recording**: [https://www.youtube.com/watch?v=ukCG7k0B1VI](https://www.youtube.com/watch?v=ukCG7k0B1VI) \
 **Presentation**: [https://docs.google.com/presentation/d/1aMpEYSNnwP33dEfAh9GuKbazWSxGu6PqQlufCRyUWpw/edit?usp=drivesdk](https://docs.google.com/presentation/d/1aMpEYSNnwP33dEfAh9GuKbazWSxGu6PqQlufCRyUWpw/edit?usp=drivesdk)
 
 Oh and by the way &mdash; this time the talk was in English! Me and my pal at our Paper Reading Club agreed to try out doing these seminars in English now, for the purpose of the recordings reaching a wider audience.
