@@ -17,6 +17,9 @@ layout: compress
   {% include head.html %}
 
   <body>
+    {% if site.neko %}
+      {% include webneko.html %}
+    {% endif %}
     {% include sidebar.html lang=lang %}
 
     <div id="main-wrapper" class="d-flex justify-content-center">

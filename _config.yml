@@ -62,7 +62,7 @@ google_analytics:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode: # [light|dark]
+theme_mode:
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
@@ -76,6 +76,9 @@ avatar: /assets/img/me.jpg
 
 # boolean type, the global switch for TOC in posts.
 toc: true
+
+# enable webneko https://webneko.net/
+neko: true
 
 comments:
   active: utterances # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
