@@ -1,4 +1,8 @@
 require "recipe_collector"
+require "dotenv"
+
+# Load environment variables (NOTION_API_KEY)
+Dotenv.load
 
 module RecipeCollectorModule
   class RecipeCollectorWrapper
