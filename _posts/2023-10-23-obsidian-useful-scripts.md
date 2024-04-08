@@ -309,4 +309,5 @@ dv.taskList([leafUncompletedTasks[taskSelectedNum]]);
 ```
 ````
 
-	![](Pasted%20image%2020231122201054.png){: w="400"}
+
+![](Pasted%20image%2020231122201054.png){: w="400"}
