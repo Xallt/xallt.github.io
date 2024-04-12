@@ -12,6 +12,7 @@ _site
 
 # NPM dependencies
 node_modules
+assets/js/dist
 
 # IDE configurations
 .idea
