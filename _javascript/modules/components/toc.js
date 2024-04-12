@@ -1,6 +1,6 @@
 export function toc() {
-  if (document.querySelector('main h2')) {
-    // see: https://github.com/tscanlin/tocbot#usage
+  // see: https://github.com/tscanlin/tocbot#usage
+  if (document.querySelector("main h2,main h3,main h4,main h5")) {
     tocbot.init({
       tocSelector: '#toc',
       contentSelector: '.content',
