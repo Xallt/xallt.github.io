@@ -26,13 +26,13 @@ Here’s how my Vault of notes currently looks
 ![](Pasted%20image%2020240412151128.png){: w="500"}
 _niiiice_
 ### Lecture Planning
-After I’ve researched the topic enough, I just make a plain bullet list of the overall structure of the lecture and main talking points, which will then drive the structure of the presentation slides.
+After I’ve researched the topic enough, I make a plain bullet list of the overall structure of the lecture and main talking points, which will then drive the structure of the presentation slides.
 
 > For example, for my latest lecture, I just had this separate note in my Obsidian with this exact content: [https://pastebin.com/gNvsYFvZ](https://pastebin.com/gNvsYFvZ).
 {:.prompt-info}
 
 ### Slides
-For the presentation itself, I just use [Google Slides](https://docs.google.com/presentation/create). I decided not to have any kind of designed template for the presentations — I had a header with my name & lecture topic on each slide in my earlier lectures, but eventually decided it’s just clutter.
+For the presentation itself, I use [Google Slides](https://docs.google.com/presentation/create). I decided not to have any kind of designed template for the presentations — I had a header with my name & lecture topic on each slide in my earlier lectures, but eventually decided it’s just clutter.
 
 I tried [slides.com](https://slides.com/) and it’s pretty nice, but the free version is limited. If it was fully free, maybe I’d switch to that — it has a nice color palette for coloring text, auto-animations between slides, built-in LaTeX renderer, and some other nice thingies.
 
