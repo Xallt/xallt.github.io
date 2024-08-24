@@ -18,5 +18,5 @@ Career:
 
 - Currently working at [Gracia AI](https://www.gracia.ai/) as an ML Research Engineer, improving the quality and efficiency of our photorealistic 3D captures!
 
-Here is my complete up-to-date resume: [resume.pdf](/assets/pdf/resume.pdf)
+Here is my complete up-to-date resume: [resume.pdf](/assets/pdf/resume.pdf?v={{ site.time | date: '%s' }})
 
