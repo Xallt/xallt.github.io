@@ -16,7 +16,9 @@ Career:
 
 - 2 years at [Clostra](https://clostra.com/) as a full-time Machine Learning Engineer, working on various 3D Vision methods: depth estimation, NeRFs, 3D GANs, etc. . Most importantly, learned to stay on top of state-of-the-art research and constantly implement&test new stuff, and work with researchers' code.
 
-- Currently working at [Gracia AI](https://www.gracia.ai/) as an ML Research Engineer, improving the quality and efficiency of our photorealistic 3D captures!
+- Worked for 4 months [Gracia AI](https://www.gracia.ai/) as an ML Research Engineer, improving the quality and efficiency of the photorealistic 3D captures.
+
+- Currently working at Medida AI, making the work of national USA window manufacturers way easier with Computer Vision! (will share more on that later).
 
 Here is my complete up-to-date resume: [resume.pdf](/assets/pdf/resume.pdf?v={{ site.time | date: '%s' }})
 
