@@ -22,7 +22,7 @@
     </h1>
     <p class="site-subtitle fst-italic mb-0">{{ site.tagline }}</p>
       {% if site.neko %}
-      <a class="neko-button" onclick="anotherNeko('spirit')"><p>ヽ🐱ゝ</p></a>
+      <a class="neko-button" id="nekoButton" onclick="anotherNeko('spirit')"><p>ヽ🐱ゝ</p></a>
       {% endif %}
   </header>
   <!-- .profile-wrapper -->
@@ -104,5 +104,22 @@
     {% endfor %}
   </div>
   <!-- .sidebar-bottom -->
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const nekoButton = document.getElementById('nekoButton');
+      let mirrored = false;
+
+      setInterval(() => {
+        mirrored = !mirrored;
+        if (mirrored) {
+          nekoButton.classList.add('mirrored');
+        } else {
+          nekoButton.classList.remove('mirrored');
+        }
+      }, 1000);
+    });
+  </script>
+
 </aside>
 <!-- #sidebar -->

@@ -3,4 +3,9 @@
         @extend %link-hover;
     }
     cursor: pointer;
+    display: inline-block; // Ensure the element is inline-block for transform
+}
+
+.mirrored {
+    transform: scaleX(-1);
 }
