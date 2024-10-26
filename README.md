@@ -12,8 +12,8 @@ bundle install
 bundle exec jekyll serve --livereload
 ```
 
-## Changing Javascript
-After changing javascript, the minimized ".min.js" files have to be rebuilt
+## Building Javascript
+When first running the website, or when changing the javascript, the minimized ".min.js" files have to be rebuilt
 ```bash
 npm run build
 ```
