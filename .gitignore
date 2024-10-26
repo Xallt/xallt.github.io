@@ -20,3 +20,5 @@ assets/js/dist
 .obsidian
 
 # Misc
+.venv
+recipes.json

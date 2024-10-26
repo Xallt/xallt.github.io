@@ -21,3 +21,9 @@ npm run build
 ## Notes
 
 - Automatic recipe collection for the `/recipes` tab requires a Notion API key. Either specify one with `export NOTION_API_KEY=...`, or create a `.env` file in the root directory with the environment variable set.
+- To set up the Python environment for recipe collection:
+  ```bash
+  python3 -m venv .venv
+  source .venv/bin/activate  # On Windows, use `.venv\Scripts\activate`
+  pip install requests
+  ```
