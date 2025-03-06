@@ -42,12 +42,16 @@ This repository contains the source code for my personal website, hosted at [xal
 - Support for math equations using MathJax
 - Image optimization built-in
 
+### 🛠️ Utility Scripts
+- Post creation script to easily generate new blog posts with proper front matter
+- Recipe collection automation
+
 ## 🚀 Development Setup
 
 ### Prerequisites
 - Ruby (with Bundler)
 - Node.js and npm
-- Python 3 (for recipe collection)
+- Python 3 (for recipe collection and utility scripts)
 
 ### Initial Setup
 
@@ -67,11 +71,12 @@ This repository contains the source code for my personal website, hosted at [xal
    npm install
    ```
 
-4. Set up Python environment for recipe collection:
+4. Set up Python environment for recipe collection and utility scripts:
    ```bash
    python3 -m venv .venv
    source .venv/bin/activate  # On Windows, use `.venv\Scripts\activate`
    pip install requests
+   pip install -r tools/requirements.txt
    ```
 
 5. Configure Notion API for recipe collection:
@@ -101,6 +106,35 @@ This repository contains the source code for my personal website, hosted at [xal
 ## 📝 Content Management
 
 ### Adding a New Blog Post
+
+#### Using the Post Creation Script (Recommended)
+1. Run the post creation script:
+   ```bash
+   # Activate Python environment if not already active
+   source .venv/bin/activate  # On Windows, use `.venv\Scripts\activate`
+   # For fish shell, use:
+   # source .venv/bin/activate.fish
+   
+   # Run the script
+   python tools/create_post.py
+   ```
+
+2. Follow the streamlined interactive prompts to:
+   - Enter the post title
+   - Select a main category and a sub-category (Chirpy theme requires exactly two categories)
+   - Select tags from existing ones or create new ones
+
+3. The script will create a properly formatted Markdown file with these default settings:
+   - Math support: Enabled
+   - Table of contents: Enabled
+   - Mermaid diagrams: Disabled
+   - Post pinning: Disabled
+
+4. Edit the created file to add your content.
+
+5. If needed, manually add image paths or descriptions to the front matter after writing some content.
+
+#### Manual Creation
 1. Create a new Markdown file in the `_posts` directory with the format:
    ```
    YYYY-MM-DD-title-with-hyphens.md
@@ -111,8 +145,9 @@ This repository contains the source code for my personal website, hosted at [xal
    ---
    title: Your Post Title
    date: YYYY-MM-DD HH:MM:SS +/-TTTT
-   categories: [Category1, Category2]
+   categories: [Main Category, Sub Category]  # Exactly two categories required
    tags: [tag1, tag2]
+   math: true  # Enable math support
    ---
    ```
 
@@ -133,6 +168,7 @@ This repository contains the source code for my personal website, hosted at [xal
 - If the site doesn't build, check the Jekyll error messages
 - For JavaScript issues, ensure you've run `npm run build` after making changes
 - For recipe collection issues, verify your Notion API key is correct
+- If the post creation script fails, ensure you have the required Python packages installed
 
 ## 📚 Resources
 
