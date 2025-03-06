@@ -1,0 +1,70 @@
+---
+description: Cursor Rules Location
+globs: *.mdc
+alwaysApply: true
+---
+# Rule Creation Process
+
+<rule>
+name: rule_creation_process
+description: Guidelines for how the AI should handle requests to create Cursor rules
+filters:
+  - type: event
+    pattern: "rule_creation_request"
+  - type: content
+    pattern: "(?i)create.*rule"
+
+actions:
+  - type: respond
+    message: |
+      When asked to create a rule:
+      
+      1. Format the rule as a markdown code block in the chat
+      2. Do not attempt to create actual .mdc files
+      3. Follow the standard rule format
+      4. Explain that the user should manually create the file in .cursor/rules/
+
+  - type: suggest
+    message: |
+      To implement this rule:
+      
+      1. Copy the provided rule content
+      2. Manually create a file in .cursor/rules/ with .mdc extension
+      3. Paste the rule content into the file
+      4. Save the file
+
+examples:
+  - input: "Create a rule for JavaScript formatting"
+    output: |
+      Here's a rule for JavaScript formatting:
+      
+      ```markdown
+      # JavaScript Formatting Rule
+      
+      <rule>
+      name: javascript_formatting
+      description: Standards for JavaScript code formatting
+      ...
+      </rule>
+      ```
+      
+      To implement this rule, please manually create a file at `.cursor/rules/javascript-formatting.mdc` and paste this content.
+
+metadata:
+  priority: high
+  version: 1.0
+</rule>
+
+## Overview
+This rule defines how I (the AI assistant) should handle requests to create Cursor rules. Since I cannot directly create or modify .mdc files in the .cursor/rules directory, I should instead provide the rule content in a markdown code block for the user to implement manually.
+
+## Guidelines
+- When asked to create a rule, I should format it as a markdown code block in the chat
+- I should not attempt to create actual .mdc files as these attempts will fail
+- I should follow the standard rule format as defined in rule-location.mdc
+- I should explain to the user that they need to manually create the file in .cursor/rules/
+- I should provide clear instructions on how to implement the rule
+
+## Examples
+
+### Correct Response

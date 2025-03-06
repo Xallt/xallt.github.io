@@ -1,0 +1,172 @@
+---
+description: Chirpy formatting guide
+globs: *.md
+alwaysApply: false
+---
+# Chirpy Theme Formatting Guide
+
+<rule>
+name: chirpy_formatting_guide
+description: Guidelines for formatting posts using the Chirpy Jekyll theme's special features
+filters:
+  - type: content
+    pattern: "(?i)format.*post|chirpy.*format|blog.*format"
+  - type: file_extension
+    pattern: "\\.md$|\\.markdown$"
+
+actions:
+  - type: suggest
+    message: |
+      When formatting posts for the Chirpy theme, remember these key features:
+      
+      1. Front Matter essentials:
+         ```yaml
+         ---
+         title: Post Title
+         date: YYYY-MM-DD HH:MM:SS +/-TTTT
+         categories: [Main Category, Sub Category]
+         tags: [tag1, tag2]    # always lowercase
+         ---
+         ```
+      
+      2. Special post features:
+         - Pin post: `pin: true`
+         - Disable TOC: `toc: false`
+         - Disable comments: `comments: false`
+         - Enable math: `math: true`
+         - Enable mermaid: `mermaid: true`
+         - Custom description: `description: Your description here`
+      
+      3. Image formatting options:
+         - Caption: Add italics below image `_Caption text_`
+         - Size: `![Alt](/path/to/img){: width="700" height="400" }`
+         - Position: `![Alt](/path/to/img){: .normal/.left/.right }`
+         - Shadow: `![Alt](/path/to/img){: .shadow }`
+         - Dark/Light mode: Use `.dark` and `.light` classes
+
+examples:
+  - input: "How do I format images in Chirpy?"
+    output: |
+      For images in Chirpy, you have several formatting options:
+      
+      ```markdown
+      ![Image description](/path/to/image)
+      _This becomes the image caption_
+      
+      ![Image with size](/path/to/image){: width="700" height="400" }
+      
+      ![Left aligned](/path/to/image){: .left }
+      
+      ![With shadow](/path/to/image){: .shadow }
+      
+      ![Light mode only](/path/to/light-mode.png){: .light }
+      ![Dark mode only](/path/to/dark-mode.png){: .dark }
+      ```
+
+metadata:
+  priority: medium
+  version: 1.0
+</rule>
+
+## Overview
+This rule documents the formatting features available in the Chirpy Jekyll theme to create visually appealing and well-structured blog posts. It serves as a reference for helping users format their posts using the theme's special features.
+
+## Guidelines
+
+### Front Matter
+- Every post must include front matter with `title`, `date`, and optionally `categories` and `tags`
+- Categories should be structured as `[Main Category, Sub Category]` (max 2 levels)
+- Tags should always be lowercase and can have any number of entries
+- Date should include timezone offset (e.g., `2024-12-28 14:30:00 +0800`)
+
+### Special Post Features
+- Use `pin: true` to pin posts to the top of the home page
+- Use `toc: false` to disable the table of contents
+- Use `comments: false` to disable comments for a specific post
+- Use `math: true` to enable MathJax for mathematical equations
+- Use `mermaid: true` to enable Mermaid diagrams
+- Use `image: path: /path/to/image` to set a preview image for the post
+- Use `description: text` to customize the post description
+
+### Images
+- Add captions by placing italicized text (`_Caption_`) on the line after an image
+- Control image size with `{: width="700" height="400" }` or abbreviated `{: w="700" h="400" }`
+- Position images with classes: `.normal` (left-aligned), `.left` (float left), `.right` (float right)
+- Add shadows to images with the `.shadow` class
+- Create dark/light mode specific images with `.dark` and `.light` classes
+
+### Text Formatting
+- Create prompts with `{: .prompt-tip}`, `.prompt-info`, `.prompt-warning`, or `.prompt-danger`
+- Highlight file paths with `` `/path/to/file`{: .filepath} ``
+- Code blocks support syntax highlighting with language specification
+- Hide line numbers in code blocks with `{: .nolineno }`
+- Specify filename for code blocks with `{: file="filename.ext" }`
+
+### Media Embedding
+- Embed videos with `{% include embed/video.html src='/path/to/video.mp4' %}`
+- Embed audio with `{% include embed/audio.html src='/path/to/audio.mp3' %}`
+- Both support additional attributes like `title`, `poster` (for video), and `types`
+
+### Mathematics
+- Enable math with `math: true` in front matter
+- Block math: Use `$$ math $$` with blank lines before and after
+- Inline math: Use `$$ math $$` without blank lines
+- Equation numbering: Use `$$\begin{equation} math \label{eq:label} \end{equation}$$`
+- Reference equations with `\eqref{eq:label}`
+
+### Diagrams
+- Enable Mermaid with `mermaid: true` in front matter
+- Create diagrams with ```````mermaid` code blocks
+
+## Examples
+
+### Front Matter Example
+```yaml
+---
+title: Advanced Formatting in Chirpy
+date: 2024-12-28 15:00:00 +0800
+categories: [Blogging, Tutorial]
+tags: [formatting, chirpy, jekyll]
+pin: true
+math: true
+image:
+  path: /assets/img/sample-image.jpg
+  alt: Sample preview image
+description: A comprehensive guide to formatting posts in the Chirpy theme
+---
+```
+
+### Prompt Examples
+```markdown
+> This is a tip prompt.
+{: .prompt-tip }
+
+> This is an info prompt.
+{: .prompt-info }
+
+> This is a warning prompt.
+{: .prompt-warning }
+
+> This is a danger prompt.
+{: .prompt-danger }
+```
+
+### Math Example
+```markdown
+$$
+\begin{equation}
+  E = mc^2
+  \label{eq:einstein}
+\end{equation}
+$$
+
+As shown in equation \eqref{eq:einstein}, energy and mass are equivalent.
+```
+
+## Enforcement
+This rule serves as a reference guide and is not automatically enforced. It should be consulted when formatting posts for the Chirpy theme to ensure optimal presentation.
+
+---
+
+Version: 1.0
+Created: December 28, 2024
