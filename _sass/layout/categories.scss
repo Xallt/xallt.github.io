@@ -1,5 +1,5 @@
 @use "addon/variables";
-
+@use "addon/module";
 /*
   Style for Tab Categories
 */
@@ -33,7 +33,8 @@
   i {
     @extend %category-icon-color;
 
-    font-size: 86%; /* fontawesome icons */
+    font-size: 86%;
+    /* fontawesome icons */
   }
 
   .list-group-item {
@@ -50,7 +51,9 @@
       border-bottom: 0;
     }
   }
-} /* .categories */
+}
+
+/* .categories */
 
 .category-trigger {
   width: 1.7rem;
