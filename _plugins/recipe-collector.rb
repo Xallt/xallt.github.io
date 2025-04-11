@@ -9,18 +9,43 @@ Dotenv.load
 module RecipeCollectorModule
   class RecipeCollectorError < StandardError; end
 
-  class RecipeCollectorWrapper
-    @@recipe_data = nil
-    def self.get_recipe_data(notion_api_key)
-      if @@recipe_data.nil?
-        begin
-          @@recipe_data = RecipeCollector.new.get_recipe_data(notion_api_key)
-        rescue RecipeCollector::Error => e
-          warn "WARNING: Failed to fetch recipe data: #{e.message}"
-          @@recipe_data = []
-        end
+  def self.get_recipe_limit
+    test_mode = ENV['TEST_BUILD_MODE']
+    return 3 if test_mode && (test_mode == 'true' || test_mode == '1')
+    nil
+  end
+
+  class BuildRecipeCache
+    @@instance = nil
+
+    def self.instance
+      @@instance ||= new
+    end
+
+    def initialize
+      @cache = {}
+    end
+
+    def get_recipe_data(notion_api_key, limit = nil)
+      cache_key = "#{notion_api_key}_#{limit}"
+      
+      return @cache[cache_key] if @cache.key?(cache_key)
+
+      begin
+        recipes = RecipeCollector.new.get_recipe_data(notion_api_key, limit: limit)
+        @cache[cache_key] = recipes
+      rescue RecipeCollector::Error => e
+        warn "WARNING: Failed to fetch recipe data: #{e.message}"
+        @cache[cache_key] = []
       end
-      @@recipe_data
+      
+      @cache[cache_key]
+    end
+  end
+
+  class RecipeCollectorWrapper
+    def self.get_recipe_data(notion_api_key, limit = nil)
+      BuildRecipeCache.instance.get_recipe_data(notion_api_key, limit)
     end
 
     def self.recipe_name_to_url(recipe_name)
@@ -37,10 +62,10 @@ module RecipeCollectorModule
     def render(context)
       begin
         notion_api_key = ENV['NOTION_API_KEY']
-        raise RecipeCollectorError, "NOTION_API_KEY environment variable is not set" if notion_api_key.nil? || notion_api_key.empty?
 
+        raise RecipeCollectorError, "NOTION_API_KEY environment variable is not set" if notion_api_key.nil? || notion_api_key.empty?
         # Get recipe data
-        recipe_data = RecipeCollectorWrapper.get_recipe_data(notion_api_key)
+        recipe_data = RecipeCollectorWrapper.get_recipe_data(notion_api_key, RecipeCollectorModule.get_recipe_limit)
         
         # Prepend each name with a dash
         recipe_names = recipe_data.map do |recipe| 
@@ -64,7 +89,7 @@ module RecipeCollectorModule
         notion_api_key = ENV['NOTION_API_KEY']
         raise RecipeCollectorError, "NOTION_API_KEY environment variable is not set" if notion_api_key.nil? || notion_api_key.empty?
 
-        recipe_data = RecipeCollectorWrapper.get_recipe_data(notion_api_key)
+        recipe_data = RecipeCollectorWrapper.get_recipe_data(notion_api_key, RecipeCollectorModule.get_recipe_limit)
         recipe_data.each do |recipe|
           begin
             site.pages << RecipePage.new(site, site.source, recipe.name, recipe.text, recipe.url)
