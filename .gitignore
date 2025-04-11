@@ -22,3 +22,4 @@ assets/js/dist
 # Misc
 .venv
 recipes.json
+.env
