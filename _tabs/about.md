@@ -22,3 +22,5 @@ Career:
 
 Here is my complete up-to-date resume: [resume.pdf](/assets/pdf/resume.pdf?v={{ site.time | date: '%s' }})
 
+
+<a href="https://notbyai.fyi/"><img src="/assets/svg/Authored-By-Human-Not-By-AI-Badge-black.svg" alt="NotByAI" style="width: 100px; height: 100px;"></a>
