@@ -23,7 +23,8 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 gem 'jekyll-compose', group: [:jekyll_plugins]
 
-gem "recipe_collector", git: 'https://github.com/Xallt/NotionRecipeCollector'
-
 # For specifying environment variables
 gem 'dotenv-rails'
+
+# For making HTTP requests
+gem 'httparty', '~> 0.21.0'

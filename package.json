@@ -18,7 +18,8 @@
     "prewatch": "npx rimraf assets/js/dist",
     "watch": "npx rollup -c --bundleConfigAsCjs -w",
     "test": "npx stylelint _sass/**/*.scss",
-    "fixlint": "npm run test -- --fix"
+    "fixlint": "npm run test -- --fix",
+    "recipe_test": "bundle exec ruby lib/recipe_collector/test_recipe.rb"
   },
   "devDependencies": {
     "@babel/core": "^7.23.0",
