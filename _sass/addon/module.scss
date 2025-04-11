@@ -1,3 +1,5 @@
+@use "variables";
+
 /*
 * Mainly scss modules, only imported to `assets/css/main.scss`
 */
@@ -7,7 +9,7 @@
 %heading {
   color: var(--heading-color);
   font-weight: 400;
-  font-family: $font-family-heading;
+  font-family: variables.$font-family-heading;
 }
 
 %section {
@@ -92,7 +94,7 @@
 }
 
 %rounded {
-  border-radius: $base-radius;
+  border-radius: variables.$base-radius;
 }
 
 %img-caption {

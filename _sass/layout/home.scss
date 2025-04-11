@@ -1,3 +1,5 @@
+@use "addon/variables";
+
 /*
   Style for Homepage
 */
@@ -20,7 +22,7 @@
     background: none;
 
     %img-radius {
-      border-radius: $base-radius $base-radius 0 0;
+      border-radius: variables.$base-radius variables.$base-radius 0 0;
     }
 
     .preview-img {
@@ -131,7 +133,7 @@
 /* Tablet */
 @media all and (min-width: 768px) {
   %img-radius {
-    border-radius: 0 $base-radius $base-radius 0;
+    border-radius: 0 variables.$base-radius variables.$base-radius 0;
   }
 
   #post-list {

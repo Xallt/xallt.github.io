@@ -1,3 +1,6 @@
+@use "addon/module";
+@use "addon/variables";
+
 /*
   Post-specific style
 */
@@ -160,12 +163,12 @@ h1 + .post-meta {
     }
 
     &:first-child {
-      border-radius: $base-radius 0 0 $base-radius;
+      border-radius: variables.$base-radius 0 0 variables.$base-radius;
       left: 0.5px;
     }
 
     &:last-child {
-      border-radius: 0 $base-radius $base-radius 0;
+      border-radius: 0 variables.$base-radius variables.$base-radius 0;
       right: 0.5px;
     }
   }
@@ -281,7 +284,7 @@ h1 + .post-meta {
 
 #related-posts {
   > h3 {
-    @include label(1.1rem, 600);
+    @include module.label(1.1rem, 600);
   }
 
   time {
@@ -322,7 +325,7 @@ h1 + .post-meta {
 }
 
 .share-label {
-  @include label(inherit, 400, inherit);
+  @include module.label(inherit, 400, inherit);
 
   &::after {
     content: ':';
