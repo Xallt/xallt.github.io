@@ -1,0 +1,70 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Jekyll Chirpy Website Structure and Capabilities
+
+<rule>
+name: jekyll_chirpy_structure
+description: Defines the structure and capabilities of the Jekyll-based website using Chirpy theme
+
+project_structure:
+  core_directories:
+    - _posts/: Blog posts in Markdown format
+    - _layouts/: Template layouts for pages
+    - _includes/: Reusable components
+    - _sass/: SCSS styling files
+    - assets/: Static files (images, js, css)
+    - _data/: Site configuration data
+    - _tabs/: Website main sections
+    - _site/: Generated static site (not tracked)
+
+styling_capabilities:
+  - SCSS-based styling with modular structure
+  - Dark/light theme support
+  - Custom color schemes via _sass/colors/
+  - Variables customization in _sass/variables-hook.scss
+
+jekyll_features:
+  - Static site generation
+  - Blog post management with categories and tags
+  - SEO optimization built-in
+  - PWA support
+  - Comments system (utterances/disqus/giscus)
+  - TOC generation
+  - Pagination
+  - RSS feed
+  - Sitemap generation
+  - Google Analytics integration
+
+theme_customization:
+  - Configurable via _config.yml
+  - Custom layouts in _layouts/
+  - Component overrides in _includes/
+  - Asset management in assets/
+  - Custom JavaScript in _javascript/
+
+content_creation:
+  post_format: |
+    ---
+    title: Post Title
+    date: YYYY-MM-DD HH:MM:SS +/-TTTT
+    categories: [Category1, Category2]
+    tags: [tag1, tag2]
+    ---
+
+best_practices:
+  - Keep posts in _posts/ with YYYY-MM-DD-title.md format
+  - Store images in assets/img/
+  - Use _data/ for structured site data
+  - Leverage _includes/ for reusable components
+  - Override theme styles in _sass/
+  - Configure site settings in _config.yml
+
+metadata:
+  version: 1.0
+  theme: jekyll-theme-chirpy
+  baseurl: ""
+  url: "https://xallt.github.io"
+</rule>

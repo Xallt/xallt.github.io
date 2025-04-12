@@ -19,7 +19,8 @@
     "watch": "npx rollup -c --bundleConfigAsCjs -w",
     "test": "npx stylelint _sass/**/*.scss",
     "fixlint": "npm run test -- --fix",
-    "recipe_test": "bundle exec ruby lib/recipe_collector/test_recipe.rb"
+    "recipe_test": "bundle exec ruby lib/recipe_collector/test_recipe.rb",
+    "links_import": "cd ./lib/obsidian-links-export && ./scripts/import_links.sh"
   },
   "devDependencies": {
     "@babel/core": "^7.23.0",

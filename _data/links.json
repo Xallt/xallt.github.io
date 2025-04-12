@@ -1,0 +1,3906 @@
+[
+  {
+    "name": "39 Lessons on ML systems",
+    "url": "https://eugeneyan.com/writing/conf-lessons/",
+    "tags": [
+      "Machine Learning",
+      "eugeneyan"
+    ],
+    "short_description": "Great post about basic **Machine Learning** ideas for production (**eugeneyan**)",
+    "full_description": "Great post about basic **Machine Learning** ideas for production (**eugeneyan**)",
+    "type": "link"
+  },
+  {
+    "name": "3B1B",
+    "url": "https://www.youtube.com/@3blue1brown",
+    "tags": [
+      "Youtube Channel",
+      "Mathematics"
+    ],
+    "short_description": "Great educational **Youtube Channel**  with **Mathematics** visualizations",
+    "full_description": "Great educational **Youtube Channel**  with **Mathematics** visualizations",
+    "type": "link"
+  },
+  {
+    "name": "450 бесплатных курсов от Лиги Плюща",
+    "url": "https://habr.com/ru/company/skillfactory/blog/503196/",
+    "tags": [
+      "Aggregator"
+    ],
+    "short_description": "**Aggregator** бесплатных курсов",
+    "full_description": "**Aggregator** бесплатных курсов",
+    "type": "link"
+  },
+  {
+    "name": "A Quickstart Guide to CUDA",
+    "url": "https://blog.42yeah.is/cuda/2023/06/03/cuda.html",
+    "tags": [
+      "CUDA"
+    ],
+    "short_description": "Good **CUDA** introduction",
+    "full_description": "Good **CUDA** introduction",
+    "type": "link"
+  },
+  {
+    "name": "A recipe for training NNs",
+    "url": "http://karpathy.github.io/2019/04/25/recipe/",
+    "tags": [
+      "Deep Learning",
+      "Neural Network"
+    ],
+    "short_description": "A great post with general instructions on how to start any kind of **Deep Learning** experiment & train **Neural Network**s",
+    "full_description": "A great post with general instructions on how to start any kind of **Deep Learning** experiment & train **Neural Network**s",
+    "type": "link"
+  },
+  {
+    "name": "A trip through the graphics pipeline",
+    "url": "https://fgiesen.wordpress.com/2011/07/09/a-trip-through-the-graphics-pipeline-2011-index/",
+    "tags": [
+      "Computer Graphics"
+    ],
+    "short_description": "A brief history of **Computer Graphics**",
+    "full_description": "A brief history of **Computer Graphics**",
+    "type": "link"
+  },
+  {
+    "name": "AAA - Analytical Anti-Aliasing",
+    "url": "https://blog.frost.kiwi/analytical-anti-aliasing/",
+    "tags": [
+      "Antialiasing"
+    ],
+    "short_description": "Amazing post about **Antialiasing** types",
+    "full_description": "Amazing post about **Antialiasing** types",
+    "type": "link"
+  },
+  {
+    "name": "Advances in Real-time rendering",
+    "url": "https://advances.realtimerendering.com/",
+    "tags": [
+      "Computer Graphics"
+    ],
+    "short_description": "A large, in-depth course on **Computer Graphics** available online",
+    "full_description": "A large, in-depth course on **Computer Graphics** available online",
+    "type": "link"
+  },
+  {
+    "name": "Agora",
+    "url": "https://www.agora.co.il/",
+    "tags": [
+      "Israel"
+    ],
+    "short_description": "Free stuff in **Israel** by a bunch of kind people",
+    "full_description": "Free stuff in **Israel** by a bunch of kind people",
+    "type": "link"
+  },
+  {
+    "name": "All about RSS",
+    "url": "https://github.com/AboutRSS/ALL-about-RSS",
+    "tags": [
+      "RSS"
+    ],
+    "short_description": "Github repo with lots of amazing useful resources for handling **RSS**",
+    "full_description": "Github repo with lots of amazing useful resources for handling **RSS**",
+    "type": "link"
+  },
+  {
+    "name": "Ambiphone",
+    "url": "https://ambiph.one/",
+    "tags": [],
+    "short_description": "Free ambient noise website",
+    "full_description": "Free ambient noise website",
+    "type": "link"
+  },
+  {
+    "name": "An introduction to Shader Art Coding",
+    "url": "https://www.youtube.com/watch?v=f4s1h2YETNY",
+    "tags": [
+      "Shader"
+    ],
+    "short_description": "Introduction to **Shader** programming",
+    "full_description": "Introduction to **Shader** programming",
+    "type": "link"
+  },
+  {
+    "name": "Android calculator app trickery",
+    "url": "https://chadnauseam.com/coding/random/calculator-app",
+    "tags": [
+      "Android",
+      "Calculator",
+      "Symbolic Algebra",
+      "Recursive Real Arithmetic"
+    ],
+    "short_description": "Great post about how **Android** **Calculator** works, specifically how it uses **Symbolic Algebra** and **Recursive Real Arithmetic**",
+    "full_description": "Great post about how **Android** **Calculator** works, specifically how it uses **Symbolic Algebra** and **Recursive Real Arithmetic**",
+    "type": "link"
+  },
+  {
+    "name": "Anki",
+    "url": "https://apps.ankiweb.net/",
+    "tags": [
+      "Flashcards"
+    ],
+    "short_description": "**Flashcards** app",
+    "full_description": "**Flashcards** app",
+    "type": "tool"
+  },
+  {
+    "name": "Anvaka - city.roads",
+    "url": "https://anvaka.github.io/city-roads/",
+    "tags": [
+      "Maps",
+      "overpass-turbo",
+      "protobuf"
+    ],
+    "short_description": "Website with **Maps** for just roads per city",
+    "full_description": "Website with **Maps** for just roads per city\nImplementation here: https://github.com/anvaka/city-roads\nUses **overpass-turbo** for querying the streets\n\nFor avoiding hitting rate limits, cities with a population over 100,000 were pre-fetched and stored with **protobuf**",
+    "type": "link"
+  },
+  {
+    "name": "Applied ML Curated list",
+    "url": "https://github.com/eugeneyan/applied-ml",
+    "tags": [
+      "Machine Learning"
+    ],
+    "short_description": "Curated list of blogs/papers from companies on their **Machine Learning** practices in their companies",
+    "full_description": "Curated list of blogs/papers from companies on their **Machine Learning** practices in their companies",
+    "type": "link"
+  },
+  {
+    "name": "Arnis",
+    "url": "https://github.com/louis-e/arnis",
+    "tags": [
+      "Minecraft",
+      "OpenStreetMap",
+      "Rust"
+    ],
+    "short_description": "Crazy **Minecraft** world generator from **OpenStreetMap** data, written in **Rust**",
+    "full_description": "Crazy **Minecraft** world generator from **OpenStreetMap** data, written in **Rust**",
+    "type": "link"
+  },
+  {
+    "name": "Arxiv insights",
+    "url": "https://www.youtube.com/c/ArxivInsights",
+    "tags": [
+      "Youtube Channel",
+      "Machine Learning",
+      "Reinforcement Learning"
+    ],
+    "short_description": "**Youtube Channel** channel on **Machine Learning**.",
+    "full_description": "**Youtube Channel** channel on **Machine Learning**.\nMostly videos on  **Reinforcement Learning**,",
+    "type": "link"
+  },
+  {
+    "name": "AstriaGraph",
+    "url": "http://astria.tacc.utexas.edu/AstriaGraph/",
+    "tags": [
+      "Space debris"
+    ],
+    "short_description": "Online viewer of **Space debris** in the Earth's orbit",
+    "full_description": "Online viewer of **Space debris** in the Earth's orbit",
+    "type": "link"
+  },
+  {
+    "name": "Atlas Obscura",
+    "url": "https://www.atlasobscura.com/",
+    "tags": [
+      "Travel",
+      "Aggregator"
+    ],
+    "short_description": "**Travel** hidden gems guide **Aggregator**",
+    "full_description": "**Travel** hidden gems guide **Aggregator**",
+    "type": "link"
+  },
+  {
+    "name": "Awesome ChatGPT promps",
+    "url": "https://prompts.chat/",
+    "tags": [
+      "ChatGPT"
+    ],
+    "short_description": "Some prompt engineering for **ChatGPT**",
+    "full_description": "Some prompt engineering for **ChatGPT**",
+    "type": "link"
+  },
+  {
+    "name": "Awesome LangChain",
+    "url": "https://github.com/kyrolabs/awesome-langchain",
+    "tags": [
+      "LangChain"
+    ],
+    "short_description": "Collection of tools/libraries built with **LangChain**",
+    "full_description": "Collection of tools/libraries built with **LangChain**",
+    "type": "link"
+  },
+  {
+    "name": "Awesome Music Theory",
+    "url": "https://github.com/vpavlenko/study-music",
+    "tags": [
+      "Music Theory"
+    ],
+    "short_description": "Collection of resources on **Music Theory**",
+    "full_description": "Collection of resources on **Music Theory**",
+    "type": "link"
+  },
+  {
+    "name": "Basic Nutrition from USDA",
+    "url": "https://www.nutrition.gov/topics/basic-nutrition",
+    "tags": [
+      "Nutrition"
+    ],
+    "short_description": "",
+    "full_description": "",
+    "type": "link"
+  },
+  {
+    "name": "Bleuje tutorials",
+    "url": "https://bleuje.com/tutorials/",
+    "tags": [
+      "Procedural Art"
+    ],
+    "short_description": "**Procedural Art**  basic intro tutorials",
+    "full_description": "**Procedural Art**  basic intro tutorials",
+    "type": "link"
+  },
+  {
+    "name": "Brackeys",
+    "url": "https://www.youtube.com/user/Brackeys",
+    "tags": [
+      "Youtube Channel",
+      "Unity"
+    ],
+    "short_description": "Large **Youtube Channel** channel with **Unity** tutorials",
+    "full_description": "Large **Youtube Channel** channel with **Unity** tutorials",
+    "type": "link"
+  },
+  {
+    "name": "Building Effective \"agents\" - Anthropic",
+    "url": "https://www.anthropic.com/research/building-effective-agents",
+    "tags": [
+      "LLM",
+      "LLM Agent"
+    ],
+    "short_description": "Great post about **LLM**s, **LLM Agent**s, and generally how to compose them into reliable sensible pipelines",
+    "full_description": "Great post about **LLM**s, **LLM Agent**s, and generally how to compose them into reliable sensible pipelines",
+    "type": "link"
+  },
+  {
+    "name": "Bullshit detection",
+    "url": "https://ludic.mataroa.blog/blog/you-must-read-at-least-one-book-to-ride/",
+    "tags": [],
+    "short_description": "A great article about reading books for technical topics and bullshit detection",
+    "full_description": "A great article about reading books for technical topics and bullshit detection",
+    "type": "link"
+  },
+  {
+    "name": "C++ args",
+    "url": "https://github.com/Taywee/args",
+    "tags": [
+      "C++",
+      "argparse"
+    ],
+    "short_description": "**C++** library similar to Python's **argparse**",
+    "full_description": "**C++** library similar to Python's **argparse**",
+    "type": "link"
+  },
+  {
+    "name": "C++ курс от МФТИ",
+    "url": "https://www.youtube.com/playlist?list=PL3BR09unfgcgJPQZKaacwzGmcXMtEA-19",
+    "tags": [
+      "C++"
+    ],
+    "short_description": "",
+    "full_description": "",
+    "type": "link"
+  },
+  {
+    "name": "CUDA C++ Programming Guide",
+    "url": "https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html",
+    "tags": [
+      "C++",
+      "CUDA"
+    ],
+    "short_description": "Complete **C++** **CUDA** documentation",
+    "full_description": "Complete **C++** **CUDA** documentation",
+    "type": "link"
+  },
+  {
+    "name": "CVAT",
+    "url": "https://www.cvat.ai/",
+    "tags": [
+      "Data Annotation",
+      "Computer Vision"
+    ],
+    "short_description": "**Data Annotation** platform for **Computer Vision** tasks",
+    "full_description": "**Data Annotation** platform for **Computer Vision** tasks",
+    "type": "tool"
+  },
+  {
+    "name": "Calculus Mathbook",
+    "url": "https://calculus.mathbook.info/",
+    "tags": [
+      "Mathematical Analysis"
+    ],
+    "short_description": "Много конспектов по матанализу",
+    "full_description": "Много конспектов по матанализу",
+    "type": "link"
+  },
+  {
+    "name": "Canvas.io",
+    "url": "https://canvas.io/",
+    "tags": [
+      "3D Reconstruction",
+      "LiDAR"
+    ],
+    "short_description": "App for **3D Reconstruction** that apparently uses **LiDAR** (uses it very well)",
+    "full_description": "App for **3D Reconstruction** that apparently uses **LiDAR** (uses it very well)",
+    "type": "tool"
+  },
+  {
+    "name": "Capacitors explained",
+    "url": "https://www.youtube.com/watch?v=X4EUwTwZ110",
+    "tags": [
+      "Capacitor"
+    ],
+    "short_description": "**Capacitor** explainer",
+    "full_description": "**Capacitor** explainer",
+    "type": "link"
+  },
+  {
+    "name": "Cellm",
+    "url": "https://github.com/getcellm/cellm",
+    "tags": [
+      "Excel",
+      "LLM"
+    ],
+    "short_description": "**Excel** extension that uses **LLM** operations in cells",
+    "full_description": "**Excel** extension that uses **LLM** operations in cells",
+    "type": "link"
+  },
+  {
+    "name": "CleanRL",
+    "url": "https://github.com/vwxyzjn/cleanrl",
+    "tags": [
+      "Reinforcement Learning"
+    ],
+    "short_description": "**Reinforcement Learning** framework with simplistic implementations of algorithms",
+    "full_description": "**Reinforcement Learning** framework with simplistic implementations of algorithms",
+    "type": "link"
+  },
+  {
+    "name": "Cloud GPUs comparison",
+    "url": "https://fullstackdeeplearning.com/cloud-gpus/",
+    "tags": [
+      "Virtual Private Server",
+      "GPU"
+    ],
+    "short_description": "A nice comparison of **Virtual Private Server**s with **GPU**",
+    "full_description": "A nice comparison of **Virtual Private Server**s with **GPU**",
+    "type": "link"
+  },
+  {
+    "name": "CodeParade",
+    "url": "https://www.youtube.com/@CodeParade/videos",
+    "tags": [
+      "Youtube Channel",
+      "Computer Graphics",
+      "Machine Learning"
+    ],
+    "short_description": "Yet another great **Youtube Channel** channel with educational videos on **Computer Graphics**, **Machine Learning**",
+    "full_description": "Yet another great **Youtube Channel** channel with educational videos on **Computer Graphics**, **Machine Learning**",
+    "type": "link"
+  },
+  {
+    "name": "Codegen LLM Workflow",
+    "url": "https://harper.blog/2025/02/16/my-llm-codegen-workflow-atm/",
+    "tags": [
+      "Large Language Model",
+      "good prompts",
+      "Aider"
+    ],
+    "short_description": "Good post about using **Large Language Model**s for developing projects. TLDR: with **good prompts**, work through the idea and develop a concrete tech spec, then with an AI agent like **Aider** actually develop the",
+    "full_description": "Good post about using **Large Language Model**s for developing projects. TLDR: with **good prompts**, work through the idea and develop a concrete tech spec, then with an AI agent like **Aider** actually develop the",
+    "type": "link"
+  },
+  {
+    "name": "Colmap parameters explanations",
+    "url": "https://github.com/mwtarnowski/colmap-parameters",
+    "tags": [
+      "COLMAP"
+    ],
+    "short_description": "Explanations of **COLMAP** parameters",
+    "full_description": "Explanations of **COLMAP** parameters",
+    "type": "link"
+  },
+  {
+    "name": "ComfyUI",
+    "url": "https://github.com/comfyanonymous/ComfyUI",
+    "tags": [
+      "GUI",
+      "Image Diffusion"
+    ],
+    "short_description": "**GUI** for **Image Diffusion** pipelines",
+    "full_description": "**GUI** for **Image Diffusion** pipelines",
+    "type": "link"
+  },
+  {
+    "name": "ComfyUI3D",
+    "url": "https://github.com/MrForExample/ComfyUI-3D-Pack",
+    "tags": [
+      "ComfyUI"
+    ],
+    "short_description": "Pack for **ComfyUI** for processing 3D data",
+    "full_description": "Pack for **ComfyUI** for processing 3D data",
+    "type": "link"
+  },
+  {
+    "name": "Compare PC Cases",
+    "url": "https://comparesffpc.com/",
+    "tags": [
+      "PC Case"
+    ],
+    "short_description": "Desktop planner for **PC Case**s",
+    "full_description": "Desktop planner for **PC Case**s",
+    "type": "tool"
+  },
+  {
+    "name": "Compiled list of SDFs for primitives",
+    "url": "https://iquilezles.org/articles/distfunctions/",
+    "tags": [
+      "SDF",
+      "Inigo Quilez blog",
+      "Ray Marching"
+    ],
+    "short_description": "List of **SDF**s for primitive figures by **Inigo Quilez blog** used for **Ray Marching**",
+    "full_description": "List of **SDF**s for primitive figures by **Inigo Quilez blog** used for **Ray Marching**",
+    "type": "link"
+  },
+  {
+    "name": "Compsciclub",
+    "url": "https://compsciclub.ru/courses/",
+    "tags": [
+      "Computer Science"
+    ],
+    "short_description": "Много бесплатных открытых курсов по **Computer Science**",
+    "full_description": "Много бесплатных открытых курсов по **Computer Science**",
+    "type": "link"
+  },
+  {
+    "name": "Computer Language Benchmarks Game",
+    "url": "https://benchmarksgame-team.pages.debian.net/benchmarksgame/index.html",
+    "tags": [
+      "Programming Language"
+    ],
+    "short_description": "Comparison between performances of various **Programming Language**s",
+    "full_description": "Comparison between performances of various **Programming Language**s",
+    "type": "link"
+  },
+  {
+    "name": "Continual Learning from Guy Lavi",
+    "url": "https://www.vision-elements.com/post/enabling-continual-learning-techniques-for-sequential-optimization-in-edge-computing",
+    "tags": [
+      "Continual Learning",
+      "Math"
+    ],
+    "short_description": "A good introductory post about **Continual Learning** with an interesting theoretical basis. With **Math**!",
+    "full_description": "A good introductory post about **Continual Learning** with an interesting theoretical basis. With **Math**!",
+    "type": "link"
+  },
+  {
+    "name": "Cookwell",
+    "url": "https://www.cookwell.com/",
+    "tags": [
+      "Cooking"
+    ],
+    "short_description": "Educational **Cooking** website",
+    "full_description": "Educational **Cooking** website",
+    "type": "link"
+  },
+  {
+    "name": "Cool features from blogs",
+    "url": "https://danilafe.com/blog/blog_microfeatures/",
+    "tags": [
+      "Blog",
+      "Проект - Личный сайт & блог"
+    ],
+    "short_description": "List of cool **Blog** features (maybe to implement in **Проект - Личный сайт & блог**?)",
+    "full_description": "List of cool **Blog** features (maybe to implement in **Проект - Личный сайт & блог**?)",
+    "type": "link"
+  },
+  {
+    "name": "Coolify",
+    "url": "https://coolify.io/",
+    "tags": [
+      "Open-Source",
+      "Self-hosting"
+    ],
+    "short_description": "**Open-Source** heroku / netlify alternative for **Self-hosting**. Eases deployment of apps",
+    "full_description": "**Open-Source** heroku / netlify alternative for **Self-hosting**. Eases deployment of apps",
+    "type": "link"
+  },
+  {
+    "name": "Curated list of engineering blogs",
+    "url": "https://github.com/kilimchoi/engineering-blogs",
+    "tags": [
+      "Blog"
+    ],
+    "short_description": "Curated list of engineering **Blog**s for companies/individuals",
+    "full_description": "Curated list of engineering **Blog**s for companies/individuals",
+    "type": "link"
+  },
+  {
+    "name": "Curated list of free programming books",
+    "url": "https://github.com/EbookFoundation/free-programming-books",
+    "tags": [],
+    "short_description": "",
+    "full_description": "",
+    "type": "link"
+  },
+  {
+    "name": "Cursor stdlib",
+    "url": "https://ghuntley.com/stdlib/",
+    "tags": [
+      "Cursor",
+      "Ghuntley"
+    ],
+    "short_description": "Great post about using **Cursor**. From **Ghuntley**",
+    "full_description": "Great post about using **Cursor**. From **Ghuntley**",
+    "type": "link"
+  },
+  {
+    "name": "Cutt.ly",
+    "url": "https://cutt.ly/",
+    "tags": [
+      "Link shortening",
+      "QR Code"
+    ],
+    "short_description": "Сервис для сокращения ссылок, с дополнительным контролем и инструментами для статистики",
+    "full_description": "Сервис для сокращения ссылок, с дополнительным контролем и инструментами для статистики",
+    "type": "tool"
+  },
+  {
+    "name": "ConnectedPapers",
+    "url": "https://www.connectedpapers.com/",
+    "tags": [],
+    "short_description": "Tool for exploring the citation graph (visually) of scientific papers",
+    "full_description": "Tool for exploring the citation graph (visually) of scientific papers",
+    "type": "link"
+  },
+  {
+    "name": "DBLP Computer Science Bibliography",
+    "url": "https://dblp.org/",
+    "tags": [
+      "Bibliography",
+      "Bibliography",
+      "LaTeX"
+    ],
+    "short_description": "Tool for filling out **Bibliography** in **LaTeX** documents",
+    "full_description": "Tool for filling out **Bibliography** in **LaTeX** documents",
+    "type": "link"
+  },
+  {
+    "name": "DaVinci Resolve",
+    "url": "https://www.blackmagicdesign.com/products/davinciresolve",
+    "tags": [
+      "Video Editor"
+    ],
+    "short_description": "Yet another free **Video Editor**",
+    "full_description": "Yet another free **Video Editor**",
+    "type": "link"
+  },
+  {
+    "name": "Database fundamentals",
+    "url": "https://tontinton.com/posts/database-fundementals/",
+    "tags": [
+      "Database"
+    ],
+    "short_description": "Post about **Database**s",
+    "full_description": "Post about **Database**s",
+    "type": "link"
+  },
+  {
+    "name": "Deep Learning - Foundations and Concepts",
+    "url": "https://www.bishopbook.com/",
+    "tags": [
+      "Machine Learning"
+    ],
+    "short_description": "Great online book on **Machine Learning**",
+    "full_description": "Great online book on **Machine Learning**",
+    "type": "link"
+  },
+  {
+    "name": "Denoising as a building block for Imaging and Machine Learning",
+    "url": "https://www.youtube.com/watch?v=XYAJowhm6pE",
+    "tags": [
+      "Denoising",
+      "Image Diffusion",
+      "Optimization Theory",
+      "Linear Algebra",
+      "Laplacian Operator"
+    ],
+    "short_description": "Great lecture on **Denoising**, its relation to **Image Diffusion** models, the **Optimization Theory** involved.",
+    "full_description": "Great lecture on **Denoising**, its relation to **Image Diffusion** models, the **Optimization Theory** involved.\nIncludes: **Linear Algebra**, **Laplacian Operator**",
+    "type": "link"
+  },
+  {
+    "name": "Dance Tonite",
+    "url": "https://tonite.dance/",
+    "tags": [
+      "VR"
+    ],
+    "short_description": "Online **VR** experience. You fly through rooms of VR-tracked people",
+    "full_description": "Online **VR** experience. You fly through rooms of VR-tracked people",
+    "type": "link"
+  },
+  {
+    "name": "Design Tools Club",
+    "url": "https://designtools.club/",
+    "tags": [
+      "Graphic Design",
+      "Animation",
+      "Icons",
+      "Photography",
+      "Sound",
+      "UI"
+    ],
+    "short_description": "An aggregator of tools&links for **Graphic Design**, **Animation**, **Icons**, **Photography**, **Sound**, **UI**",
+    "full_description": "An aggregator of tools&links for **Graphic Design**, **Animation**, **Icons**, **Photography**, **Sound**, **UI**",
+    "type": "link"
+  },
+  {
+    "name": "Desmos",
+    "url": "https://www.desmos.com/",
+    "tags": [
+      "Math"
+    ],
+    "short_description": "Great online tool for visualization of **Math** functions. Got 3D functionality recently",
+    "full_description": "Great online tool for visualization of **Math** functions. Got 3D functionality recently",
+    "type": "link"
+  },
+  {
+    "name": "DevDocs",
+    "url": "https://devdocs.io/",
+    "tags": [
+      "Documentation"
+    ],
+    "short_description": "Aggregator of a lot of **Documentation** into a single place&format. Can cache full documentations to view offline",
+    "full_description": "Aggregator of a lot of **Documentation** into a single place&format. Can cache full documentations to view offline",
+    "type": "link"
+  },
+  {
+    "name": "Designing the 3D world with SDF",
+    "url": "https://kyndinfo.notion.site/Designing-3D-world-3D-06458bd3371d44d6bef7e9c143d8e518",
+    "tags": [
+      "SDF"
+    ],
+    "short_description": "Good intro to modeling a 3D scene with **SDF**",
+    "full_description": "Good intro to modeling a 3D scene with **SDF**",
+    "type": "link"
+  },
+  {
+    "name": "Developer Roadmaps",
+    "url": "https://roadmap.sh/",
+    "tags": [
+      "Programming Language",
+      "Programming",
+      "Computer Science"
+    ],
+    "short_description": "Aggregator of resources for learning **Programming Language** / **Programming** / **Computer Science**",
+    "full_description": "Aggregator of resources for learning **Programming Language** / **Programming** / **Computer Science**",
+    "type": "link"
+  },
+  {
+    "name": "Digital Video Introduction",
+    "url": "https://github.com/leandromoreira/digital_video_introduction",
+    "tags": [
+      "Video Compression",
+      "Image Compression"
+    ],
+    "short_description": "A collection of resources of **Video Compression** and **Image Compression**",
+    "full_description": "A collection of resources of **Video Compression** and **Image Compression**",
+    "type": "link"
+  },
+  {
+    "name": "Disney public datasets",
+    "url": "https://www.disneyanimation.com/data-sets/",
+    "tags": [
+      "Disney",
+      "Computer Graphics",
+      "Animation",
+      "Volume Rendering"
+    ],
+    "short_description": "A collection of public resources from **Disney** on **Computer Graphics**, **Animation**, **Volume Rendering**",
+    "full_description": "A collection of public resources from **Disney** on **Computer Graphics**, **Animation**, **Volume Rendering**",
+    "type": "link"
+  },
+  {
+    "name": "Distill.pub",
+    "url": "https://distill.pub/",
+    "tags": [
+      "Machine Learning",
+      "Visualization"
+    ],
+    "short_description": "Scientific journal about **Machine Learning** with great **Visualization**s",
+    "full_description": "Scientific journal about **Machine Learning** with great **Visualization**s",
+    "type": "link"
+  },
+  {
+    "name": "Eagle.cool",
+    "url": "https://eagle.cool/",
+    "tags": [
+      "Graphic Design",
+      "UI"
+    ],
+    "short_description": "Tool for organizing a database of images and using for **Graphic Design** / **UI**",
+    "full_description": "Tool for organizing a database of images and using for **Graphic Design** / **UI**",
+    "type": "tool"
+  },
+  {
+    "name": "Do-nothing scripting",
+    "url": "https://blog.danslimmon.com/2019/07/15/do-nothing-scripting-the-key-to-gradual-automation/",
+    "tags": [
+      "Scripting"
+    ],
+    "short_description": "Good post about **Scripting**, specifically how to simplify work without much automation (just by making scripts that give you the commands to run)",
+    "full_description": "Good post about **Scripting**, specifically how to simplify work without much automation (just by making scripts that give you the commands to run)",
+    "type": "link"
+  },
+  {
+    "name": "Efficient deep learning course",
+    "url": "https://github.com/mryab/efficient-dl-systems",
+    "tags": [
+      "Definitions/Deep Learning"
+    ],
+    "short_description": "A really good course on efficient **Definitions/Deep Learning**",
+    "full_description": "A really good course on efficient **Definitions/Deep Learning**",
+    "type": "link"
+  },
+  {
+    "name": "Energy minimization with Graph Cuts",
+    "url": "https://profs.etsmtl.ca/hlombaert/energy/",
+    "tags": [
+      "Energy Minimization",
+      "Graph Cuts"
+    ],
+    "short_description": "A blogpost of **Energy Minimization** with **Graph Cuts**",
+    "full_description": "A blogpost of **Energy Minimization** with **Graph Cuts**",
+    "type": "link"
+  },
+  {
+    "name": "Ente",
+    "url": "https://ente.io/",
+    "tags": [
+      "Google Photos"
+    ],
+    "short_description": "**Google Photos** alternative",
+    "full_description": "**Google Photos** alternative",
+    "type": "link"
+  },
+  {
+    "name": "Estimating distance to an implicit surface",
+    "url": "https://iquilezles.org/articles/distance/",
+    "tags": [],
+    "short_description": "Great article explaining how in visualization tools distances to implicit surfaces/curves are estimated",
+    "full_description": "Great article explaining how in visualization tools distances to implicit surfaces/curves are estimated",
+    "type": "link"
+  },
+  {
+    "name": "Everything you always wanted to know about Mathematics",
+    "url": "https://www.math.cmu.edu/~jmackey/151_128/bws_book.pdf",
+    "tags": [
+      "Mathematics"
+    ],
+    "short_description": "A very large (700 pages) book about **Mathematics** for **complete** beginners. Mostly about understanding logic and proofs, with simple language and lots of examples.",
+    "full_description": "A very large (700 pages) book about **Mathematics** for **complete** beginners. Mostly about understanding logic and proofs, with simple language and lots of examples.",
+    "type": "link"
+  },
+  {
+    "name": "Exa Websets",
+    "url": "https://websets.exa.ai/",
+    "tags": [
+      "LLM Agent"
+    ],
+    "short_description": "Internet search tool augmented with **LLM Agent**s which analyze each page",
+    "full_description": "Internet search tool augmented with **LLM Agent**s which analyze each page",
+    "type": "link"
+  },
+  {
+    "name": "Excalidraw",
+    "url": "https://excalidraw.com/",
+    "tags": [
+      "Visualization"
+    ],
+    "short_description": "Collaborative drawing tool. Good for **Visualization** of different stuff, even without the feature for collaborative drawing.",
+    "full_description": "Collaborative drawing tool. Good for **Visualization** of different stuff, even without the feature for collaborative drawing.",
+    "type": "link"
+  },
+  {
+    "name": "Experiments with Google",
+    "url": "https://experiments.withgoogle.com/",
+    "tags": [
+      "Machine Learning",
+      "AR",
+      "VR",
+      "Google"
+    ],
+    "short_description": "Page with many **Machine Learning**/**AR**/**VR** experiments from **Google**",
+    "full_description": "Page with many **Machine Learning**/**AR**/**VR** experiments from **Google**",
+    "type": "link"
+  },
+  {
+    "name": "FMHY",
+    "url": "https://fmhy.net/",
+    "tags": [
+      "Aggregator",
+      "Open-Source"
+    ],
+    "short_description": "**Aggregator** of free / pirating stuff (**Open-Source** itself and has a lot of open-source tools)",
+    "full_description": "**Aggregator** of free / pirating stuff (**Open-Source** itself and has a lot of open-source tools)",
+    "type": "link"
+  },
+  {
+    "name": "Fabian's Recommened Reading List",
+    "url": "https://gist.github.com/djg/dcba29cf3c6e0696e493c146dcb3f08c",
+    "tags": [
+      "Aggregator",
+      "Computer Science"
+    ],
+    "short_description": "**Aggregator** of some good **Computer Science** articles",
+    "full_description": "**Aggregator** of some good **Computer Science** articles",
+    "type": "link"
+  },
+  {
+    "name": "Face Cap",
+    "url": "https://www.bannaflak.com/face-cap/",
+    "tags": [
+      "Facial Tracking",
+      "iPhone"
+    ],
+    "short_description": "**Facial Tracking** for **iPhone**s",
+    "full_description": "**Facial Tracking** for **iPhone**s",
+    "type": "link"
+  },
+  {
+    "name": "FaceForm",
+    "url": "https://faceform.com/",
+    "tags": [
+      "Mesh Topology",
+      "3D Face Scan"
+    ],
+    "short_description": "Tool for **Mesh Topology** remapping between face **3D Face Scan**s (previously 3DRussianScanner)",
+    "full_description": "Tool for **Mesh Topology** remapping between face **3D Face Scan**s (previously 3DRussianScanner)",
+    "type": "tool"
+  },
+  {
+    "name": "Famous Hostels",
+    "url": "https://www.famoushostels.com/",
+    "tags": [
+      "Hostel",
+      "Travel"
+    ],
+    "short_description": "Aggregation of famous **Hostel**s, plus **Travel** guides/tips",
+    "full_description": "Aggregation of famous **Hostel**s, plus **Travel** guides/tips",
+    "type": "link"
+  },
+  {
+    "name": "Feature maps visualizer (snake version)",
+    "url": "https://www.kaggle.com/code/magokecol/pytorch-feature-maps-visualizer-snake-version",
+    "tags": [
+      "Neural Network Visualization"
+    ],
+    "short_description": "**Neural Network Visualization** of type of textures detected by a classifier",
+    "full_description": "**Neural Network Visualization** of type of textures detected by a classifier",
+    "type": "link"
+  },
+  {
+    "name": "Figma",
+    "url": "https://www.figma.com/",
+    "tags": [
+      "UI"
+    ],
+    "short_description": "Collaborative tool for **UI** designing",
+    "full_description": "Collaborative tool for **UI** designing",
+    "type": "tool"
+  },
+  {
+    "name": "Free Programming Books & Courses",
+    "url": "https://ebookfoundation.github.io/free-programming-books/",
+    "tags": [
+      "Aggregator",
+      "Programming"
+    ],
+    "short_description": "A huge **Aggregator** of **Programming** resources for learning",
+    "full_description": "A huge **Aggregator** of **Programming** resources for learning",
+    "type": "link"
+  },
+  {
+    "name": "Free coworking spaces in Israel list",
+    "url": "https://reboot-startup-nation.notion.site/23c2a69fdd154fe099c1a454005d80c7",
+    "tags": [
+      "Israel"
+    ],
+    "short_description": "Free coworking spaces in **Israel**",
+    "full_description": "Free coworking spaces in **Israel**",
+    "type": "link"
+  },
+  {
+    "name": "Free-for-dev",
+    "url": "https://free-for.dev/#/",
+    "tags": [
+      "Open-Source",
+      "API"
+    ],
+    "short_description": "An **Open-Source** aggregator of free **API**s ",
+    "full_description": "An **Open-Source** aggregator of free **API**s \nAnyone can contribute at https://github.com/ripienaar/free-for-dev",
+    "type": "link"
+  },
+  {
+    "name": "GMAT Documentation",
+    "url": "https://gmat.atlassian.net/wiki/spaces/GW/overview",
+    "tags": [
+      "Documentation"
+    ],
+    "short_description": "A very impressive **Documentation** with extremely well written overviews and guides for developers",
+    "full_description": "A very impressive **Documentation** with extremely well written overviews and guides for developers",
+    "type": "link"
+  },
+  {
+    "name": "GPU Gems",
+    "url": "https://developer.nvidia.com/gpugems/gpugems/contributors",
+    "tags": [
+      "Computer Graphics"
+    ],
+    "short_description": "A book on lots of different **Computer Graphics** topics published online.",
+    "full_description": "A book on lots of different **Computer Graphics** topics published online.",
+    "type": "link"
+  },
+  {
+    "name": "GPU Performance for game artists",
+    "url": "http://fragmentbuffer.com/gpu-performance-for-game-artists/",
+    "tags": [
+      "GPU",
+      "Computer Graphics"
+    ],
+    "short_description": "An in-depth article about **GPU** optimization for **Computer Graphics**",
+    "full_description": "An in-depth article about **GPU** optimization for **Computer Graphics**",
+    "type": "link"
+  },
+  {
+    "name": "GPU Prefix Sum",
+    "url": "https://developer.nvidia.com/gpugems/gpugems3/part-vi-gpu-computing/chapter-39-parallel-prefix-sum-scan-cuda",
+    "tags": [
+      "Prefix Sum",
+      "GPU"
+    ],
+    "short_description": "Computing **Prefix Sum** on **GPU** — very interesting algorithm",
+    "full_description": "Computing **Prefix Sum** on **GPU** — very interesting algorithm",
+    "type": "link"
+  },
+  {
+    "name": "GTA V Graphics study",
+    "url": "https://www.adriancourreges.com/blog/2015/11/02/gta-v-graphics-study/",
+    "tags": [
+      "Computer Graphics",
+      "GameDev"
+    ],
+    "short_description": "",
+    "full_description": "",
+    "type": "link"
+  },
+  {
+    "name": "GeoFL",
+    "url": "http://geofl.ge/",
+    "tags": [],
+    "short_description": "Georgian language book",
+    "full_description": "Georgian language book",
+    "type": "link"
+  },
+  {
+    "name": "GetGuesstimate",
+    "url": "https://www.getguesstimate.com/",
+    "tags": [],
+    "short_description": "Spreadsheet for uncertainties",
+    "full_description": "Spreadsheet for uncertainties",
+    "type": "link"
+  },
+  {
+    "name": "Ghostty",
+    "url": "https://ghostty.org/",
+    "tags": [
+      "Terminal Emulator"
+    ],
+    "short_description": "Newer cooler **Terminal Emulator**",
+    "full_description": "Newer cooler **Terminal Emulator**",
+    "type": "tool"
+  },
+  {
+    "name": "Github star-history",
+    "url": "https://star-history.com/",
+    "tags": [
+      "Map of Github"
+    ],
+    "short_description": "Embeddable visualization of the star history of a **Map of Github** repo",
+    "full_description": "Embeddable visualization of the star history of a **Map of Github** repo",
+    "type": "link"
+  },
+  {
+    "name": "Glassdoor",
+    "url": "https://www.glassdoor.com/",
+    "tags": [],
+    "short_description": "Website with info about companies and average salaries",
+    "full_description": "Website with info about companies and average salaries",
+    "type": "link"
+  },
+  {
+    "name": "GiveWell",
+    "url": "https://www.givewell.org/",
+    "tags": [
+      "Effective Altruism"
+    ],
+    "short_description": "Organization focused on saving most lives with 1$. Very related to **Effective Altruism**",
+    "full_description": "Organization focused on saving most lives with 1$. Very related to **Effective Altruism**",
+    "type": "link"
+  },
+  {
+    "name": "Gleek.io",
+    "url": "https://www.gleek.io/",
+    "tags": [
+      "UML Diagram"
+    ],
+    "short_description": "Yet another **UML Diagram** creator that is controlled by text",
+    "full_description": "Yet another **UML Diagram** creator that is controlled by text",
+    "type": "link"
+  },
+  {
+    "name": "Google AI post about technologies in Google Maps",
+    "url": "https://blog.research.google/2023/09/world-scale-inverse-reinforcement.html?m=1",
+    "tags": [
+      "Inverse Reinforcement Learning",
+      "Google Maps"
+    ],
+    "short_description": "A nice post about applying **Inverse Reinforcement Learning** and some other technical ideas to **Google Maps**",
+    "full_description": "A nice post about applying **Inverse Reinforcement Learning** and some other technical ideas to **Google Maps**",
+    "type": "link"
+  },
+  {
+    "name": "Google DatasetSearch",
+    "url": "http://datasetsearch.research.google.com/",
+    "tags": [
+      "Machine Learning"
+    ],
+    "short_description": "Tool for exploring **Machine Learning** datasets",
+    "full_description": "Tool for exploring **Machine Learning** datasets",
+    "type": "link"
+  },
+  {
+    "name": "Google Machine Learning Crash Course",
+    "url": "https://developers.google.com/machine-learning/crash-course",
+    "tags": [
+      "Machine Learning",
+      "Google"
+    ],
+    "short_description": "",
+    "full_description": "",
+    "type": "link"
+  },
+  {
+    "name": "Google Tech Dev Guide",
+    "url": "https://techdevguide.withgoogle.com/paths/",
+    "tags": [
+      "Aggregator",
+      "Google"
+    ],
+    "short_description": "**Aggregator** курсов от **Google**",
+    "full_description": "**Aggregator** курсов от **Google**",
+    "type": "link"
+  },
+  {
+    "name": "Graphics FAQs",
+    "url": "http://www.faqs.org/faqs/graphics/",
+    "tags": [
+      "Computer Graphics"
+    ],
+    "short_description": "Some FAQs (notes) about **Computer Graphics**",
+    "full_description": "Some FAQs (notes) about **Computer Graphics**",
+    "type": "link"
+  },
+  {
+    "name": "Graphics and vision well explained",
+    "url": "https://github.com/mwtarnowski/graphics-and-vision-well-explained",
+    "tags": [
+      "Aggregator",
+      "Computer Graphics",
+      "Computer Vision",
+      "Photogrammetry",
+      "Shader"
+    ],
+    "short_description": "**Aggregator** of resources for **Computer Graphics**, **Computer Vision**, **Photogrammetry**, **Shader**s,",
+    "full_description": "**Aggregator** of resources for **Computer Graphics**, **Computer Vision**, **Photogrammetry**, **Shader**s,",
+    "type": "link"
+  },
+  {
+    "name": "H.264 is magic",
+    "url": "https://sidbala.com/h-264-is-magic/",
+    "tags": [],
+    "short_description": "A post about **H.264** that I found informative",
+    "full_description": "A post about **H.264** that I found informative",
+    "type": "link"
+  },
+  {
+    "name": "Github drama",
+    "url": "https://github.com/nikolas/github-drama",
+    "tags": [
+      "Map of Github"
+    ],
+    "short_description": "This is a curated collection of \"dramatic\" **Map of Github** interactions.",
+    "full_description": "This is a curated collection of \"dramatic\" **Map of Github** interactions.",
+    "type": "link"
+  },
+  {
+    "name": "Handwriting synthesis with RNNs",
+    "url": "https://github.com/sjvasquez/handwriting-synthesis",
+    "tags": [
+      "Handwriting Synthesis",
+      "Recursive Neural Network"
+    ],
+    "short_description": "**Handwriting Synthesis** with **Recursive Neural Network**s",
+    "full_description": "**Handwriting Synthesis** with **Recursive Neural Network**s",
+    "type": "tool"
+  },
+  {
+    "name": "Health A to Z",
+    "url": "https://www.nhs.uk/conditions/",
+    "tags": [
+      "Health"
+    ],
+    "short_description": "Basically a wiki of **Health** and general advice",
+    "full_description": "Basically a wiki of **Health** and general advice",
+    "type": "link"
+  },
+  {
+    "name": "How GPU Computing Works",
+    "url": "https://www.youtube.com/watch?v=3l10o0DYJXg",
+    "tags": [
+      "GPU"
+    ],
+    "short_description": "A great talk about **GPU** and how they work",
+    "full_description": "A great talk about **GPU** and how they work",
+    "type": "link"
+  },
+  {
+    "name": "How do you find a good learning rate",
+    "url": "https://sgugger.github.io/how-do-you-find-a-good-learning-rate.html",
+    "tags": [
+      "Learning rate",
+      "Definitions/Deep Learning"
+    ],
+    "short_description": "A post about a sure method for finding the correct **Learning rate** for your **Definitions/Deep Learning** experiments",
+    "full_description": "A post about a sure method for finding the correct **Learning rate** for your **Definitions/Deep Learning** experiments",
+    "type": "link"
+  },
+  {
+    "name": "How to Speak",
+    "url": "https://www.youtube.com/watch?v=Unzc731iCUY",
+    "tags": [],
+    "short_description": "Fantastic talk about presentation / speech skills",
+    "full_description": "Fantastic talk about presentation / speech skills",
+    "type": "link"
+  },
+  {
+    "name": "How to be more successful",
+    "url": "https://80000hours.org/career-guide/how-to-be-successful/",
+    "tags": [
+      "Aggregator"
+    ],
+    "short_description": "Amazing post on how to be more successful, great resource **Aggregator**",
+    "full_description": "Amazing post on how to be more successful, great resource **Aggregator**",
+    "type": "link"
+  },
+  {
+    "name": "How to give a great SIGGRAPH talk",
+    "url": "https://www.lri.fr/~anab/grad/siggraphtalk01.pdf",
+    "tags": [
+      "Talk"
+    ],
+    "short_description": "A small guide with some theory on how to feel less anxious when giving **Talk**s",
+    "full_description": "A small guide with some theory on how to feel less anxious when giving **Talk**s",
+    "type": "link"
+  },
+  {
+    "name": "How to read a paper",
+    "url": "http://ccr.sigcomm.org/online/files/p83-keshavA.pdf",
+    "tags": [
+      "Scientific Paper"
+    ],
+    "short_description": "A document with recommendations on how to read **Scientific Paper**s",
+    "full_description": "A document with recommendations on how to read **Scientific Paper**s",
+    "type": "link"
+  },
+  {
+    "name": "How to remember anything forever-ish",
+    "url": "https://ncase.me/remember/",
+    "tags": [
+      "Flashcards",
+      "Nicky Case"
+    ],
+    "short_description": "Great post about **Flashcards** and how useful they are, by **Nicky Case**",
+    "full_description": "Great post about **Flashcards** and how useful they are, by **Nicky Case**",
+    "type": "link"
+  },
+  {
+    "name": "HuggingFace Accelerate",
+    "url": "https://huggingface.co/docs/accelerate/index",
+    "tags": [
+      "HuggingFace",
+      "pytorch",
+      "Distributed Deep Learning"
+    ],
+    "short_description": "A great library by **HuggingFace** for simplifying **pytorch** training and features that are hard to implement:",
+    "full_description": "A great library by **HuggingFace** for simplifying **pytorch** training and features that are hard to implement:\n- Batch size selection\n- Logging\n- Checkpointing\n- **Distributed Deep Learning**",
+    "type": "link"
+  },
+  {
+    "name": "IMG_001",
+    "url": "https://walzr.com/IMG_0001",
+    "tags": [
+      "Youtube",
+      "scraper",
+      "iPhone"
+    ],
+    "short_description": "Interesting project — **Youtube** **scraper** of videos made from **iPhone**s when some people have enabled the option to \"upload to Youtube automatically\"",
+    "full_description": "Interesting project — **Youtube** **scraper** of videos made from **iPhone**s when some people have enabled the option to \"upload to Youtube automatically\"",
+    "type": "link"
+  },
+  {
+    "name": "Icons8",
+    "url": "https://icons8.com/",
+    "tags": [
+      "Icons"
+    ],
+    "short_description": "**Icons** database",
+    "full_description": "**Icons** database",
+    "type": "link"
+  },
+  {
+    "name": "Illustrated Transformer",
+    "url": "https://jalammar.github.io/illustrated-transformer/",
+    "tags": [
+      "Transformer",
+      "Attention Layer"
+    ],
+    "short_description": "Good introductory post about **Transformer**s and **Attention Layer**s",
+    "full_description": "Good introductory post about **Transformer**s and **Attention Layer**s",
+    "type": "link"
+  },
+  {
+    "name": "Image-compare",
+    "url": "https://image-compare.netlify.app/",
+    "tags": [],
+    "short_description": "Nice website for side-by-side image comparison with zoom",
+    "full_description": "Nice website for side-by-side image comparison with zoom",
+    "type": "link"
+  },
+  {
+    "name": "Increment",
+    "url": "https://increment.com/",
+    "tags": [
+      "Blog",
+      "Stripe",
+      "Programming"
+    ],
+    "short_description": "A **Blog** from the **Stripe** team on **Programming** topics",
+    "full_description": "A **Blog** from the **Stripe** team on **Programming** topics",
+    "type": "link"
+  },
+  {
+    "name": "Immersive Linear Algebra",
+    "url": "http://immersivemath.com/ila/index.html",
+    "tags": [
+      "Linear Algebra"
+    ],
+    "short_description": "Online book on **Linear Algebra** with interactive elements and visualizations",
+    "full_description": "Online book on **Linear Algebra** with interactive elements and visualizations",
+    "type": "link"
+  },
+  {
+    "name": "Inigo Quilez - Animating a Character with Maths",
+    "url": "https://www.youtube.com/watch?v=8--5LwHRhjk",
+    "tags": [
+      "Inigo Quilez blog",
+      "Ray Marching"
+    ],
+    "short_description": "**Inigo Quilez blog**'s author creating a cartoony animated face with just **Ray Marching**",
+    "full_description": "**Inigo Quilez blog**'s author creating a cartoony animated face with just **Ray Marching**",
+    "type": "link"
+  },
+  {
+    "name": "Inigo Quilez - Painting a landscape with Maths",
+    "url": "https://www.youtube.com/watch?v=BFld4EBO2RE",
+    "tags": [
+      "Inigo Quilez blog",
+      "Ray Marching"
+    ],
+    "short_description": "**Inigo Quilez blog**'s author makes a whole landscape with just **Ray Marching**",
+    "full_description": "**Inigo Quilez blog**'s author makes a whole landscape with just **Ray Marching**",
+    "type": "link"
+  },
+  {
+    "name": "Inigo Quilez blog",
+    "url": "https://iquilezles.org/",
+    "tags": [
+      "Blog",
+      "Computer Graphics",
+      "Computer Graphics",
+      "Ray Marching"
+    ],
+    "short_description": "Blog with lots of technical posts on **Computer Graphics** and some great videos with visualizations",
+    "full_description": "Blog with lots of technical posts on **Computer Graphics** and some great videos with visualizations\nLots of stuff on **Ray Marching**",
+    "type": "link"
+  },
+  {
+    "name": "Inkarnate",
+    "url": "https://inkarnate.com/",
+    "tags": [
+      "DnD"
+    ],
+    "short_description": "Tool for map-making for **DnD** game-masters, fantasy authors, etc.",
+    "full_description": "Tool for map-making for **DnD** game-masters, fantasy authors, etc.",
+    "type": "tool"
+  },
+  {
+    "name": "Interactive latency",
+    "url": "https://colin-scott.github.io/personal_website/research/interactive_latency.html",
+    "tags": [],
+    "short_description": "Website that interactively showcases different latencies of hardware (****)",
+    "full_description": "Website that interactively showcases different latencies of hardware (****)",
+    "type": "link"
+  },
+  {
+    "name": "Intro to diffusion models by Lilian Weng",
+    "url": "https://lilianweng.github.io/posts/2021-07-11-diffusion-models/",
+    "tags": [
+      "Image Diffusion",
+      "Langevin Dynamics"
+    ],
+    "short_description": "As an intro to **Image Diffusion** models. Though it doesn't cover the full background behind how exactly **Langevin Dynamics** is relevant here (something I'm trying to figure out) but it's a good enough intro with some math",
+    "full_description": "As an intro to **Image Diffusion** models. Though it doesn't cover the full background behind how exactly **Langevin Dynamics** is relevant here (something I'm trying to figure out) but it's a good enough intro with some math",
+    "type": "link"
+  },
+  {
+    "name": "Intro to spherical harmonics",
+    "url": "https://puye.blog/posts/SH-Introduction-EN/",
+    "tags": [
+      "Spherical Harmonics"
+    ],
+    "short_description": "A good explanation of **Spherical Harmonics**",
+    "full_description": "A good explanation of **Spherical Harmonics**",
+    "type": "link"
+  },
+  {
+    "name": "Introduction to Dear ImGui",
+    "url": "https://blog.conan.io/2019/06/26/An-introduction-to-the-Dear-ImGui-library.html",
+    "tags": [
+      "ImGui"
+    ],
+    "short_description": "A post on using **ImGui**",
+    "full_description": "A post on using **ImGui**",
+    "type": "link"
+  },
+  {
+    "name": "Jendrik Illner posts",
+    "url": "https://www.jendrikillner.com/post/",
+    "tags": [
+      "Computer Graphics"
+    ],
+    "short_description": "Great weekly mailing list of graphics articles, conferences, etc.",
+    "full_description": "Great weekly mailing list of graphics articles, conferences, etc.",
+    "type": "link"
+  },
+  {
+    "name": "Jarvislabs",
+    "url": "https://jarvislabs.ai/",
+    "tags": [
+      "VPS",
+      "GPU"
+    ],
+    "short_description": "**VPS** service for **GPU** rental",
+    "full_description": "**VPS** service for **GPU** rental",
+    "type": "link"
+  },
+  {
+    "name": "Jitter",
+    "url": "https://jitter.video/",
+    "tags": [
+      "Motion Design"
+    ],
+    "short_description": "Online tool for **Motion Design**",
+    "full_description": "Online tool for **Motion Design**",
+    "type": "tool"
+  },
+  {
+    "name": "Kaggle solutions",
+    "url": "https://farid.one/kaggle-solutions/",
+    "tags": [
+      "Aggregator",
+      "Kaggle"
+    ],
+    "short_description": "**Aggregator** решений с **Kaggle** размеченных по проблемам и местам на конкретных соревнованиях",
+    "full_description": "**Aggregator** решений с **Kaggle** размеченных по проблемам и местам на конкретных соревнованиях",
+    "type": "link"
+  },
+  {
+    "name": "Karpathy - a survival guide to a PhD",
+    "url": "https://karpathy.github.io/2016/09/07/phd/",
+    "tags": [
+      "PhD"
+    ],
+    "short_description": "Great post about **PhD** in general",
+    "full_description": "Great post about **PhD** in general",
+    "type": "link"
+  },
+  {
+    "name": "Kill the Newsletter",
+    "url": "https://kill-the-newsletter.com/",
+    "tags": [
+      "RSS"
+    ],
+    "short_description": "Tool to convert newsletters to **RSS** feeds. They provide a dummy mail for the newsletter and an RSS feed link for you to subscribe to.",
+    "full_description": "Tool to convert newsletters to **RSS** feeds. They provide a dummy mail for the newsletter and an RSS feed link for you to subscribe to.",
+    "type": "tool"
+  },
+  {
+    "name": "Job search tools for Israel",
+    "url": "https://docs.google.com/spreadsheets/d/11dZt_elSrsLAlA5teTRL-4bJjbXHPYicusQvuSySpX0/edit?gid=98924068#gid=98924068",
+    "tags": [
+      "Israel"
+    ],
+    "short_description": "For job searching in **Israel**",
+    "full_description": "For job searching in **Israel**",
+    "type": "link"
+  },
+  {
+    "name": "Konfig",
+    "url": "https://konfigthis.com/",
+    "tags": [
+      "OpenAPI"
+    ],
+    "short_description": "Framework for automatic library generation from **OpenAPI** specifications",
+    "full_description": "Framework for automatic library generation from **OpenAPI** specifications\nThe startup itself closed down as written in this post: https://dylanhuang.com/blog/closing-my-startup/",
+    "type": "link"
+  },
+  {
+    "name": "Label Studio",
+    "url": "https://labelstud.io/",
+    "tags": [
+      "Data Annotation"
+    ],
+    "short_description": "Great tool for **Data Annotation**",
+    "full_description": "Great tool for **Data Annotation**",
+    "type": "link"
+  },
+  {
+    "name": "Learn WebGPU",
+    "url": "https://eliemichel.github.io/LearnWebGPU/index.html",
+    "tags": [
+      "WebGPU"
+    ],
+    "short_description": "Apparently a good tutorial for **WebGPU**",
+    "full_description": "Apparently a good tutorial for **WebGPU**",
+    "type": "link"
+  },
+  {
+    "name": "Learn-anything",
+    "url": "https://learn-anything.xyz/",
+    "tags": [
+      "Aggregator"
+    ],
+    "short_description": "**Aggregator** of educational resources",
+    "full_description": "**Aggregator** of educational resources",
+    "type": "link"
+  },
+  {
+    "name": "LearnOpenGL",
+    "url": "https://learnopengl.com/",
+    "tags": [
+      "OpenGL"
+    ],
+    "short_description": "Great resource for learning **OpenGL**",
+    "full_description": "Great resource for learning **OpenGL**",
+    "type": "link"
+  },
+  {
+    "name": "Lettucemeet",
+    "url": "https://lettucemeet.com/",
+    "tags": [],
+    "short_description": "Online tool for finding out times that are suitable for multiple people for a meeting",
+    "full_description": "Online tool for finding out times that are suitable for multiple people for a meeting",
+    "type": "link"
+  },
+  {
+    "name": "Links for Game Developers",
+    "url": "https://trello.com/b/BRHxZpZ9/global-games-industry-guide",
+    "tags": [
+      "GameDev",
+      "Accessibility"
+    ],
+    "short_description": "Many links for game developers: Accelerators, **Accessibility**, incubators, crowdfunding, education, engines, industry events, podcasts, etc.",
+    "full_description": "Many links for game developers: Accelerators, **Accessibility**, incubators, crowdfunding, education, engines, industry events, podcasts, etc.",
+    "type": "link"
+  },
+  {
+    "name": "LLM Visualization",
+    "url": "https://bbycroft.net/llm",
+    "tags": [
+      "Large Language Model",
+      "Visualization"
+    ],
+    "short_description": "Good interactive **Large Language Model** **Visualization**",
+    "full_description": "Good interactive **Large Language Model** **Visualization**",
+    "type": "link"
+  },
+  {
+    "name": "Linux kernel code navigator with proper linking",
+    "url": "https://elixir.bootlin.com/linux/v6.10.3/source",
+    "tags": [
+      "Linux"
+    ],
+    "short_description": "Online **Linux** kernel code navigator",
+    "full_description": "Online **Linux** kernel code navigator",
+    "type": "link"
+  },
+  {
+    "name": "Lorem Picsum",
+    "url": "https://picsum.photos/",
+    "tags": [
+      "Lorem Ipsum"
+    ],
+    "short_description": "**Lorem Ipsum** for photos",
+    "full_description": "**Lorem Ipsum** for photos",
+    "type": "tool"
+  },
+  {
+    "name": "ML Engineering online book",
+    "url": "https://github.com/stas00/ml-engineering/tree/master",
+    "tags": [
+      "Machine Learning",
+      "Definitions/Deep Learning",
+      "Debugging",
+      "SLURM",
+      "Hyperparameter Tuning"
+    ],
+    "short_description": "A good online book with **Machine Learning** insights, mostly about **Definitions/Deep Learning**",
+    "full_description": "A good online book with **Machine Learning** insights, mostly about **Definitions/Deep Learning**\nLots about **Debugging**, **SLURM**, **Hyperparameter Tuning**, etc.",
+    "type": "link"
+  },
+  {
+    "name": "ML Ways",
+    "url": "https://github.com/stas00/ml-ways/tree/master",
+    "tags": [
+      "Definitions/Deep Learning"
+    ],
+    "short_description": "Some notes & links for **Definitions/Deep Learning**",
+    "full_description": "Some notes & links for **Definitions/Deep Learning**",
+    "type": "link"
+  },
+  {
+    "name": "ML for Graphics",
+    "url": "https://airtable.com/shrErY92edbs8JgUQ/tbl1dYTDO3zghBrsz",
+    "tags": [
+      "Machine Learning",
+      "Computer Graphics"
+    ],
+    "short_description": "A list of avaiable **Machine Learning** tools for **Computer Graphics**",
+    "full_description": "A list of avaiable **Machine Learning** tools for **Computer Graphics**",
+    "type": "link"
+  },
+  {
+    "name": "MLcourse.ai",
+    "url": "https://mlcourse.ai/book/index.html",
+    "tags": [
+      "Machine Learning"
+    ],
+    "short_description": "**Machine Learning** course",
+    "full_description": "**Machine Learning** course",
+    "type": "link"
+  },
+  {
+    "name": "MMM Page",
+    "url": "https://build.mmm.page/",
+    "tags": [
+      "Website Builder"
+    ],
+    "short_description": "Extremely simple **Website Builder**",
+    "full_description": "Extremely simple **Website Builder**",
+    "type": "tool"
+  },
+  {
+    "name": "MacOS tips&tricks",
+    "url": "https://saurabhs.org/macos-tips",
+    "tags": [
+      "MacOS"
+    ],
+    "short_description": "Lots of unpopular but good **MacOS** features",
+    "full_description": "Lots of unpopular but good **MacOS** features",
+    "type": "link"
+  },
+  {
+    "name": "Machinations",
+    "url": "https://machinations.io/",
+    "tags": [
+      "GameDev"
+    ],
+    "short_description": "A tool for modeling game economies and verifying that everything works as intended",
+    "full_description": "A tool for modeling game economies and verifying that everything works as intended",
+    "type": "tool"
+  },
+  {
+    "name": "Machine Learning compilation",
+    "url": "https://mlc.ai/",
+    "tags": [
+      "Machine Learning"
+    ],
+    "short_description": "A course on **Machine Learning** compilation",
+    "full_description": "A course on **Machine Learning** compilation",
+    "type": "link"
+  },
+  {
+    "name": "Magnific AI",
+    "url": "https://magnific.ai/",
+    "tags": [
+      "Super-resolution"
+    ],
+    "short_description": "Tool for image **Super-resolution**, enhancement",
+    "full_description": "Tool for image **Super-resolution**, enhancement",
+    "type": "tool"
+  },
+  {
+    "name": "MakeItYourself",
+    "url": "https://makeityourself.org/",
+    "tags": [
+      "DIY"
+    ],
+    "short_description": "Great resource about all kinds of **DIY** projects",
+    "full_description": "Great resource about all kinds of **DIY** projects",
+    "type": "link"
+  },
+  {
+    "name": "Make.com",
+    "url": "https://www.make.com/",
+    "tags": [
+      "No-Code",
+      "Workflow Automation"
+    ],
+    "short_description": "Tool for **Workflow Automation**",
+    "full_description": "Tool for **Workflow Automation**",
+    "type": "tool"
+  },
+  {
+    "name": "Makin' stuff look good",
+    "url": "https://www.youtube.com/channel/UCEklP9iLcpExB8vp_fWQseg/videos",
+    "tags": [
+      "Shader",
+      "Computer Graphics",
+      "Youtube Channel",
+      "Computer Graphics"
+    ],
+    "short_description": "A **Youtube Channel** channel with great educational videos on **Computer Graphics**",
+    "full_description": "A **Youtube Channel** channel with great educational videos on **Computer Graphics**",
+    "type": "link"
+  },
+  {
+    "name": "Making Gaussian Splats smaller",
+    "url": "https://aras-p.info/blog/2023/09/13/Making-Gaussian-Splats-smaller/",
+    "tags": [
+      "3D Gaussian Splatting",
+      "Morton Order"
+    ],
+    "short_description": "Fantastic post about compressing the file size for **3D Gaussian Splatting** scenes, and also optimizing GPU memory.",
+    "full_description": "Fantastic post about compressing the file size for **3D Gaussian Splatting** scenes, and also optimizing GPU memory.\nTalks about comrpession algorithms, **Morton Order**, and other cool ideas",
+    "type": "link"
+  },
+  {
+    "name": "Map of Github",
+    "url": "https://anvaka.github.io/map-of-github",
+    "tags": [
+      "Map",
+      "Github",
+      "Leiden Clustering",
+      "Jaccard Similarity",
+      "Maplibre"
+    ],
+    "short_description": "**Map** of **Github** repositories with semantic connections",
+    "full_description": "**Map** of **Github** repositories with semantic connections\nUses **Leiden Clustering** with **Jaccard Similarity** for clustering\n**Maplibre** for map visualization",
+    "type": "link"
+  },
+  {
+    "name": "Markdown to Medium",
+    "url": "https://markdown-to-medium.surge.sh/",
+    "tags": [
+      "Markdown",
+      "Medium"
+    ],
+    "short_description": "Tool for converting **Markdown** texts to **Medium** texts",
+    "full_description": "Tool for converting **Markdown** texts to **Medium** texts",
+    "type": "link"
+  },
+  {
+    "name": "Mastodon",
+    "url": "https://docs.joinmastodon.org/",
+    "tags": [
+      "Twitter",
+      "Fediverse"
+    ],
+    "short_description": "An alternative to **Twitter** that is based on a Federation system (**Fediverse**) . There is no central controller of the system, there are multiple \"worlds\", and even though they are separate from each other, interaction between them is seamless.",
+    "full_description": "An alternative to **Twitter** that is based on a Federation system (**Fediverse**) . There is no central controller of the system, there are multiple \"worlds\", and even though they are separate from each other, interaction between them is seamless.",
+    "type": "link"
+  },
+  {
+    "name": "Math's pedagogical curse - a lecture by 3B1B",
+    "url": "https://www.youtube.com/watch?v=UOuxo6SA8Uc",
+    "tags": [
+      "Teaching",
+      "Mathematics",
+      "3D Visualization",
+      "3B1B"
+    ],
+    "short_description": "A lecture given by the author of **3B1B** on how hard it is to balance between strict mathematical rigor (pure mathematical notation and derivation) and pedagogical value (how to make it easy to understand for students)",
+    "full_description": "A lecture given by the author of **3B1B** on how hard it is to balance between strict mathematical rigor (pure mathematical notation and derivation) and pedagogical value (how to make it easy to understand for students)",
+    "type": "link"
+  },
+  {
+    "name": "MathAcademy",
+    "url": "https://www.mathacademy.com/",
+    "tags": [
+      "Mathematics",
+      "Machine Learning"
+    ],
+    "short_description": "**Mathematics** educational resource. Seems to use some kind of **Machine Learning** to efficiently propose topics",
+    "full_description": "**Mathematics** educational resource. Seems to use some kind of **Machine Learning** to efficiently propose topics",
+    "type": "link"
+  },
+  {
+    "name": "Mathcha",
+    "url": "https://www.mathcha.io/",
+    "tags": [
+      "LaTeX"
+    ],
+    "short_description": "**LaTeX**, but a more user-friendly online version.",
+    "full_description": "**LaTeX**, but a more user-friendly online version.",
+    "type": "link"
+  },
+  {
+    "name": "Maxime Heckel",
+    "url": "https://blog.maximeheckel.com/",
+    "tags": [
+      "Blog",
+      "Visualization"
+    ],
+    "short_description": "**Blog** about various stuff, with very cool **Visualization**s in most posts",
+    "full_description": "**Blog** about various stuff, with very cool **Visualization**s in most posts",
+    "type": "link"
+  },
+  {
+    "name": "MediaPipe Studio",
+    "url": "https://mediapipe-studio.webapps.google.com/home",
+    "tags": [
+      "Mediapipe"
+    ],
+    "short_description": "Online demos of **Mediapipe** examples",
+    "full_description": "Online demos of **Mediapipe** examples",
+    "type": "link"
+  },
+  {
+    "name": "Mediapipe visualization tool",
+    "url": "https://viz.mediapipe.dev/",
+    "tags": [
+      "Mediapipe"
+    ],
+    "short_description": "Tool for visualizing **Mediapipe** graphs",
+    "full_description": "Tool for visualizing **Mediapipe** graphs",
+    "type": "link"
+  },
+  {
+    "name": "Michael Crum Raymarching",
+    "url": "https://michael-crum.com/raymarching/",
+    "tags": [
+      "Ray Marching",
+      "Visualization"
+    ],
+    "short_description": "Great **Ray Marching** post with interactive **Visualization**",
+    "full_description": "Great **Ray Marching** post with interactive **Visualization**",
+    "type": "link"
+  },
+  {
+    "name": "Midrag.co.il",
+    "url": "https://www.midrag.co.il/",
+    "tags": [
+      "Израиль"
+    ],
+    "short_description": "Service for finding various handy workers in **Израиль**",
+    "full_description": "Service for finding various handy workers in **Израиль**",
+    "type": "link"
+  },
+  {
+    "name": "Mindblowing dissertations",
+    "url": "https://ideophone.org/mindblowing-dissertations/",
+    "tags": [],
+    "short_description": "Post listing 3 interesting dissertations",
+    "full_description": "Post listing 3 interesting dissertations",
+    "type": "link"
+  },
+  {
+    "name": "MiniZinc",
+    "url": "https://www.minizinc.org/",
+    "tags": [
+      "Constraint Modeling Language",
+      "Constraint Solver"
+    ],
+    "short_description": "A **Constraint Modeling Language**. A way of writing constrain problems that is then compiled into a format accepted by many **Constraint Solver**s",
+    "full_description": "A **Constraint Modeling Language**. A way of writing constrain problems that is then compiled into a format accepted by many **Constraint Solver**s",
+    "type": "link"
+  },
+  {
+    "name": "Miro",
+    "url": "https://miro.com/",
+    "tags": [
+      "UML Diagram"
+    ],
+    "short_description": "**UML Diagram** editor",
+    "full_description": "**UML Diagram** editor",
+    "type": "link"
+  },
+  {
+    "name": "MrFreeTools",
+    "url": "https://mrfreetools.com/categories/",
+    "tags": [
+      "Aggregator"
+    ],
+    "short_description": "**Aggregator** бесплатных инструментов",
+    "full_description": "**Aggregator** бесплатных инструментов",
+    "type": "link"
+  },
+  {
+    "name": "Mult.dev",
+    "url": "https://mult.dev/",
+    "tags": [
+      "Travel",
+      "Maps"
+    ],
+    "short_description": "Website for creating **Travel** / **Maps** animations",
+    "full_description": "Website for creating **Travel** / **Maps** animations",
+    "type": "link"
+  },
+  {
+    "name": "NN-SVG NN visualization",
+    "url": "http://alexlenail.me/NN-SVG/index.html",
+    "tags": [
+      "Neural Network Visualization"
+    ],
+    "short_description": "Tool for **Neural Network Visualization**",
+    "full_description": "Tool for **Neural Network Visualization**",
+    "type": "link"
+  },
+  {
+    "name": "Mutable.AI",
+    "url": "https://mutable.ai/",
+    "tags": [
+      "Documentation",
+      "LLM"
+    ],
+    "short_description": "Auto-generation of **Documentation** for codebases using **LLM**s",
+    "full_description": "Auto-generation of **Documentation** for codebases using **LLM**s",
+    "type": "tool"
+  },
+  {
+    "name": "NVidia DALI",
+    "url": "https://docs.nvidia.com/deeplearning/dali/user-guide/docs/index.html",
+    "tags": [
+      "NVidia",
+      "Augmentations",
+      "Data Loading",
+      "Data Pre-processing",
+      "Definitions/Deep Learning"
+    ],
+    "short_description": "**NVidia** library for efficient **Augmentations**, **Data Loading**, **Data Pre-processing** for **Definitions/Deep Learning**",
+    "full_description": "**NVidia** library for efficient **Augmentations**, **Data Loading**, **Data Pre-processing** for **Definitions/Deep Learning**",
+    "type": "link"
+  },
+  {
+    "name": "Nand to Tetris",
+    "url": "https://www.nand2tetris.org/",
+    "tags": [
+      "Computer Architecture"
+    ],
+    "short_description": "A course on **Computer Architecture** from scratch",
+    "full_description": "A course on **Computer Architecture** from scratch",
+    "type": "link"
+  },
+  {
+    "name": "Ngrok",
+    "url": "https://ngrok.com/",
+    "tags": [],
+    "short_description": "> ngrok is a simplified API-first ingress-as-a-service that adds connectivity",
+    "full_description": "> ngrok is a simplified API-first ingress-as-a-service that adds connectivity\n\nIt's most notorious use is **putting localhost on the internet**",
+    "type": "tool"
+  },
+  {
+    "name": "Nicky Case",
+    "url": "https://ncase.me/",
+    "tags": [
+      "Blog"
+    ],
+    "short_description": "Cool **Blog**",
+    "full_description": "Cool **Blog**",
+    "type": "link"
+  },
+  {
+    "name": "Nix",
+    "url": "https://nixos.org/",
+    "tags": [
+      "Package Manager"
+    ],
+    "short_description": "Functional language & **Package Manager**",
+    "full_description": "Functional language & **Package Manager**",
+    "type": "link"
+  },
+  {
+    "name": "Nokia Design Archive",
+    "url": "https://nokiadesignarchive.aalto.fi/",
+    "tags": [
+      "Nokia",
+      "Design",
+      "Visualization"
+    ],
+    "short_description": "**Nokia** **Design** archive, a cool **Visualization** website",
+    "full_description": "**Nokia** **Design** archive, a cool **Visualization** website",
+    "type": "link"
+  },
+  {
+    "name": "Numbeo - cost of living",
+    "url": "https://www.numbeo.com/cost-of-living/",
+    "tags": [],
+    "short_description": "Tool for analyzing the cost of living in various cities",
+    "full_description": "Tool for analyzing the cost of living in various cities",
+    "type": "link"
+  },
+  {
+    "name": "Ohshitgit",
+    "url": "https://ohshitgit.com/",
+    "tags": [
+      "Git"
+    ],
+    "short_description": "Some examples of how to solve common **Git** issues",
+    "full_description": "Some examples of how to solve common **Git** issues",
+    "type": "link"
+  },
+  {
+    "name": "OldMapsOnline",
+    "url": "https://www.oldmapsonline.org/en/history/regions",
+    "tags": [
+      "historical",
+      "Maps"
+    ],
+    "short_description": "Nice website with **historical** **Maps**",
+    "full_description": "Nice website with **historical** **Maps**",
+    "type": "link"
+  },
+  {
+    "name": "On Crafting Painterly Shaders",
+    "url": "https://blog.maximeheckel.com/posts/on-crafting-painterly-shaders/",
+    "tags": [
+      "Maxime Heckel",
+      "Shader",
+      "Interactive",
+      "Kuwahara Filter"
+    ],
+    "short_description": "Post from **Maxime Heckel** about making **Shader**s with cool painter'y effects (very **Interactive**)",
+    "full_description": "Post from **Maxime Heckel** about making **Shader**s with cool painter'y effects (very **Interactive**)\nMentions:\n- **Kuwahara Filter**",
+    "type": "link"
+  },
+  {
+    "name": "Online museum of real-life graphics artifacts",
+    "url": "https://www.realtimerendering.com/realartifacts/",
+    "tags": [
+      "Computer Graphics"
+    ],
+    "short_description": "A fun list of real-life photos that seem like typical errors in **Computer Graphics**",
+    "full_description": "A fun list of real-life photos that seem like typical errors in **Computer Graphics**",
+    "type": "link"
+  },
+  {
+    "name": "OpenAI Triton",
+    "url": "https://openai.com/research/triton",
+    "tags": [
+      "JIT",
+      "OpenAI"
+    ],
+    "short_description": "**JIT** compiler from **OpenAI** with an API which is simpler to work with when implementing more complex batched operations",
+    "full_description": "**JIT** compiler from **OpenAI** with an API which is simpler to work with when implementing more complex batched operations",
+    "type": "link"
+  },
+  {
+    "name": "OpenAlternative",
+    "url": "https://openalternative.co/",
+    "tags": [
+      "Open-Source"
+    ],
+    "short_description": "Database of **Open-Source** alternatives to paid SaaS",
+    "full_description": "Database of **Open-Source** alternatives to paid SaaS",
+    "type": "link"
+  },
+  {
+    "name": "OpenHands",
+    "url": "https://github.com/All-Hands-AI/OpenHands",
+    "tags": [
+      "AI Assistant"
+    ],
+    "short_description": "Yet another platform with an **AI Assistant** for coding",
+    "full_description": "Yet another platform with an **AI Assistant** for coding",
+    "type": "link"
+  },
+  {
+    "name": "OpenLRM",
+    "url": "https://github.com/3DTopia/OpenLRM",
+    "tags": [
+      "LRM"
+    ],
+    "short_description": "Open source implementation of **LRM**",
+    "full_description": "Open source implementation of **LRM**",
+    "type": "link"
+  },
+  {
+    "name": "OpenReview",
+    "url": "https://openreview.net/",
+    "tags": [],
+    "short_description": "Tool for exploring peer-reviews of scientific papers",
+    "full_description": "Tool for exploring peer-reviews of scientific papers",
+    "type": "link"
+  },
+  {
+    "name": "OpenStreetMap",
+    "url": "https://wiki.openstreetmap.org/wiki/Main_Page",
+    "tags": [
+      "Open-Source"
+    ],
+    "short_description": "**Open-Source** free wiki world map",
+    "full_description": "**Open-Source** free wiki world map",
+    "type": "link"
+  },
+  {
+    "name": "Painting with Math - A Gentle Study of Raymarching",
+    "url": "https://blog.maximeheckel.com/posts/painting-with-math-a-gentle-study-of-raymarching/",
+    "tags": [
+      "Ray Marching",
+      "Javascript"
+    ],
+    "short_description": "A nice blog-post about **Ray Marching** with visualization, and some **Javascript** code",
+    "full_description": "A nice blog-post about **Ray Marching** with visualization, and some **Javascript** code",
+    "type": "link"
+  },
+  {
+    "name": "Parki ar minda",
+    "url": "https://t.me/parkiarminda",
+    "tags": [
+      "Recycling",
+      "Тбилиси"
+    ],
+    "short_description": "В **Тбилиси** зародился проект по переработке сырья (стекло, пластик, бумага, т.п.)",
+    "full_description": "В **Тбилиси** зародился проект по переработке сырья (стекло, пластик, бумага, т.п.)\n\nУ них очень понятно расписанная страничка про то, куда всё сырье идёт: https://eco-taxi.ge/where-it-all-goes/",
+    "type": "link"
+  },
+  {
+    "name": "Parts of a window",
+    "url": "https://www.marvin.com/blog/parts-of-a-window",
+    "tags": [],
+    "short_description": "About parts of a window",
+    "full_description": "About parts of a window",
+    "type": "link"
+  },
+  {
+    "name": "Physical activity guidelines for adults aged 19 to 64",
+    "url": "https://www.nhs.uk/live-well/exercise/physical-activity-guidelines-for-adults-aged-19-to-64/",
+    "tags": [
+      "Health",
+      "Exercise"
+    ],
+    "short_description": "**Health** + **Exercise** concise guidelines",
+    "full_description": "**Health** + **Exercise** concise guidelines",
+    "type": "link"
+  },
+  {
+    "name": "Peerplay",
+    "url": "https://www.youtube.com/c/PeerPlay/videos",
+    "tags": [
+      "Youtube Channel",
+      "Audio visualization",
+      "Computer Graphics",
+      "Unity"
+    ],
+    "short_description": "**Youtube Channel** channel with great videos on **Audio visualization**, **Computer Graphics**, **Unity**",
+    "full_description": "**Youtube Channel** channel with great videos on **Audio visualization**, **Computer Graphics**, **Unity**",
+    "type": "link"
+  },
+  {
+    "name": "Physically Based Rendering Theory",
+    "url": "https://learnopengl.com/PBR/Theory",
+    "tags": [
+      "Computer Graphics",
+      "Physically Based Rendering"
+    ],
+    "short_description": "A long introduction into **Physically Based Rendering**",
+    "full_description": "A long introduction into **Physically Based Rendering**",
+    "type": "link"
+  },
+  {
+    "name": "Pitvi",
+    "url": "https://www.pitivi.org/",
+    "tags": [
+      "Video Editor"
+    ],
+    "short_description": "Free **Video Editor**",
+    "full_description": "Free **Video Editor**",
+    "type": "link"
+  },
+  {
+    "name": "Pixiv Visions",
+    "url": "https://www.pixiv.net/special/visions2025",
+    "tags": [
+      "Art"
+    ],
+    "short_description": "Amazing **Art** collection",
+    "full_description": "Amazing **Art** collection\n- https://www.pixiv.net/special/visions2025/\n- https://www.pixiv.net/special/visions2024/\n- https://www.pixiv.net/special/visions2023/\n- https://www.pixiv.net/special/visions2022/\n- and so on",
+    "type": "link"
+  },
+  {
+    "name": "Pixoner",
+    "url": "https://www.pixoner.com/",
+    "tags": [
+      "Photography",
+      "Computer Vision"
+    ],
+    "short_description": "Service for **Photography** at scale: gathering photos from events and categorizing them, using **Computer Vision** to detect people",
+    "full_description": "Service for **Photography** at scale: gathering photos from events and categorizing them, using **Computer Vision** to detect people",
+    "type": "link"
+  },
+  {
+    "name": "PlayCanvas Supersplat",
+    "url": "https://playcanvas.com/supersplat/editor",
+    "tags": [
+      "3D Gaussian Splatting"
+    ],
+    "short_description": "**3D Gaussian Splatting** scene viewer / editor",
+    "full_description": "**3D Gaussian Splatting** scene viewer / editor",
+    "type": "link"
+  },
+  {
+    "name": "PlotSet",
+    "url": "https://plotset.com/",
+    "tags": [
+      "Data Visualization"
+    ],
+    "short_description": "**Data Visualization** platform",
+    "full_description": "**Data Visualization** platform",
+    "type": "link"
+  },
+  {
+    "name": "Precious Plastic",
+    "url": "https://preciousplastic.com/",
+    "tags": [
+      "Recycling"
+    ],
+    "short_description": "A company specializing in making anything from small functional objects to sofas/chairs from processed plastic",
+    "full_description": "A company specializing in making anything from small functional objects to sofas/chairs from processed plastic",
+    "type": "link"
+  },
+  {
+    "name": "Raindrop.io",
+    "url": "https://raindrop.io/",
+    "tags": [],
+    "short_description": "Bookmark manager",
+    "full_description": "Bookmark manager",
+    "type": "tool"
+  },
+  {
+    "name": "Ray Tracing Resources Page",
+    "url": "https://www.realtimerendering.com/intersections.html",
+    "tags": [
+      "Ray Tracing",
+      "Object Intersection"
+    ],
+    "short_description": "Collection of resources for **Ray Tracing**, **Object Intersection**",
+    "full_description": "Collection of resources for **Ray Tracing**, **Object Intersection**",
+    "type": "link"
+  },
+  {
+    "name": "Reach Hebrew Fluency - Piece of Hebrew",
+    "url": "https://drive.google.com/file/d/1EGvnijnd-NHgANJHgjybj83hR9w2KB3d/view",
+    "tags": [
+      "Aggregator",
+      "Hebrew",
+      "Language Learning",
+      "Piece of Hebrew"
+    ],
+    "short_description": "**Aggregator** of resources for **Hebrew** **Language Learning** by **Piece of Hebrew**",
+    "full_description": "**Aggregator** of resources for **Hebrew** **Language Learning** by **Piece of Hebrew**",
+    "type": "link"
+  },
+  {
+    "name": "Real-time Physics Simulation Forum",
+    "url": "https://pybullet.org/Bullet/phpBB3/",
+    "tags": [
+      "Physics Simulation"
+    ],
+    "short_description": "A forum on **Physics Simulation**",
+    "full_description": "A forum on **Physics Simulation**",
+    "type": "link"
+  },
+  {
+    "name": "Real-time Rendering - Collision Detection",
+    "url": "https://www.realtimerendering.com/Real-Time_Rendering_4th-Collision_Detection.pdf",
+    "tags": [
+      "Collision Detection",
+      "Realtime Rendering Book"
+    ],
+    "short_description": "**Collision Detection** chapted of the book **Realtime Rendering Book** published online",
+    "full_description": "**Collision Detection** chapted of the book **Realtime Rendering Book** published online",
+    "type": "link"
+  },
+  {
+    "name": "Realistic human rendering in Nvidia Omniverse",
+    "url": "https://www.nvidia.com/en-us/on-demand/session/siggraph2021-sigg21-s-09/",
+    "tags": [
+      "Computer Graphics",
+      "NVidia",
+      "NVidia Omniverse",
+      "Facial Reconstruction",
+      "Demosaicing",
+      "Aliasing Minimization and Zipper Elimination"
+    ],
+    "short_description": "Talk from **NVidia** covering realistic human rendering in **NVidia Omniverse**",
+    "full_description": "Talk from **NVidia** covering realistic human rendering in **NVidia Omniverse**\n\n# **Facial Reconstruction**\nThey talk in-depth about scanning a single model and doing everything in their power to make a 3D reconstruction and reailstic renders of that virtual human.\n## Data acquisition\n20 views, with different, 8 of them with polarized illuminations, others with constant\nCaptures of 60 expressions\nIn the end, 8400 photos, 180Gb of data\n\n## Raw sensor data processing\n### Demosaicing\n!**Pasted image 20230307114001.png**\nCameras capture images with sensors, each capturing the strength of a single color. Then, a filter is used to process these raw sensor outputs. That process is called **Demosaicing**. This team improved the **Aliasing Minimization and Zipper Elimination** algorithm.\n### Radiometric calibration\n!**Pasted image 20230307114512.png**\nAngle-dependent sensitivity of light, lens specifics, etc. can contribute to pixel position-dependent varying colors.",
+    "type": "link"
+  },
+  {
+    "name": "Realtime Rendering Book",
+    "url": "https://www.realtimerendering.com/",
+    "tags": [
+      "Computer Graphics",
+      "Aggregator",
+      "Computer Graphics"
+    ],
+    "short_description": "Great book and **Aggregator** of resources related to the topic of **Computer Graphics**",
+    "full_description": "Great book and **Aggregator** of resources related to the topic of **Computer Graphics**",
+    "type": "link"
+  },
+  {
+    "name": "Recycleaf",
+    "url": "https://www.instagram.com/recycleaf.ge",
+    "tags": [
+      "Recycling"
+    ],
+    "short_description": "A company based in Batumi that specializes in recycling processed plastic/paper",
+    "full_description": "A company based in Batumi that specializes in recycling processed plastic/paper",
+    "type": "link"
+  },
+  {
+    "name": "Reddit post with links to NN visualization tools",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/l1z8cr/d_best_way_to_draw_neural_network_diagrams",
+    "tags": [
+      "Neural Network Visualization"
+    ],
+    "short_description": "Aggregator of links to **Neural Network Visualization** tools",
+    "full_description": "Aggregator of links to **Neural Network Visualization** tools",
+    "type": "link"
+  },
+  {
+    "name": "RefactoringUI",
+    "url": "https://www.refactoringui.com/",
+    "tags": [
+      "Web Design"
+    ],
+    "short_description": "Online **Web Design** book",
+    "full_description": "Online **Web Design** book",
+    "type": "link"
+  },
+  {
+    "name": "Reference.pictures",
+    "url": "https://reference.pictures/free/",
+    "tags": [
+      "Reference Pictures"
+    ],
+    "short_description": "A database of reference pictures for artists",
+    "full_description": "A database of reference pictures for artists",
+    "type": "link"
+  },
+  {
+    "name": "Resistor explainer",
+    "url": "https://www.youtube.com/watch?v=DYcLFHgVCn0",
+    "tags": [
+      "Resistor"
+    ],
+    "short_description": "Explains **Resistor**s",
+    "full_description": "Explains **Resistor**s",
+    "type": "link"
+  },
+  {
+    "name": "Roboflow-Annotate",
+    "url": "https://roboflow.com/annotate",
+    "tags": [
+      "Data Annotation"
+    ],
+    "short_description": "**Data Annotation** thing",
+    "full_description": "**Data Annotation** thing",
+    "type": "tool"
+  },
+  {
+    "name": "Rome2Rio",
+    "url": "https://www.rome2rio.com/",
+    "tags": [
+      "Travel"
+    ],
+    "short_description": "Service for getting train/bus/plane paths from anywhere to anywhere for trip planning",
+    "full_description": "Service for getting train/bus/plane paths from anywhere to anywhere for trip planning",
+    "type": "link"
+  },
+  {
+    "name": "Rotary embeddings - a relative revolution",
+    "url": "https://blog.eleuther.ai/rotary-embeddings/",
+    "tags": [
+      "RoPE"
+    ],
+    "short_description": "Good article on **RoPE**",
+    "full_description": "Good article on **RoPE**",
+    "type": "link"
+  },
+  {
+    "name": "Rules of Machine Learning from Google",
+    "url": "https://developers.google.com/machine-learning/guides/rules-of-ml",
+    "tags": [
+      "Machine Learning",
+      "Google"
+    ],
+    "short_description": "Great post about general **Machine Learning** for-production advice from **Google**",
+    "full_description": "Great post about general **Machine Learning** for-production advice from **Google**",
+    "type": "link"
+  },
+  {
+    "name": "RunPod",
+    "url": "https://www.runpod.io/",
+    "tags": [
+      "GPU",
+      "VPS"
+    ],
+    "short_description": "Yet another **GPU** **VPS**, seems cheap",
+    "full_description": "Yet another **GPU** **VPS**, seems cheap",
+    "type": "link"
+  },
+  {
+    "name": "SQLPage",
+    "url": "https://github.com/lovasoa/SQLPage",
+    "tags": [
+      "HTML",
+      "SQL"
+    ],
+    "short_description": "Framework for building **HTML** components directly from **SQL** queries",
+    "full_description": "Framework for building **HTML** components directly from **SQL** queries",
+    "type": "link"
+  },
+  {
+    "name": "SankeyMATIC",
+    "url": "https://sankeymatic.com/",
+    "tags": [
+      "Flow Diagram"
+    ],
+    "short_description": "Tool for making beautiful **Flow Diagram**s",
+    "full_description": "Tool for making beautiful **Flow Diagram**s\n!**Pasted image 20230321151930.png**",
+    "type": "tool"
+  },
+  {
+    "name": "Scratchapixel",
+    "url": "https://www.scratchapixel.com/",
+    "tags": [
+      "Computer Graphics"
+    ],
+    "short_description": "Online intro into **Computer Graphics**",
+    "full_description": "Online intro into **Computer Graphics**",
+    "type": "link"
+  },
+  {
+    "name": "Scu-hub",
+    "url": "https://sci-hub.se/",
+    "tags": [],
+    "short_description": "Online library of scientific articles",
+    "full_description": "Online library of scientific articles",
+    "type": "link"
+  },
+  {
+    "name": "Sebastian Lague - Ray Marching",
+    "url": "https://www.youtube.com/watch?v=Cp5WWtMoeKg",
+    "tags": [
+      "Sebastian Lague",
+      "Ray Marching"
+    ],
+    "short_description": "**Sebastian Lague**'s video on **Ray Marching**",
+    "full_description": "**Sebastian Lague**'s video on **Ray Marching**",
+    "type": "link"
+  },
+  {
+    "name": "Sebasian Lague - Ray Tracing",
+    "url": "https://www.youtube.com/watch?v=Qz0KTGYJtUk",
+    "tags": [
+      "Sebastian Lague",
+      "Ray Tracing"
+    ],
+    "short_description": "**Sebastian Lague**'s video on **Ray Tracing**",
+    "full_description": "**Sebastian Lague**'s video on **Ray Tracing**",
+    "type": "link"
+  },
+  {
+    "name": "Sebastian Lague's video on Cloud Rendering",
+    "url": "https://www.youtube.com/watch?v=4QOcCGI6xOU",
+    "tags": [
+      "Sebastian Lague",
+      "Cloud Rendering"
+    ],
+    "short_description": "**Sebastian Lague**'s video on **Cloud Rendering**",
+    "full_description": "**Sebastian Lague**'s video on **Cloud Rendering**",
+    "type": "link"
+  },
+  {
+    "name": "Sebastian Lague",
+    "url": "https://www.youtube.com/c/SebastianLague",
+    "tags": [
+      "Youtube Channel",
+      "Computer Graphics",
+      "Machine Learning",
+      "GameDev",
+      "Unity",
+      "Procedural generation"
+    ],
+    "short_description": "Yet another **Youtube Channel** educational channel on **Computer Graphics**, **Machine Learning**, **GameDev**, **Unity**, **Procedural generation**",
+    "full_description": "Yet another **Youtube Channel** educational channel on **Computer Graphics**, **Machine Learning**, **GameDev**, **Unity**, **Procedural generation**",
+    "type": "link"
+  },
+  {
+    "name": "Scratchapixel - Rasterization",
+    "url": "https://www.scratchapixel.com/lessons/3d-basic-rendering/rasterization-practical-implementation/overview-rasterization-algorithm.html",
+    "tags": [
+      "Scratchapixel",
+      "Rasterization"
+    ],
+    "short_description": "Series of articles on **Scratchapixel** on **Rasterization**",
+    "full_description": "Series of articles on **Scratchapixel** on **Rasterization**",
+    "type": "link"
+  },
+  {
+    "name": "Series from 3B1B on Neural Networks",
+    "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi",
+    "tags": [
+      "3B1B",
+      "Neural Network"
+    ],
+    "short_description": "Series from **3B1B** on **Neural Network**s",
+    "full_description": "Series from **3B1B** on **Neural Network**s",
+    "type": "link"
+  },
+  {
+    "name": "Shader-school",
+    "url": "https://github.com/stackgl/shader-school",
+    "tags": [
+      "GLSL",
+      "Computer Graphics"
+    ],
+    "short_description": "Interactive locally-hosted course to learn **GLSL** and **Computer Graphics**",
+    "full_description": "Interactive locally-hosted course to learn **GLSL** and **Computer Graphics**",
+    "type": "link"
+  },
+  {
+    "name": "Shotdeck",
+    "url": "https://shotdeck.com/welcome/home",
+    "tags": [],
+    "short_description": "Database of movie shots annotated with genre, actors, theme, movie, etc.",
+    "full_description": "Database of movie shots annotated with genre, actors, theme, movie, etc.",
+    "type": "link"
+  },
+  {
+    "name": "Skincare for dummies thread",
+    "url": "https://x.com/lydiakauppi/status/18628979302076252642",
+    "tags": [
+      "Skincare"
+    ],
+    "short_description": "**Skincare** thread",
+    "full_description": "**Skincare** thread",
+    "type": "link"
+  },
+  {
+    "name": "Splitwise",
+    "url": "https://www.splitwise.com/",
+    "tags": [
+      "Travel",
+      "Finance"
+    ],
+    "short_description": "App for easily splitting bills between friends (over multiple paying occasions) when traveling",
+    "full_description": "App for easily splitting bills between friends (over multiple paying occasions) when traveling",
+    "type": "link"
+  },
+  {
+    "name": "SqlNoir",
+    "url": "https://www.sqlnoir.com/",
+    "tags": [
+      "Game",
+      "SQL"
+    ],
+    "short_description": "Actual **Game** where you solve cases using **SQL**",
+    "full_description": "Actual **Game** where you solve cases using **SQL**",
+    "type": "link"
+  },
+  {
+    "name": "State of the art in rendering",
+    "url": "https://interplayoflight.wordpress.com/2018/09/30/readings-on-the-state-of-the-art-in-rendering/",
+    "tags": [
+      "Computer Graphics"
+    ],
+    "short_description": "A list of resources on current state-of-the-art in rendering",
+    "full_description": "A list of resources on current state-of-the-art in rendering",
+    "type": "link"
+  },
+  {
+    "name": "Stealingurfeelin",
+    "url": "https://stealingurfeelin.gs/",
+    "tags": [
+      "Privacy",
+      "Facial Tracking"
+    ],
+    "short_description": "Interactive documentary about **Privacy**, using **Facial Tracking** and other algorithms to deduce info about the user",
+    "full_description": "Interactive documentary about **Privacy**, using **Facial Tracking** and other algorithms to deduce info about the user\nSource: https://github.com/noahlevenson/stealing-ur-feelings",
+    "type": "link"
+  },
+  {
+    "name": "Stepwise nature of Self-Supervised learning",
+    "url": "https://imbue.com/research/ssl_stepwise/",
+    "tags": [
+      "Self-Supervised Training"
+    ],
+    "short_description": "The steps in **Self-Supervised Training**",
+    "full_description": "The steps in **Self-Supervised Training**",
+    "type": "link"
+  },
+  {
+    "name": "StirlingPDF",
+    "url": "https://github.com/Frooodle/Stirling-PDF",
+    "tags": [
+      "PDF Editor"
+    ],
+    "short_description": "Locally-hosted **PDF Editor**",
+    "full_description": "Locally-hosted **PDF Editor**",
+    "type": "link"
+  },
+  {
+    "name": "Strapi",
+    "url": "https://github.com/strapi/strapi",
+    "tags": [
+      "Open-Source",
+      "CMS"
+    ],
+    "short_description": "**Open-Source** **CMS**",
+    "full_description": "**Open-Source** **CMS**",
+    "type": "link"
+  },
+  {
+    "name": "Streamio",
+    "url": "https://www.stremio.com/",
+    "tags": [
+      "Artem Belyakov",
+      "Torrent"
+    ],
+    "short_description": "Movie / show streaming app (which as **Artem Belyakov** said has support for **Torrent** streaming)",
+    "full_description": "Movie / show streaming app (which as **Artem Belyakov** said has support for **Torrent** streaming)",
+    "type": "tool"
+  },
+  {
+    "name": "Stripe Press",
+    "url": "https://press.stripe.com/",
+    "tags": [
+      "Stripe",
+      "WebGL"
+    ],
+    "short_description": "Website showcasing some **Stripe**'s recommendations of books to read. Insane **WebGL** example (great visuals of the books themselves, + the live covers of the first two)",
+    "full_description": "Website showcasing some **Stripe**'s recommendations of books to read. Insane **WebGL** example (great visuals of the books themselves, + the live covers of the first two)",
+    "type": "link"
+  },
+  {
+    "name": "Structured outputs in LLMs",
+    "url": "https://www.leewayhertz.com/structured-outputs-in-llms/",
+    "tags": [
+      "Large Language Model"
+    ],
+    "short_description": "How to enforce structured outputs in **Large Language Model**s — basically just by limiting the space of the next token",
+    "full_description": "How to enforce structured outputs in **Large Language Model**s — basically just by limiting the space of the next token",
+    "type": "link"
+  },
+  {
+    "name": "Stuffin.space",
+    "url": "https://stuffin.space/",
+    "tags": [],
+    "short_description": "Very cool satellite viewer",
+    "full_description": "Very cool satellite viewer",
+    "type": "link"
+  },
+  {
+    "name": "SuperAnnotate",
+    "url": "https://www.superannotate.com/",
+    "tags": [
+      "Data Annotation"
+    ],
+    "short_description": "**Data Annotation** platform",
+    "full_description": "**Data Annotation** platform",
+    "type": "tool"
+  },
+  {
+    "name": "Teardown Teardown",
+    "url": "https://juandiegomontoya.github.io/teardown_breakdown.html",
+    "tags": [
+      "Computer Graphics",
+      "GameDev"
+    ],
+    "short_description": "Deep dive into the graphics pipeline of the game Teardown",
+    "full_description": "Deep dive into the graphics pipeline of the game Teardown",
+    "type": "link"
+  },
+  {
+    "name": "TLA+",
+    "url": "https://lamport.azurewebsites.net/tla/tla.html",
+    "tags": [
+      "Formal Verification"
+    ],
+    "short_description": "A language for modeling software for eventual **Formal Verification** of particular properties of a program. Very useful specifically for checking the safety of a distributed system.",
+    "full_description": "A language for modeling software for eventual **Formal Verification** of particular properties of a program. Very useful specifically for checking the safety of a distributed system.",
+    "type": "link"
+  },
+  {
+    "name": "Tensorflow Learn ML",
+    "url": "https://www.tensorflow.org/resources/learn-ml",
+    "tags": [
+      "tensorflow",
+      "Machine Learning"
+    ],
+    "short_description": "Course aggregator from **tensorflow** on **Machine Learning**",
+    "full_description": "Course aggregator from **tensorflow** on **Machine Learning**",
+    "type": "link"
+  },
+  {
+    "name": "Tensorflow tutorials",
+    "url": "https://www.tensorflow.org/tutorials",
+    "tags": [
+      "Machine Learning",
+      "tensorflow"
+    ],
+    "short_description": "**Machine Learning** tutorials from **tensorflow**",
+    "full_description": "**Machine Learning** tutorials from **tensorflow**",
+    "type": "link"
+  },
+  {
+    "name": "The Best Programmers I Know",
+    "url": "https://endler.dev/2025/best-programmers/",
+    "tags": [
+      "programmers"
+    ],
+    "short_description": "Posts about what makes the best **programmers** from **endler.dev**",
+    "full_description": "Posts about what makes the best **programmers** from **endler.dev**",
+    "type": "link"
+  },
+  {
+    "name": "The art of  High Performance Computing",
+    "url": "https://theartofhpc.com/",
+    "tags": [
+      "High Performance Computing"
+    ],
+    "short_description": "Intro course to **High Performance Computing**",
+    "full_description": "Intro course to **High Performance Computing**",
+    "type": "link"
+  },
+  {
+    "name": "The book of shaders",
+    "url": "https://thebookofshaders.com/",
+    "tags": [
+      "Computer Graphics",
+      "Shader"
+    ],
+    "short_description": "Introduction into **Shader**s",
+    "full_description": "Introduction into **Shader**s",
+    "type": "link"
+  },
+  {
+    "name": "The creative code page",
+    "url": "https://www.notion.so/That-Creative-Code-Page-c5550ef2f7574126bdc77b09ed76651b",
+    "tags": [
+      "Computer Graphics"
+    ],
+    "short_description": "An aggregator of creative coding techniques / algorithms",
+    "full_description": "An aggregator of creative coding techniques / algorithms",
+    "type": "link"
+  },
+  {
+    "name": "The little book of Deep Learning",
+    "url": "https://fleuret.org/francois/lbdl.html",
+    "tags": [
+      "Deep Learning"
+    ],
+    "short_description": "Yet another book intro to **Deep Learning**",
+    "full_description": "Yet another book intro to **Deep Learning**",
+    "type": "link"
+  },
+  {
+    "name": "This is how to make friends as an adult",
+    "url": "https://bakadesuyo.com/2017/02/how-to-make-friends-as-an-adult/",
+    "tags": [
+      "friends"
+    ],
+    "short_description": "Post about how to preserve / make **friends**",
+    "full_description": "Post about how to preserve / make **friends**",
+    "type": "link"
+  },
+  {
+    "name": "Three.js Tutorials",
+    "url": "https://threejs.org/manual/",
+    "tags": [
+      "Computer Graphics"
+    ],
+    "short_description": "Tutorials from **Three.js** on **Computer Graphics** basics",
+    "full_description": "Tutorials from **Three.js** on **Computer Graphics** basics",
+    "type": "link"
+  },
+  {
+    "name": "Three.js",
+    "url": "https://threejs.org/",
+    "tags": [
+      "WebGL",
+      "Computer Graphics"
+    ],
+    "short_description": "Wrapper for **WebGL** for **Computer Graphics** in the browser. Main page has a huge collection of examples of its use",
+    "full_description": "Wrapper for **WebGL** for **Computer Graphics** in the browser. Main page has a huge collection of examples of its use",
+    "type": "link"
+  },
+  {
+    "name": "ThreeJS Facial Tracking",
+    "url": "https://threejs.org/examples/?q=cam#webgl_morphtargets_webcam",
+    "tags": [
+      "Facial Tracking",
+      "Face Cap"
+    ],
+    "short_description": "**Facial Tracking** from within **Three.js** using **Face Cap**",
+    "full_description": "**Facial Tracking** from within **Three.js** using **Face Cap**",
+    "type": "link"
+  },
+  {
+    "name": "Top-Rated",
+    "url": "https://www.top-rated.online/",
+    "tags": [
+      "Google Maps",
+      "Travel"
+    ],
+    "short_description": "Good website for checking high-rated places on **Google Maps**. For **Travel**",
+    "full_description": "Good website for checking high-rated places on **Google Maps**. For **Travel**",
+    "type": "link"
+  },
+  {
+    "name": "Tuning Playbook",
+    "url": "https://github.com/google-research/tuning_playbook",
+    "tags": [
+      "Google Research",
+      "Definitions/Deep Learning"
+    ],
+    "short_description": "Guide by **Google Research** how to maximize the performance of **Definitions/Deep Learning** models",
+    "full_description": "Guide by **Google Research** how to maximize the performance of **Definitions/Deep Learning** models",
+    "type": "link"
+  },
+  {
+    "name": "Unity Photogrammetry Workflow",
+    "url": "https://unity3d.com/files/solutions/photogrammetry/Unity-Photogrammetry-Workflow_2017-07_v2.pdf",
+    "tags": [
+      "Unity",
+      "Photogrammetry"
+    ],
+    "short_description": "Document from **Unity** explaining in detail how to get started with **Photogrammetry**",
+    "full_description": "Document from **Unity** explaining in detail how to get started with **Photogrammetry**",
+    "type": "link"
+  },
+  {
+    "name": "University of threads",
+    "url": "https://universityofthreads.com/",
+    "tags": [
+      "Twitter",
+      "Product Management"
+    ],
+    "short_description": "Collection of **Twitter** threads on **Product Management**",
+    "full_description": "Collection of **Twitter** threads on **Product Management**",
+    "type": "link"
+  },
+  {
+    "name": "Using the iPhone TrueDepth camera as a 3D Scanner",
+    "url": "https://nghiaho.com/?p=2629",
+    "tags": [
+      "TrueDepth",
+      "Photogrammetry",
+      "Loop Closure",
+      "SLAM",
+      "SIFT",
+      "Iterative Closest Point"
+    ],
+    "short_description": "Using **TrueDepth** camera for **Photogrammetry**, and generally just a good article that covers **Loop Closure**, **SLAM**, **SIFT**, **Iterative Closest Point**",
+    "full_description": "Using **TrueDepth** camera for **Photogrammetry**, and generally just a good article that covers **Loop Closure**, **SLAM**, **SIFT**, **Iterative Closest Point**",
+    "type": "link"
+  },
+  {
+    "name": "VPN Naoborot",
+    "url": "https://vpn-naoborot.online/",
+    "tags": [
+      "VPN",
+      "Russia"
+    ],
+    "short_description": "**VPN** to inside of **Russia**",
+    "full_description": "**VPN** to inside of **Russia**",
+    "type": "link"
+  },
+  {
+    "name": "VPN Naruzhu",
+    "url": "https://vpn-naruzhu.click/",
+    "tags": [
+      "VPN",
+      "Russia"
+    ],
+    "short_description": "**VPN** for going outside of **Russia**",
+    "full_description": "**VPN** for going outside of **Russia**",
+    "type": "link"
+  },
+  {
+    "name": "VRChat shader-knowledge",
+    "url": "https://github.com/pema99/shader-knowledge",
+    "tags": [
+      "Shader",
+      "VRChat"
+    ],
+    "short_description": "Resources about **Shader**s (also most of it **VRChat** related)",
+    "full_description": "Resources about **Shader**s (also most of it **VRChat** related)",
+    "type": "link"
+  },
+  {
+    "name": "Vas3k — Про уход за кожей",
+    "url": "https://vas3k.club/post/19781/",
+    "tags": [
+      "Skincare"
+    ],
+    "short_description": "Хороший пост про **Skincare**",
+    "full_description": "Хороший пост про **Skincare**",
+    "type": "link"
+  },
+  {
+    "name": "Vast.ai",
+    "url": "https://vast.ai/",
+    "tags": [
+      "GPU",
+      "VPS"
+    ],
+    "short_description": "Service for both clients and hosts for **GPU**s as **VPS**",
+    "full_description": "Service for both clients and hosts for **GPU**s as **VPS**",
+    "type": "link"
+  },
+  {
+    "name": "Vectorizer.ai",
+    "url": "https://vectorizer.ai/",
+    "tags": [
+      "Vector Graphics"
+    ],
+    "short_description": "A very good converter from pixel images to **Vector Graphics**",
+    "full_description": "A very good converter from pixel images to **Vector Graphics**",
+    "type": "tool"
+  },
+  {
+    "name": "Very small  Photogrammetry intro",
+    "url": "https://codercat.tk/share/slides/photogrammetry-intro/",
+    "tags": [
+      "Photogrammetry"
+    ],
+    "short_description": "Very small **Photogrammetry** intro",
+    "full_description": "Very small **Photogrammetry** intro",
+    "type": "link"
+  },
+  {
+    "name": "Virtual Terrain Project",
+    "url": "http://vterrain.org/",
+    "tags": [
+      "Terrain Generation",
+      "Procedural generation"
+    ],
+    "short_description": "Aggregator of algorithms for **Terrain Generation**, **Procedural generation**,",
+    "full_description": "Aggregator of algorithms for **Terrain Generation**, **Procedural generation**,",
+    "type": "link"
+  },
+  {
+    "name": "Virtual humans course",
+    "url": "https://www.youtube.com/playlist?list=PL05umP7R6ij13it8Rptqo7lycHozvzCJn",
+    "tags": [
+      "Human Detection",
+      "Human Reconstruction"
+    ],
+    "short_description": "\"Virtual humans\" course. Has **Human Detection** & **Human Reconstruction**",
+    "full_description": "\"Virtual humans\" course. Has **Human Detection** & **Human Reconstruction**",
+    "type": "link"
+  },
+  {
+    "name": "Vista Create",
+    "url": "https://create.vista.com/",
+    "tags": [
+      "Graphic Design"
+    ],
+    "short_description": "**Graphic Design** tool",
+    "full_description": "**Graphic Design** tool",
+    "type": "tool"
+  },
+  {
+    "name": "Visual Blocks for ML",
+    "url": "https://visualblocks.withgoogle.com/#/",
+    "tags": [
+      "Google",
+      "UML Diagram",
+      "Machine Learning"
+    ],
+    "short_description": "Tool from **Google** to make **UML Diagram** of **Machine Learning** pipelines that are executed on-the-fly",
+    "full_description": "Tool from **Google** to make **UML Diagram** of **Machine Learning** pipelines that are executed on-the-fly",
+    "type": "link"
+  },
+  {
+    "name": "Visualizing quaternions by 3B1B",
+    "url": "https://eater.net/quaternions",
+    "tags": [
+      "Quaternion",
+      "3B1B"
+    ],
+    "short_description": "**Quaternion** visualization by **3B1B**",
+    "full_description": "**Quaternion** visualization by **3B1B**",
+    "type": "link"
+  },
+  {
+    "name": "Volume Rendering 101",
+    "url": "https://graphicsrunner.blogspot.com/2009/01/volume-rendering-101.html",
+    "tags": [
+      "Volume Rendering"
+    ],
+    "short_description": "Tutorial on **Volume Rendering**",
+    "full_description": "Tutorial on **Volume Rendering**",
+    "type": "link"
+  },
+  {
+    "name": "Volume Rendering 102 - Transfer Functions",
+    "url": "https://graphicsrunner.blogspot.com/2009/01/volume-rendering-102-transfer-functions.html",
+    "tags": [
+      "Volume Rendering",
+      "Transfer functions"
+    ],
+    "short_description": "A tutorial on **Volume Rendering** with **Transfer functions**",
+    "full_description": "A tutorial on **Volume Rendering** with **Transfer functions**",
+    "type": "link"
+  },
+  {
+    "name": "Volumetric Cloud Rendering - An Animation of Clouds",
+    "url": "https://tigerprints.clemson.edu/cgi/viewcontent.cgi?article=2926&context=all_theses",
+    "tags": [
+      "Volume Rendering",
+      "Cloud Rendering"
+    ],
+    "short_description": "A thesis about **Cloud Rendering**",
+    "full_description": "A thesis about **Cloud Rendering**",
+    "type": "link"
+  },
+  {
+    "name": "Vsauce",
+    "url": "https://www.youtube.com/@Vsauce",
+    "tags": [],
+    "short_description": "Educational channel covering lots and lots of interesting topics",
+    "full_description": "Educational channel covering lots and lots of interesting topics",
+    "type": "link"
+  },
+  {
+    "name": "We could fix everything, we just don't",
+    "url": "https://erikmcclure.com/blog/we-could-fix-everything-we-just-dont/",
+    "tags": [],
+    "short_description": "Good post about how society fails to solve major problems simply because of communication/coordination issues. All the solutions have been found, we just don't apply them",
+    "full_description": "Good post about how society fails to solve major problems simply because of communication/coordination issues. All the solutions have been found, we just don't apply them",
+    "type": "link"
+  },
+  {
+    "name": "Web design in 4 minutes",
+    "url": "https://jgthms.com/web-design-in-4-minutes/",
+    "tags": [
+      "Web Design"
+    ],
+    "short_description": "Great interactive **Web Design** introduction",
+    "full_description": "Great interactive **Web Design** introduction",
+    "type": "link"
+  },
+  {
+    "name": "WebGL 3D Gaussian Splatting viewer",
+    "url": "https://antimatter15.com/splat/",
+    "tags": [
+      "3D Gaussian Splatting",
+      "WebGL"
+    ],
+    "short_description": "Viewer for **3D Gaussian Splatting** online with **WebGL**, can view arbitrary splat scenes just by \\` https://antimatter15.com/splat/?url=truck.splat\\`",
+    "full_description": "Viewer for **3D Gaussian Splatting** online with **WebGL**, can view arbitrary splat scenes just by \\` https://antimatter15.com/splat/?url=truck.splat\\`",
+    "type": "link"
+  },
+  {
+    "name": "WebGL Cloud Rendering Demo",
+    "url": "https://tkchanat.github.io/webgl-volumetric-cloud/",
+    "tags": [
+      "WebGL",
+      "Cloud Rendering"
+    ],
+    "short_description": "**WebGL** **Cloud Rendering** demo",
+    "full_description": "**WebGL** **Cloud Rendering** demo",
+    "type": "link"
+  },
+  {
+    "name": "WebGPU Fundamentals",
+    "url": "https://webgpufundamentals.org/",
+    "tags": [
+      "WebGPU"
+    ],
+    "short_description": "A set of articles to help learn **WebGPU**",
+    "full_description": "A set of articles to help learn **WebGPU**",
+    "type": "link"
+  },
+  {
+    "name": "WebGPU tutorial by Google",
+    "url": "https://codelabs.developers.google.com/your-first-webgpu-app#0",
+    "tags": [
+      "WebGPU"
+    ],
+    "short_description": "Tutorial for **WebGPU**",
+    "full_description": "Tutorial for **WebGPU**",
+    "type": "link"
+  },
+  {
+    "name": "WebXR Samples",
+    "url": "https://immersive-web.github.io/webxr-samples/",
+    "tags": [
+      "WebXR"
+    ],
+    "short_description": "Samples for **WebXR** development",
+    "full_description": "Samples for **WebXR** development",
+    "type": "link"
+  },
+  {
+    "name": "When would you want bubblesort",
+    "url": "https://buttondown.email/hillelwayne/archive/when-would-you-ever-want-bubblesort/",
+    "tags": [
+      "Bubble Sort",
+      "GameDev"
+    ],
+    "short_description": "Post about how **Bubble Sort**, even though it's slow, is useful for **GameDev** where it can be split into being run on different frames",
+    "full_description": "Post about how **Bubble Sort**, even though it's slow, is useful for **GameDev** where it can be split into being run on different frames",
+    "type": "link"
+  },
+  {
+    "name": "Winshell",
+    "url": "https://www.winshell.org/",
+    "tags": [
+      "LaTeX",
+      "IDE",
+      "LaTeX"
+    ],
+    "short_description": "**IDE** for **LaTeX** editing",
+    "full_description": "**IDE** for **LaTeX** editing",
+    "type": "tool"
+  },
+  {
+    "name": "Witcher 3 Graphics Study",
+    "url": "https://astralcode.blogspot.com/2018/11/reverse-engineering-rendering-of.html",
+    "tags": [
+      "GameDev",
+      "Computer Graphics"
+    ],
+    "short_description": "",
+    "full_description": "",
+    "type": "link"
+  },
+  {
+    "name": "Wolfram MathWorld",
+    "url": "https://mathworld.wolfram.com/",
+    "tags": [
+      "Mathematics"
+    ],
+    "short_description": "Огромный ресурс по математике с примерами, определениями и пояснениями",
+    "full_description": "Огромный ресурс по математике с примерами, определениями и пояснениями",
+    "type": "link"
+  },
+  {
+    "name": "XR Design & Development tools by Shay Segal",
+    "url": "https://shaysegal.notion.site/5471eae0a363439faeb17428afcf2b59?v=cabd8683e9fc4884bc093eabb1f98993",
+    "tags": [
+      "Aggregator",
+      "Design",
+      "AR",
+      "VR",
+      "Shay Segal"
+    ],
+    "short_description": "**Aggregator** of **Design** / **AR** / **VR** development tools by **Shay Segal**",
+    "full_description": "**Aggregator** of **Design** / **AR** / **VR** development tools by **Shay Segal**",
+    "type": "link"
+  },
+  {
+    "name": "Whimsical",
+    "url": "https://whimsical.com/",
+    "tags": [
+      "Graphic Design",
+      "UML Diagram"
+    ],
+    "short_description": "Tool for **Graphic Design** / drawing **UML Diagram**s / splatting ideas on a canvas.",
+    "full_description": "Tool for **Graphic Design** / drawing **UML Diagram**s / splatting ideas on a canvas.",
+    "type": "tool"
+  },
+  {
+    "name": "Yandex ML Handbook",
+    "url": "https://academy.yandex.ru/handbook/ml",
+    "tags": [
+      "Machine Learning"
+    ],
+    "short_description": "Учебник для начинающих по **Machine Learning**",
+    "full_description": "Учебник для начинающих по **Machine Learning**",
+    "type": "link"
+  },
+  {
+    "name": "Zapier",
+    "url": "https://zapier.com/",
+    "tags": [
+      "Workflow Automation"
+    ],
+    "short_description": "Tool for **Workflow Automation**",
+    "full_description": "Tool for **Workflow Automation**",
+    "type": "tool"
+  },
+  {
+    "name": "Zty.pe",
+    "url": "https://zty.pe/",
+    "tags": [
+      "Speed Typing"
+    ],
+    "short_description": "An entertaining game for speed typing",
+    "full_description": "An entertaining game for speed typing",
+    "type": "link"
+  },
+  {
+    "name": "annas-archive",
+    "url": "https://annas-archive.org/",
+    "tags": [
+      "Open-Source"
+    ],
+    "short_description": "**Open-Source** archive of resources (books and stuff)",
+    "full_description": "**Open-Source** archive of resources (books and stuff)",
+    "type": "link"
+  },
+  {
+    "name": "Yet another Cloud Rendering WebGL demo",
+    "url": "https://danilw.github.io/godot-utils-and-other/dyn_sky_refl/web/dsr.html",
+    "tags": [
+      "WebGL",
+      "Cloud Rendering"
+    ],
+    "short_description": "Yet another **WebGL** **Cloud Rendering** demo",
+    "full_description": "Yet another **WebGL** **Cloud Rendering** demo",
+    "type": "link"
+  },
+  {
+    "name": "awesome-ml-demos",
+    "url": "https://github.com/MilesCranmer/awesome-ml-demos",
+    "tags": [
+      "Machine Learning"
+    ],
+    "short_description": "Curated list of **Machine Learning** demos",
+    "full_description": "Curated list of **Machine Learning** demos",
+    "type": "link"
+  },
+  {
+    "name": "backflip movie",
+    "url": "https://www.youtube.com/watch?v=1zUJzzRu-xs",
+    "tags": [
+      "Reinforcement Learning",
+      "Human Reconstruction",
+      "Sound Design",
+      "3D Reconstruction"
+    ],
+    "short_description": "Really funny project about learning to backflip, covering **Reinforcement Learning**, **Human Reconstruction**, **Sound Design**, **3D Reconstruction**",
+    "full_description": "Really funny project about learning to backflip, covering **Reinforcement Learning**, **Human Reconstruction**, **Sound Design**, **3D Reconstruction**",
+    "type": "link"
+  },
+  {
+    "name": "based.cooking",
+    "url": "https://based.cooking/",
+    "tags": [
+      "Open-Source",
+      "Cooking"
+    ],
+    "short_description": "**Open-Source** **Cooking** website",
+    "full_description": "**Open-Source** **Cooking** website",
+    "type": "link"
+  },
+  {
+    "name": "bgnotify",
+    "url": "https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/bgnotify",
+    "tags": [
+      "ZSH",
+      "Definitions/CLI"
+    ],
+    "short_description": "Plugin for **ZSH** that notifies after a long **Definitions/CLI** command finishes executing",
+    "full_description": "Plugin for **ZSH** that notifies after a long **Definitions/CLI** command finishes executing",
+    "type": "link"
+  },
+  {
+    "name": "backflip.ai",
+    "url": "https://backflip.ai/",
+    "tags": [
+      "text-to-3D",
+      "3d reconstructed",
+      "CAD"
+    ],
+    "short_description": "Company doing **text-to-3D** and some sort of conversion of **3d reconstructed** models to **CAD**",
+    "full_description": "Company doing **text-to-3D** and some sort of conversion of **3d reconstructed** models to **CAD**",
+    "type": "link"
+  },
+  {
+    "name": "bolt.new",
+    "url": "https://github.com/stackblitz/bolt.new",
+    "tags": [
+      "Open-Source",
+      "AI Assistant",
+      "Web Development"
+    ],
+    "short_description": "**Open-Source** full-on **AI Assistant** for **Web Development**",
+    "full_description": "**Open-Source** full-on **AI Assistant** for **Web Development**",
+    "type": "tool"
+  },
+  {
+    "name": "Workflowy",
+    "url": "https://workflowy.com/",
+    "tags": [
+      "Notion"
+    ],
+    "short_description": "An infinite document app. Every element in the bullet list is a sub-document, and the tree goes on infinitely. **Notion** alternative",
+    "full_description": "An infinite document app. Every element in the bullet list is a sub-document, and the tree goes on infinitely. **Notion** alternative",
+    "type": "tool"
+  },
+  {
+    "name": "cpu.land",
+    "url": "https://cpu.land/",
+    "tags": [
+      "CPU"
+    ],
+    "short_description": "Great article on **CPU** architecture and how it works",
+    "full_description": "Great article on **CPU** architecture and how it works",
+    "type": "link"
+  },
+  {
+    "name": "cron-job",
+    "url": "https://cron-job.org/en/",
+    "tags": [
+      "Cron job"
+    ],
+    "short_description": "Yet another **Cron job** service",
+    "full_description": "Yet another **Cron job** service",
+    "type": "tool"
+  },
+  {
+    "name": "computer.tldraw",
+    "url": "https://computer.tldraw.com/home",
+    "tags": [
+      "tldraw",
+      "No-Code",
+      "LLM"
+    ],
+    "short_description": "From **tldraw**, a yet another **No-Code** **LLM** engine",
+    "full_description": "From **tldraw**, a yet another **No-Code** **LLM** engine",
+    "type": "link"
+  },
+  {
+    "name": "depyf",
+    "url": "https://github.com/thuml/depyf",
+    "tags": [
+      "torch"
+    ],
+    "short_description": "Profiler for **torch**.compile programs",
+    "full_description": "Profiler for **torch**.compile programs",
+    "type": "link"
+  },
+  {
+    "name": "diataxis",
+    "url": "https://diataxis.fr/",
+    "tags": [
+      "Documentation"
+    ],
+    "short_description": "Framework for creating **Documentation**",
+    "full_description": "Framework for creating **Documentation**",
+    "type": "link"
+  },
+  {
+    "name": "drawdb",
+    "url": "https://drawdb.vercel.app/editor",
+    "tags": [
+      "UML Diagram",
+      "SQL"
+    ],
+    "short_description": "**UML Diagram** editor with a staightforward export into **SQL** descriptions",
+    "full_description": "**UML Diagram** editor with a staightforward export into **SQL** descriptions",
+    "type": "link"
+  },
+  {
+    "name": "eugeneyan",
+    "url": "https://eugeneyan.com/",
+    "tags": [
+      "Blog",
+      "Machine Learning",
+      "LLMs"
+    ],
+    "short_description": "Good **Blog** about **Machine Learning**, **LLMs**,",
+    "full_description": "Good **Blog** about **Machine Learning**, **LLMs**,",
+    "type": "link"
+  },
+  {
+    "name": "gwern.net",
+    "url": "https://gwern.net/",
+    "tags": [
+      "Blog"
+    ],
+    "short_description": "Amazing **Blog**",
+    "full_description": "Amazing **Blog**",
+    "type": "link"
+  },
+  {
+    "name": "fmin.xyz",
+    "url": "https://fmin.xyz/",
+    "tags": [
+      "Optimization Theory",
+      "Linear Algebra",
+      "Matrix Calculus",
+      "Gradient Descent",
+      "Newton's method"
+    ],
+    "short_description": "A great resource on **Optimization Theory**.",
+    "full_description": "A great resource on **Optimization Theory**.\n\n- **Linear Algebra**\n- **Matrix Calculus**\n- **Gradient Descent**\n- **Newton's method**",
+    "type": "link"
+  },
+  {
+    "name": "italki.com",
+    "url": "https://www.italki.com/",
+    "tags": [
+      "Language Learning"
+    ],
+    "short_description": "Website for **Language Learning** (group / individual lessons)",
+    "full_description": "Website for **Language Learning** (group / individual lessons)",
+    "type": "link"
+  },
+  {
+    "name": "kinozal.tv",
+    "url": "https://kinozal.tv/",
+    "tags": [
+      "Torrent"
+    ],
+    "short_description": "Yet another **Torrent** website",
+    "full_description": "Yet another **Torrent** website",
+    "type": "link"
+  },
+  {
+    "name": "labelme",
+    "url": "https://github.com/wkentaro/labelme",
+    "tags": [
+      "Data Annotation",
+      "Computer Vision"
+    ],
+    "short_description": "**Data Annotation** tool for **Computer Vision** tasks",
+    "full_description": "**Data Annotation** tool for **Computer Vision** tasks",
+    "type": "link"
+  },
+  {
+    "name": "fastcompression",
+    "url": "https://www.fastcompression.com/blog/content.htm",
+    "tags": [
+      "Image Compression",
+      "Video Compression"
+    ],
+    "short_description": "Good blog about **Image Compression** / **Video Compression**",
+    "full_description": "Good blog about **Image Compression** / **Video Compression**",
+    "type": "link"
+  },
+  {
+    "name": "libgen",
+    "url": "https://www.libgen.is/search.php",
+    "tags": [
+      "Open-Source"
+    ],
+    "short_description": "Large **Open-Source** library of e-books",
+    "full_description": "Large **Open-Source** library of e-books",
+    "type": "link"
+  },
+  {
+    "name": "maigret",
+    "url": "https://github.com/soxoj/maigret",
+    "tags": [],
+    "short_description": "Tool for collecting various info about a person by username",
+    "full_description": "Tool for collecting various info about a person by username",
+    "type": "link"
+  },
+  {
+    "name": "float.exposed",
+    "url": "https://float.exposed/",
+    "tags": [
+      "Visualization",
+      "Floating Point"
+    ],
+    "short_description": "Interactive **Visualization** of how **Floating Point** numbers work",
+    "full_description": "Interactive **Visualization** of how **Floating Point** numbers work",
+    "type": "link"
+  },
+  {
+    "name": "marker - PDF parser",
+    "url": "https://github.com/VikParuchuri/marker",
+    "tags": [
+      "PDF",
+      "LLM"
+    ],
+    "short_description": "High-accuracy **PDF** parser, also integrates **LLM**s for boosting accuracy",
+    "full_description": "High-accuracy **PDF** parser, also integrates **LLM**s for boosting accuracy",
+    "type": "tool"
+  },
+  {
+    "name": "memray",
+    "url": "https://github.com/bloomberg/memray",
+    "tags": [
+      "Python",
+      "Profiler"
+    ],
+    "short_description": "**Python** memory **Profiler**",
+    "full_description": "**Python** memory **Profiler**",
+    "type": "tool"
+  },
+  {
+    "name": "mergiraf",
+    "url": "https://mergiraf.org/",
+    "tags": [
+      "Git",
+      "Programming Language",
+      "Syntax Tree"
+    ],
+    "short_description": "**Git** merge resolver which pays attention to **Programming Language** **Syntax Tree**",
+    "full_description": "**Git** merge resolver which pays attention to **Programming Language** **Syntax Tree**",
+    "type": "link"
+  },
+  {
+    "name": "mermaid-live",
+    "url": "https://mermaid.live/",
+    "tags": [
+      "UML Diagram"
+    ],
+    "short_description": "An online editor of diagrams (**UML Diagram**) and charts. Everything is specified with text",
+    "full_description": "An online editor of diagrams (**UML Diagram**) and charts. Everything is specified with text",
+    "type": "link"
+  },
+  {
+    "name": "libtree",
+    "url": "https://github.com/haampie/libtree",
+    "tags": [],
+    "short_description": "A better alternative to \\`ldd\\` for inspecting dynamic libraries",
+    "full_description": "A better alternative to \\`ldd\\` for inspecting dynamic libraries",
+    "type": "tool"
+  },
+  {
+    "name": "moondream",
+    "url": "https://github.com/vikhyat/moondream",
+    "tags": [
+      "Vision Language Model"
+    ],
+    "short_description": "Tiny **Vision Language Model**",
+    "full_description": "Tiny **Vision Language Model**",
+    "type": "link"
+  },
+  {
+    "name": "mturk",
+    "url": "https://www.mturk.com/",
+    "tags": [
+      "Amazon"
+    ],
+    "short_description": "**Amazon** service for hands-on manual force",
+    "full_description": "**Amazon** service for hands-on manual force",
+    "type": "link"
+  },
+  {
+    "name": "ncdu",
+    "url": "https://dev.yorhel.nl/ncdu",
+    "tags": [],
+    "short_description": "Great simple tool to check Disk Usage",
+    "full_description": "Great simple tool to check Disk Usage",
+    "type": "link"
+  },
+  {
+    "name": "overpass-turbo",
+    "url": "https://overpass-turbo.eu/",
+    "tags": [
+      "OpenStreetMap"
+    ],
+    "short_description": "Visualize results from **OpenStreetMap** API calls",
+    "full_description": "Visualize results from **OpenStreetMap** API calls",
+    "type": "link"
+  },
+  {
+    "name": "pueue",
+    "url": "https://github.com/Nukesor/pueue",
+    "tags": [
+      "Definitions/CLI"
+    ],
+    "short_description": "Simple **Definitions/CLI** task scheduler",
+    "full_description": "Simple **Definitions/CLI** task scheduler",
+    "type": "tool"
+  },
+  {
+    "name": "pytorchviz",
+    "url": "https://github.com/szagoruyko/pytorchviz",
+    "tags": [
+      "pytorch"
+    ],
+    "short_description": "Visualizer for **pytorch** gradient graphs",
+    "full_description": "Visualizer for **pytorch** gradient graphs",
+    "type": "tool"
+  },
+  {
+    "name": "radio.garden",
+    "url": "https://radio.garden/",
+    "tags": [],
+    "short_description": "Collection of radio channels from all around the world",
+    "full_description": "Collection of radio channels from all around the world",
+    "type": "link"
+  },
+  {
+    "name": "n8n",
+    "url": "https://github.com/n8n-io/n8n",
+    "tags": [
+      "Open-Source",
+      "Workflow Automation",
+      "Self-hosting"
+    ],
+    "short_description": "**Open-Source** **Workflow Automation** tool. Stuff for **Self-hosting**",
+    "full_description": "**Open-Source** **Workflow Automation** tool. Stuff for **Self-hosting**",
+    "type": "link"
+  },
+  {
+    "name": "revealjs",
+    "url": "https://slides.com/",
+    "tags": [
+      "Presentation Software"
+    ],
+    "short_description": "Really good **Presentation Software**. Has an amazing auto-animation feature that helps with creating smooth slide transitions",
+    "full_description": "Really good **Presentation Software**. Has an amazing auto-animation feature that helps with creating smooth slide transitions",
+    "type": "link"
+  },
+  {
+    "name": "scholar-inbox",
+    "url": "https://www.scholar-inbox.com/",
+    "tags": [],
+    "short_description": "Paper recommendation system",
+    "full_description": "Paper recommendation system",
+    "type": "link"
+  },
+  {
+    "name": "remplanner",
+    "url": "https://remplanner.ru/",
+    "tags": [],
+    "short_description": "Apartment renovation planner (russian)",
+    "full_description": "Apartment renovation planner (russian)",
+    "type": "link"
+  },
+  {
+    "name": "sourcehut",
+    "url": "https://sr.ht/",
+    "tags": [
+      "Map of Github",
+      "Open-Source"
+    ],
+    "short_description": "**Map of Github** alternative that is 100% free and **Open-Source**",
+    "full_description": "**Map of Github** alternative that is 100% free and **Open-Source**",
+    "type": "link"
+  },
+  {
+    "name": "srht.site",
+    "url": "https://srht.site/",
+    "tags": [
+      "Static Website",
+      "sourcehut"
+    ],
+    "short_description": "**Static Website** hosting based on **sourcehut**",
+    "full_description": "**Static Website** hosting based on **sourcehut**",
+    "type": "link"
+  },
+  {
+    "name": "taichi",
+    "url": "https://www.taichi-lang.org/",
+    "tags": [
+      "Python",
+      "JIT"
+    ],
+    "short_description": "**Python** library for high-performance programming. By using a **JIT** compiler",
+    "full_description": "**Python** library for high-performance programming. By using a **JIT** compiler",
+    "type": "link"
+  },
+  {
+    "name": "tfpsly.free.fr technical links",
+    "url": "http://tfpsly.free.fr/",
+    "tags": [
+      "Aggregator"
+    ],
+    "short_description": "A huge **Aggregator** of technical links",
+    "full_description": "A huge **Aggregator** of technical links",
+    "type": "link"
+  },
+  {
+    "name": "strudel.cc",
+    "url": "https://strudel.cc/",
+    "tags": [],
+    "short_description": "Music scripting website",
+    "full_description": "Music scripting website",
+    "type": "link"
+  },
+  {
+    "name": "tv.garden",
+    "url": "https://tv.garden/",
+    "tags": [
+      "IPTV"
+    ],
+    "short_description": "Collection of open TV channels using **IPTV** wth a nice interface",
+    "full_description": "Collection of open TV channels using **IPTV** wth a nice interface",
+    "type": "link"
+  },
+  {
+    "name": "unicodeit",
+    "url": "https://www.unicodeit.net/",
+    "tags": [
+      "LaTeX",
+      "Unicode"
+    ],
+    "short_description": "Tool for converting **LaTeX** symbols/expressions to **Unicode** (for example, to embed in Twitter)",
+    "full_description": "Tool for converting **LaTeX** symbols/expressions to **Unicode** (for example, to embed in Twitter)",
+    "type": "link"
+  },
+  {
+    "name": "v0.dev",
+    "url": "https://v0.dev/",
+    "tags": [
+      "Web Development",
+      "AI Assistant",
+      "Vercel"
+    ],
+    "short_description": "**Web Development** **AI Assistant** from **Vercel**",
+    "full_description": "**Web Development** **AI Assistant** from **Vercel**",
+    "type": "tool"
+  },
+  {
+    "name": "timezone-picker",
+    "url": "https://github.com/kevalbhatt/timezone-picker",
+    "tags": [
+      "Timezone"
+    ],
+    "short_description": "Simple web plugin for picking a **Timezone** from a world map",
+    "full_description": "Simple web plugin for picking a **Timezone** from a world map",
+    "type": "link"
+  },
+  {
+    "name": "val.town",
+    "url": "https://www.val.town/",
+    "tags": [
+      "Cron job"
+    ],
+    "short_description": "Convenient service for running **Cron job**s / scripts / etc",
+    "full_description": "Convenient service for running **Cron job**s / scripts / etc",
+    "type": "tool"
+  },
+  {
+    "name": "vas3k.ru",
+    "url": "https://vas3k.ru/",
+    "tags": [
+      "Blog"
+    ],
+    "short_description": "Блог Вастрика с кучей годноты",
+    "full_description": "Блог Вастрика с кучей годноты",
+    "type": "link"
+  },
+  {
+    "name": "vcpkg",
+    "url": "https://github.com/microsoft/vcpkg",
+    "tags": [
+      "C++",
+      "CMake"
+    ],
+    "short_description": "Helper tool for automatically building all dependencies for **C++** projects (works especially well with **CMake**)",
+    "full_description": "Helper tool for automatically building all dependencies for **C++** projects (works especially well with **CMake**)",
+    "type": "tool"
+  },
+  {
+    "name": "zsh-autoswitch-virtualenv",
+    "url": "https://github.com/MichaelAquilina/zsh-autoswitch-virtualenv",
+    "tags": [
+      "ZSH",
+      "Virtual Environment"
+    ],
+    "short_description": "Plugin for **ZSH** to automatically switch **Virtual Environment**s",
+    "full_description": "Plugin for **ZSH** to automatically switch **Virtual Environment**s",
+    "type": "link"
+  },
+  {
+    "name": "wiby",
+    "url": "https://wiby.me/",
+    "tags": [
+      "Seach Engine"
+    ],
+    "short_description": "**Seach Engine** for the old, classic internet",
+    "full_description": "**Seach Engine** for the old, classic internet",
+    "type": "link"
+  },
+  {
+    "name": "Медузы и жопы",
+    "url": "https://sunandstuff.com/mandelbrot/about/",
+    "tags": [
+      "Фрактал"
+    ],
+    "short_description": "Страничка с красивыми **Фрактал**ами и пояснениями",
+    "full_description": "Страничка с красивыми **Фрактал**ами и пояснениями",
+    "type": "link"
+  },
+  {
+    "name": "Методичка - поиск работы в ML",
+    "url": "https://btseytlin.github.io/intro.html",
+    "tags": [
+      "Machine Learning"
+    ],
+    "short_description": "Про поиск работы в **Machine Learning**",
+    "full_description": "Про поиск работы в **Machine Learning**",
+    "type": "link"
+  },
+  {
+    "name": "Нефть — Вастрик.Клуб",
+    "url": "https://vas3k.club/post/18712/",
+    "tags": [],
+    "short_description": "Пост про то что вообще такое нефть из **Вастрик.Клуб**",
+    "full_description": "Пост про то что вообще такое нефть из **Вастрик.Клуб**",
+    "type": "link"
+  },
+  {
+    "name": "Открытые курсы от Computer Science Center",
+    "url": "https://compscicenter.ru/courses/",
+    "tags": [
+      "Computer Science",
+      "Aggregator"
+    ],
+    "short_description": "Большой **Aggregator** ссылок на курсы по разным темам",
+    "full_description": "Большой **Aggregator** ссылок на курсы по разным темам\nНекоторые курсы имеют записи и презентации если повезёт https://compscicenter.ru/courses/video_cards_computation/2018-autumn/classes/",
+    "type": "link"
+  },
+  {
+    "name": "Пост от DeepSchool про Covariance Shift и Adversarial Validation",
+    "url": "https://deepschool-pro.notion.site/Covariance-shift-Adversarial-validation-32fab6caa55e48eeb5dd2fbe4164378c",
+    "tags": [
+      "Covariance Shift",
+      "Adversarial Validation"
+    ],
+    "short_description": "Про **Covariance Shift** и **Adversarial Validation**. Или по-человечески — сдвиг в распределении тестовых данных в сравнении с тренировочными.",
+    "full_description": "Про **Covariance Shift** и **Adversarial Validation**. Или по-человечески — сдвиг в распределении тестовых данных в сравнении с тренировочными.",
+    "type": "link"
+  },
+  {
+    "name": "Пост от DeepSchool про интерактивную сегментацию",
+    "url": "https://deepschool-pro.notion.site/4009a965d795417fa54dc8d5adc4f7db",
+    "tags": [
+      "Interactive Segmentation",
+      "RITM Interactive Segmentation"
+    ],
+    "short_description": "Пост про **Interactive Segmentation**. В основном рассматривают статью **RITM Interactive Segmentation**",
+    "full_description": "Пост про **Interactive Segmentation**. В основном рассматривают статью **RITM Interactive Segmentation**",
+    "type": "link"
+  },
+  {
+    "name": "Пост от DeepSchool про устройство TPU",
+    "url": "https://deepschool-pro.notion.site/Google-TPU-c3160492e8fa44af81fd640218b290ae",
+    "tags": [
+      "TPU"
+    ],
+    "short_description": "Короткий пост про **TPU**",
+    "full_description": "Короткий пост про **TPU**",
+    "type": "link"
+  },
+  {
+    "name": "Ресурс про Израиль для репатриантов",
+    "url": "https://www.imja.online/israel",
+    "tags": [
+      "Израиль"
+    ],
+    "short_description": "Ресурс для репатриантов про **Израиль**",
+    "full_description": "Ресурс для репатриантов про **Израиль**",
+    "type": "link"
+  },
+  {
+    "name": "AccuLips",
+    "url": "https://www.reallusion.com/iclone/lipsync-animation.html",
+    "tags": [
+      "iClone",
+      "Audio to Face",
+      "iClone 3D Facial Expression"
+    ],
+    "short_description": "This is part of a software called **iClone** for character creation.",
+    "full_description": "This is part of a software called **iClone** for character creation.\nThis particular tool is a very capable **Audio to Face** conversion (trained specifically for English)\nIt's a part of their **iClone 3D Facial Expression** tool",
+    "type": "tool"
+  },
+  {
+    "name": "CrazyTalk",
+    "url": "https://www.reallusion.com/crazytalk/",
+    "tags": [
+      "Headshot 3D Head Generator"
+    ],
+    "short_description": "The creators say that the tool soon will stop being maintained and it's better to look at **Headshot 3D Head Generator**",
+    "full_description": "The creators say that the tool soon will stop being maintained and it's better to look at **Headshot 3D Head Generator**",
+    "type": "tool"
+  },
+  {
+    "name": "FaceIt Blender Plugin",
+    "url": "https://blendermarket.com/products/faceit",
+    "tags": [
+      "NVidia Audio2Face",
+      "FACS"
+    ],
+    "short_description": "# Documentation overview",
+    "full_description": "# Documentation overview\nMost of FaceIt's documentation is related to how to use their character creation tool (rig the face, make sure expressions work correctly, etc.)\n\n## Audio2Face\nFaceIt documentation has a page describing **NVidia Audio2Face** which works using **FACS**\nAnd, of course, they descibe how to import those facial animations from NVidia",
+    "type": "tool"
+  },
+  {
+    "name": "Headshot 3D Head Generator",
+    "url": "https://www.reallusion.com/character-creator/headshot/",
+    "tags": [],
+    "short_description": "",
+    "full_description": "",
+    "type": "tool"
+  },
+  {
+    "name": "Panotour Pro",
+    "url": "https://www.gigapan.com/cms/shop/software/panotour-pro",
+    "tags": [
+      "Panoramic Image",
+      "360 Camera"
+    ],
+    "short_description": "Panotour Pro is a tool for creating virtual tours",
+    "full_description": "Panotour Pro is a tool for creating virtual tours\nBasically, combining **Panoramic Image**s into a graph for exploration\nMany snapshots from a **360 Camera** can be linked through this software to create a full-on vitual tour.",
+    "type": "tool"
+  },
+  {
+    "name": "iClone 3D Facial Expression",
+    "url": "https://www.reallusion.com/iclone/3d-facial-expression.html",
+    "tags": [
+      "iClone",
+      "Facial Animation"
+    ],
+    "short_description": "Tool from **iClone** for **Facial Animation**",
+    "full_description": "Tool from **iClone** for **Facial Animation**",
+    "type": "tool"
+  }
+]

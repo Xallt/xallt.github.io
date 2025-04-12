@@ -1,0 +1,10 @@
+{
+	"id": "obsidian-links-export",
+	"name": "Links Export",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "Export links from Obsidian vault to CSV using Dataview",
+	"author": "xallt",
+	"authorUrl": "https://xallt.github.io",
+	"isDesktopOnly": false
+}
