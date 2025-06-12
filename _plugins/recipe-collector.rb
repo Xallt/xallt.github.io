@@ -51,6 +51,15 @@ module RecipeCollectorModule
     def self.recipe_name_to_url(recipe_name)
       RecipeUrlGenerator.recipe_name_to_url(recipe_name)
     end
+    
+    def self.get_unique_url_path(recipe_name, url_counter)
+      base_url = RecipeUrlGenerator.recipe_name_to_url(recipe_name)
+      return base_url if url_counter[base_url] == 1
+      
+      # If this URL appears multiple times, add an index
+      index = url_counter[base_url + "_indexes"][recipe_name]
+      "#{base_url}-#{index}"
+    end
   end
 
   class RecipeCollectorNamesTag < Liquid::Tag
@@ -67,10 +76,13 @@ module RecipeCollectorModule
         # Get recipe data
         recipe_data = RecipeCollectorWrapper.get_recipe_data(notion_api_key, RecipeCollectorModule.get_recipe_limit)
         
+        # Generate URL counter dictionary
+        url_counter = generate_url_counter(recipe_data)
+        
         # Prepend each name with a dash
         recipe_names = recipe_data.map do |recipe| 
           name = recipe.name
-          url = "/recipes/#{RecipeCollectorWrapper.recipe_name_to_url(name)}"
+          url = "/recipes/#{RecipeCollectorWrapper.get_unique_url_path(name, url_counter)}"
           "- <a href=\"#{url}\">#{name}</a>\n\n"
         end
 
@@ -81,6 +93,32 @@ module RecipeCollectorModule
         "Error loading recipes"
       end
     end
+    
+    private
+    
+    def generate_url_counter(recipe_data)
+      counter = {}
+      
+      # First pass: count occurrences of each URL
+      recipe_data.each do |recipe|
+        url = RecipeCollectorWrapper.recipe_name_to_url(recipe.name)
+        counter[url] ||= 0
+        counter[url] += 1
+        # Initialize index tracking for each URL
+        counter[url + "_indexes"] ||= {}
+      end
+      
+      # Second pass: assign indexes to recipes with the same URL
+      recipe_data.each do |recipe|
+        url = RecipeCollectorWrapper.recipe_name_to_url(recipe.name)
+        if counter[url] > 1
+          counter[url + "_indexes"] ||= {}
+          counter[url + "_indexes"][recipe.name] ||= counter[url + "_indexes"].size + 1
+        end
+      end
+      
+      counter
+    end
   end
 
   class RecipeCollectorGenerator < Jekyll::Generator
@@ -90,9 +128,14 @@ module RecipeCollectorModule
         raise RecipeCollectorError, "NOTION_API_KEY environment variable is not set" if notion_api_key.nil? || notion_api_key.empty?
 
         recipe_data = RecipeCollectorWrapper.get_recipe_data(notion_api_key, RecipeCollectorModule.get_recipe_limit)
+        
+        # Generate URL counter dictionary
+        url_counter = generate_url_counter(recipe_data)
+        
         recipe_data.each do |recipe|
           begin
-            site.pages << RecipePage.new(site, site.source, recipe.name, recipe.text, recipe.url)
+            unique_url_path = RecipeCollectorWrapper.get_unique_url_path(recipe.name, url_counter)
+            site.pages << RecipePage.new(site, site.source, recipe.name, recipe.text, recipe.url, unique_url_path)
           rescue => e
             warn "WARNING: Failed to generate page for recipe '#{recipe.name}': #{e.message}"
           end
@@ -101,13 +144,41 @@ module RecipeCollectorModule
         warn "WARNING: Failed to generate recipe pages: #{e.message}"
       end
     end
+    
+    private
+    
+    def generate_url_counter(recipe_data)
+      counter = {}
+      
+      # First pass: count occurrences of each URL
+      recipe_data.each do |recipe|
+        url = RecipeCollectorWrapper.recipe_name_to_url(recipe.name)
+        counter[url] ||= 0
+        counter[url] += 1
+        # Initialize index tracking for each URL
+        counter[url + "_indexes"] ||= {}
+      end
+      
+      # Second pass: assign indexes to recipes with the same URL
+      recipe_data.each do |recipe|
+        url = RecipeCollectorWrapper.recipe_name_to_url(recipe.name)
+        if counter[url] > 1
+          counter[url + "_indexes"] ||= {}
+          counter[url + "_indexes"][recipe.name] ||= counter[url + "_indexes"].size + 1
+        end
+      end
+      
+      counter
+    end
   end
 
   class RecipePage < Jekyll::Page 
-    def initialize(site, base, recipe_name, recipe_text, recipe_url)
+    def initialize(site, base, recipe_name, recipe_text, recipe_url, url_path = nil)
       @site = site
       @base = base
-      @dir = "recipes/#{RecipeCollectorWrapper.recipe_name_to_url(recipe_name)}"
+      
+      # Use the provided unique URL path if available, otherwise generate from name
+      @dir = "recipes/#{url_path || RecipeCollectorWrapper.recipe_name_to_url(recipe_name)}"
 
       @basename = 'index'
       @ext = '.html'
