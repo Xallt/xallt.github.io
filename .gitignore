@@ -33,3 +33,4 @@ lib/obsidian-links-export/*.js.map
 lib/obsidian-links-export/node_modules/
 lib/obsidian-links-export/dist/
 
+.jekyll-metadata
