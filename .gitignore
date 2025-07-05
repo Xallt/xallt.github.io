@@ -24,6 +24,9 @@ assets/js/dist
 recipes.json
 .env
 
+# Recipe cache
+.recipe_cache
+
 # Obsidian plugin build files
 lib/obsidian-links-export/*.js
 lib/obsidian-links-export/*.js.map

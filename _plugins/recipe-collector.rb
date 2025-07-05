@@ -124,9 +124,16 @@ module RecipeCollectorModule
   class RecipeCollectorGenerator < Jekyll::Generator
     def generate(site)
       begin
+        # Check if we should skip recipe generation during development
+        if ENV['JEKYLL_DEV_MODE'] == 'true'
+          puts "DEBUG: Skipping recipe generation (JEKYLL_DEV_MODE=true)"
+          return
+        end
+        
         notion_api_key = ENV['NOTION_API_KEY']
         raise RecipeCollectorError, "NOTION_API_KEY environment variable is not set" if notion_api_key.nil? || notion_api_key.empty?
 
+        puts "DEBUG: Starting recipe generation..."
         recipe_data = RecipeCollectorWrapper.get_recipe_data(notion_api_key, RecipeCollectorModule.get_recipe_limit)
         
         # Generate URL counter dictionary
