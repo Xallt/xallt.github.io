@@ -22,7 +22,13 @@ bundle install
 echo "🔨 Building Jekyll site..."
 bundle exec jekyll build
 
-# 3. Setup HTTP nginx config
+# 3. Copy to /var/www
+echo "📂 Copying files to /var/www..."
+sudo mkdir -p /var/www/$DOMAIN
+sudo cp -r "$BUILD_DIR"/* /var/www/$DOMAIN/
+sudo chown -R www-data:www-data /var/www/$DOMAIN
+
+# 4. Setup HTTP nginx config
 echo "🌐 Setting up nginx HTTP configuration..."
 sudo tee "$NGINX_HTTP_CONFIG" > /dev/null <<EOF
 server {
@@ -34,14 +40,14 @@ server {
 }
 EOF
 
-# 4. Get SSL certificate with certbot if not exists
+# 5. Get SSL certificate with certbot if not exists
 if [ ! -f "/etc/letsencrypt/live/$DOMAIN/fullchain.pem" ]; then
     echo "🔐 Getting SSL certificate for $DOMAIN..."
     sudo apt-get install -y certbot python3-certbot-nginx 2>/dev/null || true
     sudo certbot certonly --nginx -d $DOMAIN --non-interactive --agree-tos --email $EMAIL --redirect
 fi
 
-# 5. Setup HTTPS nginx config
+# 6. Setup HTTPS nginx config
 echo "🔒 Setting up nginx HTTPS configuration..."
 sudo tee "$NGINX_HTTPS_CONFIG" > /dev/null <<EOF
 server {
@@ -62,8 +68,8 @@ server {
     # HSTS
     add_header Strict-Transport-Security "max-age=31536000; includeSubDomains" always;
 
-    # Serve static files from Jekyll build output
-    root $BUILD_DIR;
+    # Serve static files from /var/www
+    root /var/www/$DOMAIN;
     index index.html;
 
     # Try to serve static files first, fallback to index.html for SPA routing
@@ -83,12 +89,12 @@ server {
 }
 EOF
 
-# 6. Enable nginx configs
+# 7. Enable nginx configs
 sudo ln -sf "$NGINX_HTTP_CONFIG" /etc/nginx/sites-enabled/
 sudo ln -sf "$NGINX_HTTPS_CONFIG" /etc/nginx/sites-enabled/
 sudo nginx -t && sudo systemctl reload nginx
 
-# 7. Show status
+# 8. Show status
 echo ""
 echo "✅ Deployment complete!"
 echo ""
