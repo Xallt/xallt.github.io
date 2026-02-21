@@ -16,6 +16,7 @@ echo "🚀 Deploying xallt.github.io..."
 # 1. Install Ruby dependencies
 echo "📦 Installing Ruby dependencies..."
 cd "$SCRIPT_DIR"
+bundle config set --local path vendor/bundle
 bundle install
 
 # 2. Build the site
